@@ -1,0 +1,69 @@
+=================================================
+Project : closure_115	start : 19/11/24 17:58
+Current failed test : com.google.javascript.jscomp.InlineFunctionsTest::testInlineFunctions23 | 19/11/24 17:59
+Sun Nov 24 18:00:46 EST 2019 com.google.javascript.rhino.Node,1430
+Sun Nov 24 18:00:48 EST 2019 com.google.javascript.rhino.Node,1446
+Sun Nov 24 18:00:50 EST 2019 com.google.javascript.rhino.Node,1459
+Sun Nov 24 18:00:51 EST 2019 Sun Nov 24 18:00:51 EST 2019 : com.google.javascript.rhino.Node,2194=>Find no block
+Sun Nov 24 18:00:51 EST 2019 com.google.javascript.rhino.Node,2195
+Sun Nov 24 18:00:53 EST 2019 com.google.javascript.rhino.Node,2196
+Sun Nov 24 18:00:53 EST 2019 Sun Nov 24 18:00:53 EST 2019 : com.google.javascript.rhino.Node,2197=>Find no block
+Sun Nov 24 18:00:53 EST 2019 com.google.javascript.jscomp.FunctionInjector,731
+
+----------------------------------------
+----------------------------------------
+Pass Single Test : [=>0,0]
+if(cArg==null&&NodeUtil.canBeSideEffected(cArg)){
+return CanInlineResult.NO;
+}
+
+Time : 19/11/24 18:01
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Similar code block : 1.1694744451420718 : [/home/zach/Downloads/simfix/d4j/projects/closure/closure_115_buggy/src/com/google/javascript/jscomp/FunctionInjector.java=>0,0]
+if(NodeUtil.isFunctionObjectCall(callNode)){
+if(cArg==null||!cArg.isThis()){
+return CanInlineResult.NO;
+}
+cArg=cArg.getNext();
+}else {
+Preconditions.checkState(!NodeUtil.isFunctionObjectApply(callNode));
+}
+
+Time : 19/11/24 18:02
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Original source code : [/home/zach/Downloads/simfix/d4j/projects/closure/closure_115_buggy/src/com/google/javascript/jscomp/FunctionInjector.java=>730,732]
+if(hasSideEffects&&NodeUtil.canBeSideEffected(cArg)){
+return CanInlineResult.NO;
+}
+
+Time : 19/11/24 18:02
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Find a patch : [/home/zach/Downloads/simfix/d4j/projects/closure/closure_115_buggy/src/com/google/javascript/jscomp/FunctionInjector.java=>730,732]
+if(cArg==null&&NodeUtil.canBeSideEffected(cArg)){
+return CanInlineResult.NO;
+}
+
+Time : 19/11/24 18:02
+----------------------------------------
+Success time : 19/11/24 18:02
+Current failed test : com.google.javascript.jscomp.InlineFunctionsTest::testInlineFunctions22 | 19/11/24 18:02
+Already fixed : com.google.javascript.jscomp.InlineFunctionsTest::testInlineFunctions22
+Current failed test : com.google.javascript.jscomp.InlineFunctionsTest::testInlineFunctions6 | 19/11/24 18:03
+Already fixed : com.google.javascript.jscomp.InlineFunctionsTest::testInlineFunctions6
+Current failed test : com.google.javascript.jscomp.InlineFunctionsTest::testNoInlineIfParametersModified9 | 19/11/24 18:03
+Already fixed : com.google.javascript.jscomp.InlineFunctionsTest::testNoInlineIfParametersModified9
+Current failed test : com.google.javascript.jscomp.InlineFunctionsTest::testBug4944818 | 19/11/24 18:03
+Already fixed : com.google.javascript.jscomp.InlineFunctionsTest::testBug4944818
+Current failed test : com.google.javascript.jscomp.InlineFunctionsTest::testNoInlineIfParametersModified8 | 19/11/24 18:03
+Already fixed : com.google.javascript.jscomp.InlineFunctionsTest::testNoInlineIfParametersModified8
+Current failed test : com.google.javascript.jscomp.InlineFunctionsTest::testDoubleInlining1 | 19/11/24 18:03
+Already fixed : com.google.javascript.jscomp.InlineFunctionsTest::testDoubleInlining1

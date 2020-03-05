@@ -1,0 +1,169 @@
+=================================================
+Project : chart_3	start : 19/11/24 14:35
+Current failed test : org.jfree.data.time.junit.TimeSeriesTests::testCreateCopy3 | 19/11/24 14:35
+Sun Nov 24 14:35:35 EST 2019 org.jfree.data.time.TimeSeries,1050
+=================================================
+Project : chart_3	start : 19/11/25 02:48
+Current failed test : org.jfree.data.time.junit.TimeSeriesTests::testCreateCopy3 | 19/11/25 02:48
+Mon Nov 25 02:49:14 EST 2019 org.jfree.data.time.TimeSeries,1050
+Mon Nov 25 02:49:58 EST 2019 org.jfree.data.time.TimeSeries,1053
+Mon Nov 25 02:50:39 EST 2019 org.jfree.data.time.TimeSeries,1056
+Mon Nov 25 03:06:16 EST 2019 org.jfree.data.time.TimeSeries,1057
+Mon Nov 25 03:24:55 EST 2019 org.jfree.data.time.TimeSeries,1058
+Mon Nov 25 03:24:55 EST 2019 org.jfree.data.time.TimeSeries,1059
+Mon Nov 25 03:24:55 EST 2019 org.jfree.data.time.TimeSeries,1060
+Mon Nov 25 03:24:55 EST 2019 org.jfree.data.time.TimeSeries,1062
+Mon Nov 25 03:24:55 EST 2019 org.jfree.data.time.TimeSeries,1064
+Mon Nov 25 03:24:55 EST 2019 Mon Nov 25 03:24:55 EST 2019 : org.jfree.data.time.TimeSeries,1068=>Find no block
+Mon Nov 25 03:24:56 EST 2019 org.jfree.data.time.TimeSeries,1071
+Mon Nov 25 03:26:58 EST 2019 org.jfree.data.time.TimeSeries,564
+Mon Nov 25 03:28:22 EST 2019 Mon Nov 25 03:28:22 EST 2019 : org.jfree.data.time.TimeSeries,565=>Find no block
+Mon Nov 25 03:28:22 EST 2019 org.jfree.data.general.Series,243
+Mon Nov 25 03:33:26 EST 2019 org.jfree.data.general.Series,244
+Mon Nov 25 03:33:26 EST 2019 org.jfree.data.general.Series,245
+Mon Nov 25 03:33:26 EST 2019 org.jfree.data.general.Series,246
+Mon Nov 25 03:33:26 EST 2019 org.jfree.data.time.TimeSeries,345
+Mon Nov 25 03:33:28 EST 2019 org.jfree.data.time.TimeSeries,360
+Mon Nov 25 03:33:30 EST 2019 org.jfree.data.time.TimeSeries,653
+Mon Nov 25 03:34:36 EST 2019 Mon Nov 25 03:34:36 EST 2019 : org.jfree.data.time.TimeSeries,654=>Find no block
+Mon Nov 25 03:34:36 EST 2019 org.jfree.data.time.TimeSeries,666
+Mon Nov 25 03:37:27 EST 2019 org.jfree.data.time.TimeSeries,667
+Mon Nov 25 03:37:27 EST 2019 Mon Nov 25 03:37:27 EST 2019 : org.jfree.data.time.TimeSeries,668=>Find no block
+Mon Nov 25 03:37:27 EST 2019 org.jfree.data.time.Year,171
+Mon Nov 25 03:37:29 EST 2019 org.jfree.data.time.Year,253
+Mon Nov 25 03:37:29 EST 2019 org.jfree.data.time.Year,348
+Mon Nov 25 03:37:55 EST 2019 org.jfree.data.time.Year,349
+Mon Nov 25 03:37:55 EST 2019 org.jfree.data.time.Year,350
+Mon Nov 25 03:37:55 EST 2019 Mon Nov 25 03:37:55 EST 2019 : org.jfree.data.time.Year,351=>Find no block
+Mon Nov 25 03:37:55 EST 2019 org.jfree.data.time.Year,367
+Mon Nov 25 03:40:15 EST 2019 Mon Nov 25 03:40:15 EST 2019 : org.jfree.data.time.Year,114=>Find no block
+Mon Nov 25 03:40:15 EST 2019 org.jfree.data.time.Year,115
+Mon Nov 25 03:47:27 EST 2019 org.jfree.data.time.Year,119
+Mon Nov 25 03:54:13 EST 2019 org.jfree.data.time.Year,120
+Mon Nov 25 03:54:13 EST 2019 Mon Nov 25 03:54:13 EST 2019 : org.jfree.data.time.Year,121=>Find no block
+Mon Nov 25 03:54:13 EST 2019 org.jfree.data.time.Year,211
+Mon Nov 25 03:54:37 EST 2019 org.jfree.data.time.Year,212
+Mon Nov 25 03:54:37 EST 2019 Mon Nov 25 03:54:37 EST 2019 : org.jfree.data.time.Year,213=>Find no block
+Mon Nov 25 03:54:37 EST 2019 org.jfree.data.time.Year,268
+Mon Nov 25 03:57:40 EST 2019 org.jfree.data.time.Year,269
+Mon Nov 25 03:57:40 EST 2019 org.jfree.data.time.Year,272
+Mon Nov 25 03:57:41 EST 2019 org.jfree.data.time.Year,287
+Mon Nov 25 04:00:44 EST 2019 org.jfree.data.time.Year,288
+Mon Nov 25 04:00:44 EST 2019 org.jfree.data.time.Year,291
+Mon Nov 25 04:00:44 EST 2019 org.jfree.data.time.TimeSeries,680
+Mon Nov 25 04:00:44 EST 2019 Mon Nov 25 04:00:44 EST 2019 : org.jfree.data.time.TimeSeries,681=>Find no block
+Mon Nov 25 04:00:44 EST 2019 org.jfree.data.time.TimeSeries,693
+Mon Nov 25 04:00:44 EST 2019 org.jfree.data.time.TimeSeries,694
+Mon Nov 25 04:00:44 EST 2019 Mon Nov 25 04:00:44 EST 2019 : org.jfree.data.time.TimeSeries,695=>Find no block
+Mon Nov 25 04:00:44 EST 2019 org.jfree.data.time.TimeSeriesDataItem,121
+Mon Nov 25 04:00:54 EST 2019 Mon Nov 25 04:00:54 EST 2019 : org.jfree.data.time.TimeSeriesDataItem,122=>Find no block
+Mon Nov 25 04:00:54 EST 2019 org.jfree.data.time.TimeSeries,429
+Mon Nov 25 04:01:19 EST 2019 org.jfree.data.time.TimeSeries,463
+Mon Nov 25 04:01:28 EST 2019 org.jfree.data.time.TimeSeries,584
+Mon Nov 25 04:09:18 EST 2019 org.jfree.data.time.TimeSeries,603
+Mon Nov 25 04:25:44 EST 2019 org.jfree.data.time.TimeSeries,604
+Mon Nov 25 04:27:51 EST 2019 org.jfree.data.time.TimeSeries,605
+Mon Nov 25 04:28:01 EST 2019 org.jfree.data.time.TimeSeries,606
+Mon Nov 25 04:28:01 EST 2019 org.jfree.data.time.TimeSeries,878
+Mon Nov 25 04:37:26 EST 2019 org.jfree.data.time.TimeSeries,879
+Mon Nov 25 04:37:26 EST 2019 Mon Nov 25 04:37:26 EST 2019 : org.jfree.data.time.TimeSeries,881=>Find no block
+Mon Nov 25 04:37:26 EST 2019 org.jfree.data.time.TimeSeries,885
+Mon Nov 25 04:41:52 EST 2019 org.jfree.data.time.TimeSeries,1269
+Mon Nov 25 04:42:30 EST 2019 org.jfree.data.time.TimeSeries,1273
+Mon Nov 25 04:42:30 EST 2019 org.jfree.data.time.TimeSeries,1292
+Mon Nov 25 04:43:09 EST 2019 org.jfree.data.time.TimeSeries,1296
+Mon Nov 25 04:43:10 EST 2019 org.jfree.data.general.Series,315
+Mon Nov 25 04:44:04 EST 2019 org.jfree.data.general.Series,316
+Mon Nov 25 04:44:04 EST 2019 Mon Nov 25 04:44:04 EST 2019 : org.jfree.data.general.Series,318=>Find no block
+Mon Nov 25 04:44:04 EST 2019 org.jfree.data.general.Series,328
+Mon Nov 25 04:49:20 EST 2019 org.jfree.data.general.Series,329
+Mon Nov 25 04:49:20 EST 2019 Mon Nov 25 04:49:20 EST 2019 : org.jfree.data.general.Series,336=>Find no block
+Mon Nov 25 04:49:20 EST 2019 Mon Nov 25 04:49:20 EST 2019 : org.jfree.data.time.RegularTimePeriod,71=>Find no block
+Mon Nov 25 04:49:20 EST 2019 org.jfree.data.time.TimeSeries,576
+Mon Nov 25 04:49:57 EST 2019 org.jfree.data.time.TimeSeries,579
+Mon Nov 25 04:52:03 EST 2019 org.jfree.data.time.TimeSeries,580
+Mon Nov 25 04:52:03 EST 2019 org.jfree.data.time.TimeSeries,581
+Mon Nov 25 04:52:45 EST 2019 org.jfree.data.time.TimeSeries,582
+Mon Nov 25 04:52:47 EST 2019 org.jfree.data.time.TimeSeries,596
+Mon Nov 25 04:54:14 EST 2019 org.jfree.data.time.TimeSeries,597
+Mon Nov 25 04:54:14 EST 2019 org.jfree.data.time.TimeSeries,598
+Mon Nov 25 05:06:36 EST 2019 org.jfree.data.time.TimeSeries,599
+Mon Nov 25 05:06:36 EST 2019 org.jfree.data.time.TimeSeries,600
+Mon Nov 25 05:06:36 EST 2019 org.jfree.data.time.TimeSeries,626
+
+----------------------------------------
+----------------------------------------
+Pass Single Test : [=>0,0]
+findBoundsByIteration();
+if(added){
+updateBoundsForAddedItem(item);
+if(getItemCount()>this.maximumItemCount){
+TimeSeriesDataItem d=(TimeSeriesDataItem)this.data.remove(0);
+updateBoundsForRemovedItem(d);
+}
+removeAgedItems(false);
+if(notify){
+fireSeriesChanged();
+}
+}
+
+Time : 19/11/25 05:08
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Similar code block : 1.5145909208469572 : [/home/osboxes/simfix/d4j/projects/chart/chart_3_buggy/source/org/jfree/data/time/TimeSeries.java=>0,0]
+if(end<start){
+throw new IllegalArgumentException("Requires start <= end.");
+}
+for(int i=0;i<=(end-start);i++){
+this.data.remove(start);
+}
+findBoundsByIteration();
+if(this.data.isEmpty()){
+this.timePeriodClass=null;
+}
+if(notify){
+fireSeriesChanged();
+}
+
+Time : 19/11/25 05:09
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Original source code : [/home/osboxes/simfix/d4j/projects/chart/chart_3_buggy/source/org/jfree/data/time/TimeSeries.java=>626,640]
+if(added){
+updateBoundsForAddedItem(item);
+if(getItemCount()>this.maximumItemCount){
+TimeSeriesDataItem d=(TimeSeriesDataItem)this.data.remove(0);
+updateBoundsForRemovedItem(d);
+}
+removeAgedItems(false);
+if(notify){
+fireSeriesChanged();
+}
+}
+
+Time : 19/11/25 05:09
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Find a patch : [/home/osboxes/simfix/d4j/projects/chart/chart_3_buggy/source/org/jfree/data/time/TimeSeries.java=>626,640]
+findBoundsByIteration();
+if(added){
+updateBoundsForAddedItem(item);
+if(getItemCount()>this.maximumItemCount){
+TimeSeriesDataItem d=(TimeSeriesDataItem)this.data.remove(0);
+updateBoundsForRemovedItem(d);
+}
+removeAgedItems(false);
+if(notify){
+fireSeriesChanged();
+}
+}
+
+Time : 19/11/25 05:09
+----------------------------------------
+Success time : 19/11/25 05:09

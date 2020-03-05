@@ -1,0 +1,58 @@
+=================================================
+Project : time_7	start : 19/11/25 08:52
+Current failed test : org.joda.time.format.TestDateTimeFormatter::testParseInto_monthDay_feb29_newYork_startOfYear | 19/11/25 08:52
+Mon Nov 25 08:53:02 EST 2019 org.joda.time.IllegalFieldValueException,314
+Mon Nov 25 08:53:04 EST 2019 org.joda.time.IllegalFieldValueException,323
+Mon Nov 25 08:53:11 EST 2019 org.joda.time.IllegalFieldValueException,325
+Mon Nov 25 08:53:11 EST 2019 org.joda.time.IllegalFieldValueException,326
+Mon Nov 25 08:53:11 EST 2019 Mon Nov 25 08:53:11 EST 2019 : org.joda.time.IllegalFieldValueException,328=>Find no block
+Mon Nov 25 08:53:11 EST 2019 Mon Nov 25 08:53:11 EST 2019 : org.joda.time.format.DateTimeParserBucket,373=>Find no block
+Mon Nov 25 08:53:11 EST 2019 org.joda.time.format.DateTimeParserBucket,374
+Mon Nov 25 08:54:03 EST 2019 org.joda.time.format.DateTimeParserBucket,375
+Mon Nov 25 08:54:03 EST 2019 org.joda.time.format.DateTimeParserBucket,377
+Mon Nov 25 08:56:54 EST 2019 org.joda.time.format.DateTimeFormatter,701
+Mon Nov 25 08:57:48 EST 2019 org.joda.time.format.DateTimeFormatter,702
+Mon Nov 25 08:57:49 EST 2019 org.joda.time.format.DateTimeFormatter,706
+Mon Nov 25 09:01:36 EST 2019 org.joda.time.format.DateTimeFormatter,707
+Mon Nov 25 09:07:40 EST 2019 org.joda.time.format.DateTimeFormatter,708
+Mon Nov 25 09:12:32 EST 2019 org.joda.time.format.DateTimeFormatter,709
+
+----------------------------------------
+----------------------------------------
+Pass Single Test : [=>0,0]
+long instantLocal=instantMillis+chrono.getZone().getOffset(instantMillis);
+chrono=selectChronology(chrono);
+int defaultYear=chrono.year().get(instantMillis);
+
+Time : 19/11/25 09:18
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Similar code block : 0.9714759713788307 : [/home/osboxes/simfix/d4j/projects/time/time_7_buggy/src/main/java/org/joda/time/format/DateTimeFormatter.java=>0,0]
+int millisOfDay=ISOChronology.getInstanceUTC().millisOfDay().get(millis);
+setMillis(getChronology().millisOfDay().set(getMillis(),millisOfDay));
+
+Time : 19/11/25 09:18
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Original source code : [/home/osboxes/simfix/d4j/projects/time/time_7_buggy/src/main/java/org/joda/time/format/DateTimeFormatter.java=>708,710]
+long instantLocal=instantMillis+chrono.getZone().getOffset(instantMillis);
+chrono=selectChronology(chrono);
+int defaultYear=chrono.year().get(instantLocal);
+
+Time : 19/11/25 09:18
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Find a patch : [/home/osboxes/simfix/d4j/projects/time/time_7_buggy/src/main/java/org/joda/time/format/DateTimeFormatter.java=>708,710]
+long instantLocal=instantMillis+chrono.getZone().getOffset(instantMillis);
+chrono=selectChronology(chrono);
+int defaultYear=chrono.year().get(instantMillis);
+
+Time : 19/11/25 09:18
+----------------------------------------
+Success time : 19/11/25 09:18

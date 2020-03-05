@@ -1,0 +1,2520 @@
+Script started on Sat 07 Dec 2019 11:29:38 PM EST
+]0;zach@zach-VirtualBox: ~/Downloads/simfix/runnable/patch[01;32mzach@zach-VirtualBox[00m:[01;34m~/Downloads/simfix/runnable/patch[00m$ ./patch.sh 
+Check out ee834409 to /home/zach/Downloads/simfix/runnable/patch/bugs/Closu OK
+Init local repository...................................................... OK
+Tag post-fix revision...................................................... OK
+Run post-checkout hook..................................................... OK
+Initialize fixed program version........................................... OK
+Apply patch................................................................ OK
+Initialize buggy program version........................................... OK
+Diff ee834409:760bded3..................................................... OK
+Apply patch................................................................ OK
+Tag pre-fix revision....................................................... OK
+Check out program version: Closure-73b..................................... OK
+
+
+
+###################
+Running ant (compile)...................................................... OK
+Running ant (compile.tests)................................................ OK
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - com.google.javascript.jscomp.CodePrinterTest::testUnicode
+Successfully copied the patched file!
+Running ant (compile)...................................................... OK
+Running ant (compile.tests)................................................ OK
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 0
+###################
+
+
+
+./patch.sh: line 16: cd: bugs: No such file or directory
+mkdir: cannot create directory ‘Closure’: File exists
+Check out 37b0e1b0 to /home/zach/Downloads/simfix/runnable/patch/bugs/Closu OK
+Init local repository...................................................... OK
+Tag post-fix revision...................................................... OK
+Run post-checkout hook..................................................... OK
+Initialize fixed program version........................................... OK
+Apply patch................................................................ OK
+Initialize buggy program version........................................... OK
+Diff 37b0e1b0:7deaed51..................................................... OK
+Apply patch................................................................ OK
+Tag pre-fix revision....................................................... OK
+Check out program version: Closure-63b..................................... OK
+
+
+
+###################
+Running ant (compile)...................................................... OK
+Running ant (compile.tests)................................................ OK
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 2
+  - com.google.javascript.jscomp.LightweightMessageFormatterTest::testFormatErrorSpaceEndOfLine1
+  - com.google.javascript.jscomp.LightweightMessageFormatterTest::testFormatErrorSpaceEndOfLine2
+Successfully copied the patched file!
+Running ant (compile)...................................................... OK
+Running ant (compile.tests)................................................ OK
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 0
+###################
+
+
+
+./patch.sh: line 16: cd: bugs: No such file or directory
+mkdir: cannot create directory ‘Closure’: File exists
+Check out f759f431 to /home/zach/Downloads/simfix/runnable/patch/bugs/Closu OK
+Init local repository...................................................... OK
+Tag post-fix revision...................................................... OK
+Run post-checkout hook..................................................... OK
+Initialize fixed program version........................................... OK
+Apply patch................................................................ OK
+Initialize buggy program version........................................... OK
+Diff f759f431:2d3b9a6c..................................................... OK
+Apply patch................................................................ OK
+Tag pre-fix revision....................................................... OK
+Check out program version: Closure-57b..................................... OK
+
+
+
+###################
+Running ant (compile)...................................................... OK
+Running ant (compile.tests)................................................ OK
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - com.google.javascript.jscomp.ClosureCodingConventionTest::testRequire
+Successfully copied the patched file!
+Running ant (compile)...................................................... OK
+Running ant (compile.tests)................................................ OK
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 0
+###################
+
+
+
+./patch.sh: line 16: cd: bugs: No such file or directory
+mkdir: cannot create directory ‘Closure’: File exists
+Check out 4597738e to /home/zach/Downloads/simfix/runnable/patch/bugs/Closu OK
+Init local repository...................................................... OK
+Tag post-fix revision...................................................... OK
+Run post-checkout hook..................................................... OK
+Initialize fixed program version........................................... OK
+Apply patch................................................................ OK
+Initialize buggy program version........................................... OK
+Diff 4597738e:2d6e1c78..................................................... OK
+Apply patch................................................................ OK
+Tag pre-fix revision....................................................... OK
+Check out program version: Closure-115b.................................... OK
+
+
+
+###################
+Running ant (compile)...................................................... OK
+Running ant (compile.tests)................................................ OK
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 7
+  - com.google.javascript.jscomp.InlineFunctionsTest::testBug4944818
+  - com.google.javascript.jscomp.InlineFunctionsTest::testDoubleInlining1
+  - com.google.javascript.jscomp.InlineFunctionsTest::testNoInlineIfParametersModified8
+  - com.google.javascript.jscomp.InlineFunctionsTest::testNoInlineIfParametersModified9
+  - com.google.javascript.jscomp.InlineFunctionsTest::testInlineFunctions22
+  - com.google.javascript.jscomp.InlineFunctionsTest::testInlineFunctions23
+  - com.google.javascript.jscomp.InlineFunctionsTest::testInlineFunctions6
+Successfully copied the patched file!
+Running ant (compile)...................................................... OK
+Running ant (compile.tests)................................................ OK
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 0
+###################
+
+
+
+./patch.sh: line 16: cd: bugs: No such file or directory
+mkdir: cannot create directory ‘Closure’: File exists
+Check out b12d1d64 to /home/zach/Downloads/simfix/runnable/patch/bugs/Closu OK
+Init local repository...................................................... OK
+Tag post-fix revision...................................................... OK
+Run post-checkout hook..................................................... OK
+Initialize fixed program version........................................... OK
+Apply patch................................................................ OK
+Initialize buggy program version........................................... OK
+Diff b12d1d64:1e070472..................................................... OK
+Apply patch................................................................ OK
+Tag pre-fix revision....................................................... OK
+Check out program version: Closure-62b..................................... OK
+
+
+
+###################
+Running ant (compile)...................................................... OK
+Running ant (compile.tests)................................................ OK
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 2
+  - com.google.javascript.jscomp.LightweightMessageFormatterTest::testFormatErrorSpaceEndOfLine1
+  - com.google.javascript.jscomp.LightweightMessageFormatterTest::testFormatErrorSpaceEndOfLine2
+Successfully copied the patched file!
+Running ant (compile)...................................................... OK
+Running ant (compile.tests)................................................ OK
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 0
+###################
+
+
+
+./patch.sh: line 16: cd: bugs: No such file or directory
+mkdir: cannot create directory ‘Closure’: File exists
+Check out 4b15b25f to /home/zach/Downloads/simfix/runnable/patch/bugs/Closu OK
+Init local repository...................................................... OK
+Tag post-fix revision...................................................... OK
+Run post-checkout hook..................................................... OK
+Initialize fixed program version........................................... OK
+Apply patch................................................................ OK
+Initialize buggy program version........................................... OK
+Diff 4b15b25f:b7c2861b..................................................... OK
+Apply patch................................................................ OK
+Tag pre-fix revision....................................................... OK
+Check out program version: Closure-14b..................................... OK
+
+
+
+###################
+Running ant (compile)...................................................... OK
+Running ant (compile.tests)................................................ OK
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 3
+  - com.google.javascript.jscomp.CheckMissingReturnTest::testIssue779
+  - com.google.javascript.jscomp.ControlFlowAnalysisTest::testDeepNestedFinally
+  - com.google.javascript.jscomp.ControlFlowAnalysisTest::testDeepNestedBreakwithFinally
+Successfully copied the patched file!
+Running ant (compile)...................................................... OK
+Running ant (compile.tests)................................................ OK
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 0
+###################
+
+
+
+./patch.sh: line 16: cd: bugs: No such file or directory
+Check out 138baec1 to /home/zach/Downloads/simfix/runnable/patch/bugs/Math/ OK
+Init local repository...................................................... OK
+Tag post-fix revision...................................................... OK
+Initialize fixed program version........................................... OK
+Apply patch................................................................ OK
+Initialize buggy program version........................................... OK
+Diff 138baec1:ca1ca925..................................................... OK
+Apply patch................................................................ OK
+Tag pre-fix revision....................................................... OK
+Check out program version: Math-79b........................................ OK
+
+
+
+###################
+Running ant (compile)...................................................... OK
+Running ant (compile.tests)................................................ OK
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - org.apache.commons.math.stat.clustering.KMeansPlusPlusClustererTest::testPerformClusterAnalysisDegenerate
+Successfully copied the patched file!
+Running ant (compile)...................................................... OK
+Running ant (compile.tests)................................................ OK
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 0
+###################
+
+
+
+./patch.sh: line 16: cd: bugs: No such file or directory
+mkdir: cannot create directory ‘Math’: File exists
+Check out 7707b0bb to /home/zach/Downloads/simfix/runnable/patch/bugs/Math/ OK
+Init local repository...................................................... OK
+Tag post-fix revision...................................................... OK
+Initialize fixed program version........................................... OK
+Apply patch................................................................ OK
+Initialize buggy program version........................................... OK
+Diff 7707b0bb:3eb3573c..................................................... OK
+Apply patch................................................................ OK
+Tag pre-fix revision....................................................... OK
+Check out program version: Math-53b........................................ OK
+
+
+
+###################
+Running ant (compile)...................................................... OK
+Running ant (compile.tests)................................................ OK
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - org.apache.commons.math.complex.ComplexTest::testAddNaN
+Successfully copied the patched file!
+Running ant (compile)...................................................... OK
+Running ant (compile.tests)................................................ OK
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 0
+###################
+
+
+
+./patch.sh: line 16: cd: bugs: No such file or directory
+mkdir: cannot create directory ‘Math’: File exists
+Check out 5dcca480 to /home/zach/Downloads/simfix/runnable/patch/bugs/Math/ OK
+Init local repository...................................................... OK
+Tag post-fix revision...................................................... OK
+Initialize fixed program version........................................... OK
+Apply patch................................................................ OK
+Initialize buggy program version........................................... OK
+Diff 5dcca480:ffcaeb07..................................................... OK
+Apply patch................................................................ OK
+Tag pre-fix revision....................................................... OK
+Check out program version: Math-59b........................................ OK
+
+
+
+###################
+Running ant (compile)...................................................... OK
+Running ant (compile.tests)................................................ OK
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 2
+  - org.apache.commons.math.distribution.NormalDistributionTest::testSampling
+  - org.apache.commons.math.util.FastMathTest::testMinMaxFloat
+Successfully copied the patched file!
+Running ant (compile)...................................................... OK
+Running ant (compile.tests)................................................ OK
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 0
+###################
+
+
+
+./patch.sh: line 16: cd: bugs: No such file or directory
+mkdir: cannot create directory ‘Math’: File exists
+Check out 29c3b75e to /home/zach/Downloads/simfix/runnable/patch/bugs/Math/ OK
+Init local repository...................................................... OK
+Tag post-fix revision...................................................... OK
+Initialize fixed program version........................................... OK
+Apply patch................................................................ OK
+Initialize buggy program version........................................... OK
+Diff 29c3b75e:1687372e..................................................... OK
+Apply patch................................................................ OK
+Tag pre-fix revision....................................................... OK
+Check out program version: Math-73b........................................ OK
+
+
+
+###################
+Running ant (compile)...................................................... OK
+Running ant (compile.tests)................................................ OK
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - org.apache.commons.math.analysis.solvers.BrentSolverTest::testBadEndpoints
+Successfully copied the patched file!
+Running ant (compile)...................................................... OK
+Running ant (compile.tests)................................................ OK
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 0
+###################
+
+
+
+./patch.sh: line 16: cd: bugs: No such file or directory
+mkdir: cannot create directory ‘Math’: File exists
+Check out d2a5bc02 to /home/zach/Downloads/simfix/runnable/patch/bugs/Math/ OK
+Init local repository...................................................... OK
+Tag post-fix revision...................................................... OK
+Initialize fixed program version........................................... OK
+Apply patch................................................................ OK
+Initialize buggy program version........................................... OK
+Diff d2a5bc02:91b44a1e..................................................... OK
+Apply patch................................................................ OK
+Tag pre-fix revision....................................................... OK
+Check out program version: Math-63b........................................ OK
+
+
+
+###################
+Running ant (compile)...................................................... OK
+Running ant (compile.tests)................................................ OK
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - org.apache.commons.math.util.MathUtilsTest::testArrayEquals
+Successfully copied the patched file!
+Running ant (compile)...................................................... OK
+Running ant (compile.tests)................................................ OK
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................  OK
+Failing tests: 0
+###################
+
+
+
+./patch.sh: line 16: cd: bugs: No such file or directory
+mkdir: cannot create directory ‘Math’: File exists
+Check out a5d8d115 to /home/zach/Downloads/simfix/runnable/patch/bugs/Math/ OK
+Init local repository...................................................... OK
+Tag post-fix revision...................................................... OK
+Initialize fixed program version........................................... OK
+Apply patch................................................................ OK
+Initialize buggy program version........................................... OK
+Diff a5d8d115:88f944e1..................................................... OK
+Apply patch................................................................ OK
+Tag pre-fix revision....................................................... OK
+Check out program version: Math-35b........................................ OK
+
+
+
+###################
+Running ant (compile)...................................................... OK
+Running ant (compile.tests)................................................ OK
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 4
+  - org.apache.commons.math3.genetics.ElitisticListPopulationTest::testChromosomeListConstructorTooLow
+  - org.apache.commons.math3.genetics.ElitisticListPopulationTest::testConstructorTooHigh
+  - org.apache.commons.math3.genetics.ElitisticListPopulationTest::testConstructorTooLow
+  - org.apache.commons.math3.genetics.ElitisticListPopulationTest::testChromosomeListConstructorTooHigh
+Successfully copied the patched file!
+Running ant (compile)...................................................... OK
+Running ant (compile.tests)................................................ OK
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 2
+  - org.apache.commons.math3.genetics.ElitisticListPopulationTest::testConstructorTooHigh
+  - org.apache.commons.math3.genetics.ElitisticListPopulationTest::testConstructorTooLow
+###################
+
+
+
+./patch.sh: line 16: cd: bugs: No such file or directory
+mkdir: cannot create directory ‘Math’: File exists
+mkdir: cannot create directory ‘35’: File exists
+Check out program version: Math-35b........................................ OK
+
+
+
+###################
+Running ant (compile)...................................................... OK
+Running ant (compile.tests)................................................ FAIL
+Buildfile: /home/zach/Downloads/simfix/d4j/defects4j/framework/projects/defects4j.build.xml
+
+init:
+     [echo] -------- Commons MATH 3.0-SNAPSHOT --------
+
+compile:
+
+check-availability:
+     [echo] doing check-availability...
+
+download-dependencies:
+     [echo] doing download-dependencies...
+
+download-junit:
+
+compile.tests:
+    [javac] Compiling 358 source files to /home/zach/Downloads/simfix/runnable/patch/bugs/Math/35/target/test-classes
+    [javac] /home/zach/Downloads/simfix/runnable/patch/bugs/Math/35/src/test/java/org/apache/commons/math3/genetics/FitnessCachingTest.java:73: error: cannot find symbol
+    [javac]     private static ElitisticListPopulation randomPopulation() {
+    [javac]                    ^
+    [javac]   symbol:   class ElitisticListPopulation
+    [javac]   location: class FitnessCachingTest
+    [javac] /home/zach/Downloads/simfix/runnable/patch/bugs/Math/35/src/test/java/org/apache/commons/math3/genetics/GeneticAlgorithmTestBinary.java:83: error: cannot find symbol
+    [javac]     private static ElitisticListPopulation randomPopulation() {
+    [javac]                    ^
+    [javac]   symbol:   class ElitisticListPopulation
+    [javac]   location: class GeneticAlgorithmTestBinary
+    [javac] /home/zach/Downloads/simfix/runnable/patch/bugs/Math/35/src/test/java/org/apache/commons/math3/genetics/GeneticAlgorithmTestPermutations.java:92: error: cannot find symbol
+    [javac]     private static ElitisticListPopulation randomPopulation() {
+    [javac]                    ^
+    [javac]   symbol:   class ElitisticListPopulation
+    [javac]   location: class GeneticAlgorithmTestPermutations
+    [javac] /home/zach/Downloads/simfix/runnable/patch/bugs/Math/35/src/test/java/org/apache/commons/math3/genetics/ElitisticListPopulationTest.java:33: error: cannot find symbol
+    [javac]         ElitisticListPopulation pop = new ElitisticListPopulation(100, 0.203);
+    [javac]         ^
+    [javac]   symbol:   class ElitisticListPopulation
+    [javac]   location: class ElitisticListPopulationTest
+    [javac] /home/zach/Downloads/simfix/runnable/patch/bugs/Math/35/src/test/java/org/apache/commons/math3/genetics/ElitisticListPopulationTest.java:33: error: cannot find symbol
+    [javac]         ElitisticListPopulation pop = new ElitisticListPopulation(100, 0.203);
+    [javac]                                           ^
+    [javac]   symbol:   class ElitisticListPopulation
+    [javac]   location: class ElitisticListPopulationTest
+    [javac] /home/zach/Downloads/simfix/runnable/patch/bugs/Math/35/src/test/java/org/apache/commons/math3/genetics/ElitisticListPopulationTest.java:47: error: cannot find symbol
+    [javac]         final ElitisticListPopulation pop = new ElitisticListPopulation(100, 0.203);
+    [javac]               ^
+    [javac]   symbol:   class ElitisticListPopulation
+    [javac]   location: class ElitisticListPopulationTest
+    [javac] /home/zach/Downloads/simfix/runnable/patch/bugs/Math/35/src/test/java/org/apache/commons/math3/genetics/ElitisticListPopulationTest.java:47: error: cannot find symbol
+    [javac]         final ElitisticListPopulation pop = new ElitisticListPopulation(100, 0.203);
+    [javac]                                                 ^
+    [javac]   symbol:   class ElitisticListPopulation
+    [javac]   location: class ElitisticListPopulationTest
+    [javac] /home/zach/Downloads/simfix/runnable/patch/bugs/Math/35/src/test/java/org/apache/commons/math3/genetics/ElitisticListPopulationTest.java:55: error: cannot find symbol
+    [javac]         final ElitisticListPopulation pop = new ElitisticListPopulation(100, 0.203);
+    [javac]               ^
+    [javac]   symbol:   class ElitisticListPopulation
+    [javac]   location: class ElitisticListPopulationTest
+    [javac] /home/zach/Downloads/simfix/runnable/patch/bugs/Math/35/src/test/java/org/apache/commons/math3/genetics/ElitisticListPopulationTest.java:55: error: cannot find symbol
+    [javac]         final ElitisticListPopulation pop = new ElitisticListPopulation(100, 0.203);
+    [javac]                                                 ^
+    [javac]   symbol:   class ElitisticListPopulation
+    [javac]   location: class ElitisticListPopulationTest
+    [javac] /home/zach/Downloads/simfix/runnable/patch/bugs/Math/35/src/test/java/org/apache/commons/math3/genetics/ElitisticListPopulationTest.java:62: error: cannot find symbol
+    [javac]         final ElitisticListPopulation pop = new ElitisticListPopulation(100, 0.203);
+    [javac]               ^
+    [javac]   symbol:   class ElitisticListPopulation
+    [javac]   location: class ElitisticListPopulationTest
+    [javac] /home/zach/Downloads/simfix/runnable/patch/bugs/Math/35/src/test/java/org/apache/commons/math3/genetics/ElitisticListPopulationTest.java:62: error: cannot find symbol
+    [javac]         final ElitisticListPopulation pop = new ElitisticListPopulation(100, 0.203);
+    [javac]                                                 ^
+    [javac]   symbol:   class ElitisticListPopulation
+    [javac]   location: class ElitisticListPopulationTest
+    [javac] /home/zach/Downloads/simfix/runnable/patch/bugs/Math/35/src/test/java/org/apache/commons/math3/genetics/ElitisticListPopulationTest.java:69: error: cannot find symbol
+    [javac]         new ElitisticListPopulation(100, rate);
+    [javac]             ^
+    [javac]   symbol:   class ElitisticListPopulation
+    [javac]   location: class ElitisticListPopulationTest
+    [javac] /home/zach/Downloads/simfix/runnable/patch/bugs/Math/35/src/test/java/org/apache/commons/math3/genetics/ElitisticListPopulationTest.java:75: error: cannot find symbol
+    [javac]         new ElitisticListPopulation(100, rate);
+    [javac]             ^
+    [javac]   symbol:   class ElitisticListPopulation
+    [javac]   location: class ElitisticListPopulationTest
+    [javac] /home/zach/Downloads/simfix/runnable/patch/bugs/Math/35/src/test/java/org/apache/commons/math3/genetics/ElitisticListPopulationTest.java:82: error: cannot find symbol
+    [javac]         new ElitisticListPopulation(chromosomes, 100, rate);
+    [javac]             ^
+    [javac]   symbol:   class ElitisticListPopulation
+    [javac]   location: class ElitisticListPopulationTest
+    [javac] /home/zach/Downloads/simfix/runnable/patch/bugs/Math/35/src/test/java/org/apache/commons/math3/genetics/ElitisticListPopulationTest.java:89: error: cannot find symbol
+    [javac]         new ElitisticListPopulation(chromosomes, 100, rate);
+    [javac]             ^
+    [javac]   symbol:   class ElitisticListPopulation
+    [javac]   location: class ElitisticListPopulationTest
+    [javac] /home/zach/Downloads/simfix/runnable/patch/bugs/Math/35/src/test/java/org/apache/commons/math3/genetics/FitnessCachingTest.java:80: error: cannot find symbol
+    [javac]         return new ElitisticListPopulation(popList, popList.size(), ELITISM_RATE);
+    [javac]                    ^
+    [javac]   symbol:   class ElitisticListPopulation
+    [javac]   location: class FitnessCachingTest
+    [javac] /home/zach/Downloads/simfix/runnable/patch/bugs/Math/35/src/test/java/org/apache/commons/math3/genetics/GeneticAlgorithmTestBinary.java:90: error: cannot find symbol
+    [javac]         return new ElitisticListPopulation(popList, popList.size(), ELITISM_RATE);
+    [javac]                    ^
+    [javac]   symbol:   class ElitisticListPopulation
+    [javac]   location: class GeneticAlgorithmTestBinary
+    [javac] /home/zach/Downloads/simfix/runnable/patch/bugs/Math/35/src/test/java/org/apache/commons/math3/genetics/GeneticAlgorithmTestPermutations.java:98: error: cannot find symbol
+    [javac]         return new ElitisticListPopulation(popList, popList.size(), ELITISM_RATE);
+    [javac]                    ^
+    [javac]   symbol:   class ElitisticListPopulation
+    [javac]   location: class GeneticAlgorithmTestPermutations
+    [javac] /home/zach/Downloads/simfix/runnable/patch/bugs/Math/35/src/test/java/org/apache/commons/math3/genetics/TournamentSelectionTest.java:29: error: cannot find symbol
+    [javac]         ElitisticListPopulation pop = new ElitisticListPopulation(100, 0.203);
+    [javac]         ^
+    [javac]   symbol:   class ElitisticListPopulation
+    [javac]   location: class TournamentSelectionTest
+    [javac] /home/zach/Downloads/simfix/runnable/patch/bugs/Math/35/src/test/java/org/apache/commons/math3/genetics/TournamentSelectionTest.java:29: error: cannot find symbol
+    [javac]         ElitisticListPopulation pop = new ElitisticListPopulation(100, 0.203);
+    [javac]                                           ^
+    [javac]   symbol:   class ElitisticListPopulation
+    [javac]   location: class TournamentSelectionTest
+    [javac] Note: Some input files use or override a deprecated API.
+    [javac] Note: Recompile with -Xlint:deprecation for details.
+    [javac] Note: /home/zach/Downloads/simfix/runnable/patch/bugs/Math/35/src/test/java/org/apache/commons/math3/PerfTestUtils.java uses unchecked or unsafe operations.
+    [javac] Note: Recompile with -Xlint:unchecked for details.
+    [javac] 20 errors
+
+BUILD FAILED
+/home/zach/Downloads/simfix/runnable/patch/bugs/Math/35/build.xml:180: Compile failed; see the compiler error output for details.
+
+Total time: 2 seconds
+Executed command:  cd /home/zach/Downloads/simfix/runnable/patch/bugs/Math/35 && ant -f /home/zach/Downloads/simfix/d4j/defects4j/framework/projects/defects4j.build.xml -Dd4j.home=/home/zach/Downloads/simfix/d4j/defects4j -Dbasedir=/home/zach/Downloads/simfix/runnable/patch/bugs/Math/35  compile.tests 2>&1
+Cannot compile tests! at /home/zach/Downloads/simfix/d4j/defects4j/framework/bin/d4j/d4j-compile line 83.
+Compilation failed in require at /home/zach/Downloads/simfix/d4j/defects4j/framework/bin/defects4j line 155.
+Running ant (compile.tests)................................................ FAIL
+Buildfile: /home/zach/Downloads/simfix/d4j/defects4j/framework/projects/defects4j.build.xml
+
+init:
+     [echo] -------- Commons MATH 3.0-SNAPSHOT --------
+
+compile:
+
+check-availability:
+     [echo] doing check-availability...
+
+download-dependencies:
+     [echo] doing download-dependencies...
+
+download-junit:
+
+compile.tests:
+    [javac] Compiling 358 source files to /home/zach/Downloads/simfix/runnable/patch/bugs/Math/35/target/test-classes
+    [javac] /home/zach/Downloads/simfix/runnable/patch/bugs/Math/35/src/test/java/org/apache/commons/math3/genetics/FitnessCachingTest.java:73: error: cannot find symbol
+    [javac]     private static ElitisticListPopulation randomPopulation() {
+    [javac]                    ^
+    [javac]   symbol:   class ElitisticListPopulation
+    [javac]   location: class FitnessCachingTest
+    [javac] /home/zach/Downloads/simfix/runnable/patch/bugs/Math/35/src/test/java/org/apache/commons/math3/genetics/GeneticAlgorithmTestBinary.java:83: error: cannot find symbol
+    [javac]     private static ElitisticListPopulation randomPopulation() {
+    [javac]                    ^
+    [javac]   symbol:   class ElitisticListPopulation
+    [javac]   location: class GeneticAlgorithmTestBinary
+    [javac] /home/zach/Downloads/simfix/runnable/patch/bugs/Math/35/src/test/java/org/apache/commons/math3/genetics/GeneticAlgorithmTestPermutations.java:92: error: cannot find symbol
+    [javac]     private static ElitisticListPopulation randomPopulation() {
+    [javac]                    ^
+    [javac]   symbol:   class ElitisticListPopulation
+    [javac]   location: class GeneticAlgorithmTestPermutations
+    [javac] /home/zach/Downloads/simfix/runnable/patch/bugs/Math/35/src/test/java/org/apache/commons/math3/genetics/ElitisticListPopulationTest.java:33: error: cannot find symbol
+    [javac]         ElitisticListPopulation pop = new ElitisticListPopulation(100, 0.203);
+    [javac]         ^
+    [javac]   symbol:   class ElitisticListPopulation
+    [javac]   location: class ElitisticListPopulationTest
+    [javac] /home/zach/Downloads/simfix/runnable/patch/bugs/Math/35/src/test/java/org/apache/commons/math3/genetics/ElitisticListPopulationTest.java:33: error: cannot find symbol
+    [javac]         ElitisticListPopulation pop = new ElitisticListPopulation(100, 0.203);
+    [javac]                                           ^
+    [javac]   symbol:   class ElitisticListPopulation
+    [javac]   location: class ElitisticListPopulationTest
+    [javac] /home/zach/Downloads/simfix/runnable/patch/bugs/Math/35/src/test/java/org/apache/commons/math3/genetics/ElitisticListPopulationTest.java:47: error: cannot find symbol
+    [javac]         final ElitisticListPopulation pop = new ElitisticListPopulation(100, 0.203);
+    [javac]               ^
+    [javac]   symbol:   class ElitisticListPopulation
+    [javac]   location: class ElitisticListPopulationTest
+    [javac] /home/zach/Downloads/simfix/runnable/patch/bugs/Math/35/src/test/java/org/apache/commons/math3/genetics/ElitisticListPopulationTest.java:47: error: cannot find symbol
+    [javac]         final ElitisticListPopulation pop = new ElitisticListPopulation(100, 0.203);
+    [javac]                                                 ^
+    [javac]   symbol:   class ElitisticListPopulation
+    [javac]   location: class ElitisticListPopulationTest
+    [javac] /home/zach/Downloads/simfix/runnable/patch/bugs/Math/35/src/test/java/org/apache/commons/math3/genetics/ElitisticListPopulationTest.java:55: error: cannot find symbol
+    [javac]         final ElitisticListPopulation pop = new ElitisticListPopulation(100, 0.203);
+    [javac]               ^
+    [javac]   symbol:   class ElitisticListPopulation
+    [javac]   location: class ElitisticListPopulationTest
+    [javac] /home/zach/Downloads/simfix/runnable/patch/bugs/Math/35/src/test/java/org/apache/commons/math3/genetics/ElitisticListPopulationTest.java:55: error: cannot find symbol
+    [javac]         final ElitisticListPopulation pop = new ElitisticListPopulation(100, 0.203);
+    [javac]                                                 ^
+    [javac]   symbol:   class ElitisticListPopulation
+    [javac]   location: class ElitisticListPopulationTest
+    [javac] /home/zach/Downloads/simfix/runnable/patch/bugs/Math/35/src/test/java/org/apache/commons/math3/genetics/ElitisticListPopulationTest.java:62: error: cannot find symbol
+    [javac]         final ElitisticListPopulation pop = new ElitisticListPopulation(100, 0.203);
+    [javac]               ^
+    [javac]   symbol:   class ElitisticListPopulation
+    [javac]   location: class ElitisticListPopulationTest
+    [javac] /home/zach/Downloads/simfix/runnable/patch/bugs/Math/35/src/test/java/org/apache/commons/math3/genetics/ElitisticListPopulationTest.java:62: error: cannot find symbol
+    [javac]         final ElitisticListPopulation pop = new ElitisticListPopulation(100, 0.203);
+    [javac]                                                 ^
+    [javac]   symbol:   class ElitisticListPopulation
+    [javac]   location: class ElitisticListPopulationTest
+    [javac] /home/zach/Downloads/simfix/runnable/patch/bugs/Math/35/src/test/java/org/apache/commons/math3/genetics/ElitisticListPopulationTest.java:69: error: cannot find symbol
+    [javac]         new ElitisticListPopulation(100, rate);
+    [javac]             ^
+    [javac]   symbol:   class ElitisticListPopulation
+    [javac]   location: class ElitisticListPopulationTest
+    [javac] /home/zach/Downloads/simfix/runnable/patch/bugs/Math/35/src/test/java/org/apache/commons/math3/genetics/ElitisticListPopulationTest.java:75: error: cannot find symbol
+    [javac]         new ElitisticListPopulation(100, rate);
+    [javac]             ^
+    [javac]   symbol:   class ElitisticListPopulation
+    [javac]   location: class ElitisticListPopulationTest
+    [javac] /home/zach/Downloads/simfix/runnable/patch/bugs/Math/35/src/test/java/org/apache/commons/math3/genetics/ElitisticListPopulationTest.java:82: error: cannot find symbol
+    [javac]         new ElitisticListPopulation(chromosomes, 100, rate);
+    [javac]             ^
+    [javac]   symbol:   class ElitisticListPopulation
+    [javac]   location: class ElitisticListPopulationTest
+    [javac] /home/zach/Downloads/simfix/runnable/patch/bugs/Math/35/src/test/java/org/apache/commons/math3/genetics/ElitisticListPopulationTest.java:89: error: cannot find symbol
+    [javac]         new ElitisticListPopulation(chromosomes, 100, rate);
+    [javac]             ^
+    [javac]   symbol:   class ElitisticListPopulation
+    [javac]   location: class ElitisticListPopulationTest
+    [javac] /home/zach/Downloads/simfix/runnable/patch/bugs/Math/35/src/test/java/org/apache/commons/math3/genetics/FitnessCachingTest.java:80: error: cannot find symbol
+    [javac]         return new ElitisticListPopulation(popList, popList.size(), ELITISM_RATE);
+    [javac]                    ^
+    [javac]   symbol:   class ElitisticListPopulation
+    [javac]   location: class FitnessCachingTest
+    [javac] /home/zach/Downloads/simfix/runnable/patch/bugs/Math/35/src/test/java/org/apache/commons/math3/genetics/GeneticAlgorithmTestBinary.java:90: error: cannot find symbol
+    [javac]         return new ElitisticListPopulation(popList, popList.size(), ELITISM_RATE);
+    [javac]                    ^
+    [javac]   symbol:   class ElitisticListPopulation
+    [javac]   location: class GeneticAlgorithmTestBinary
+    [javac] /home/zach/Downloads/simfix/runnable/patch/bugs/Math/35/src/test/java/org/apache/commons/math3/genetics/GeneticAlgorithmTestPermutations.java:98: error: cannot find symbol
+    [javac]         return new ElitisticListPopulation(popList, popList.size(), ELITISM_RATE);
+    [javac]                    ^
+    [javac]   symbol:   class ElitisticListPopulation
+    [javac]   location: class GeneticAlgorithmTestPermutations
+    [javac] /home/zach/Downloads/simfix/runnable/patch/bugs/Math/35/src/test/java/org/apache/commons/math3/genetics/TournamentSelectionTest.java:29: error: cannot find symbol
+    [javac]         ElitisticListPopulation pop = new ElitisticListPopulation(100, 0.203);
+    [javac]         ^
+    [javac]   symbol:   class ElitisticListPopulation
+    [javac]   location: class TournamentSelectionTest
+    [javac] /home/zach/Downloads/simfix/runnable/patch/bugs/Math/35/src/test/java/org/apache/commons/math3/genetics/TournamentSelectionTest.java:29: error: cannot find symbol
+    [javac]         ElitisticListPopulation pop = new ElitisticListPopulation(100, 0.203);
+    [javac]                                           ^
+    [javac]   symbol:   class ElitisticListPopulation
+    [javac]   location: class TournamentSelectionTest
+    [javac] Note: Some input files use or override a deprecated API.
+    [javac] Note: Recompile with -Xlint:deprecation for details.
+    [javac] Note: /home/zach/Downloads/simfix/runnable/patch/bugs/Math/35/src/test/java/org/apache/commons/math3/PerfTestUtils.java uses unchecked or unsafe operations.
+    [javac] Note: Recompile with -Xlint:unchecked for details.
+    [javac] 20 errors
+
+BUILD FAILED
+/home/zach/Downloads/simfix/runnable/patch/bugs/Math/35/build.xml:180: Compile failed; see the compiler error output for details.
+
+Total time: 2 seconds
+Executed command:  cd /home/zach/Downloads/simfix/runnable/patch/bugs/Math/35 && ant -f /home/zach/Downloads/simfix/d4j/defects4j/framework/projects/defects4j.build.xml -Dd4j.home=/home/zach/Downloads/simfix/d4j/defects4j -Dbasedir=/home/zach/Downloads/simfix/runnable/patch/bugs/Math/35  compile.tests 2>&1
+Cannot compile test suite! at /home/zach/Downloads/simfix/d4j/defects4j/framework/bin/d4j/d4j-test line 134.
+Compilation failed in require at /home/zach/Downloads/simfix/d4j/defects4j/framework/bin/defects4j line 155.
+dirname: missing operand
+Try 'dirname --help' for more information.
+rm: cannot remove './bugs/Math/35//ElitisticListPopulation.java': No such file or directory
+Successfully copied the patched file!
+Running ant (compile)...................................................... OK
+Running ant (compile.tests)................................................ FAIL
+Buildfile: /home/zach/Downloads/simfix/d4j/defects4j/framework/projects/defects4j.build.xml
+
+init:
+     [echo] -------- Commons MATH 3.0-SNAPSHOT --------
+
+compile:
+
+check-availability:
+     [echo] doing check-availability...
+
+download-dependencies:
+     [echo] doing download-dependencies...
+
+download-junit:
+
+compile.tests:
+    [javac] Compiling 358 source files to /home/zach/Downloads/simfix/runnable/patch/bugs/Math/35/target/test-classes
+    [javac] /home/zach/Downloads/simfix/runnable/patch/bugs/Math/35/src/test/java/org/apache/commons/math3/genetics/FitnessCachingTest.java:73: error: cannot find symbol
+    [javac]     private static ElitisticListPopulation randomPopulation() {
+    [javac]                    ^
+    [javac]   symbol:   class ElitisticListPopulation
+    [javac]   location: class FitnessCachingTest
+    [javac] /home/zach/Downloads/simfix/runnable/patch/bugs/Math/35/src/test/java/org/apache/commons/math3/genetics/GeneticAlgorithmTestBinary.java:83: error: cannot find symbol
+    [javac]     private static ElitisticListPopulation randomPopulation() {
+    [javac]                    ^
+    [javac]   symbol:   class ElitisticListPopulation
+    [javac]   location: class GeneticAlgorithmTestBinary
+    [javac] /home/zach/Downloads/simfix/runnable/patch/bugs/Math/35/src/test/java/org/apache/commons/math3/genetics/GeneticAlgorithmTestPermutations.java:92: error: cannot find symbol
+    [javac]     private static ElitisticListPopulation randomPopulation() {
+    [javac]                    ^
+    [javac]   symbol:   class ElitisticListPopulation
+    [javac]   location: class GeneticAlgorithmTestPermutations
+    [javac] /home/zach/Downloads/simfix/runnable/patch/bugs/Math/35/src/test/java/org/apache/commons/math3/genetics/ElitisticListPopulationTest.java:33: error: cannot find symbol
+    [javac]         ElitisticListPopulation pop = new ElitisticListPopulation(100, 0.203);
+    [javac]         ^
+    [javac]   symbol:   class ElitisticListPopulation
+    [javac]   location: class ElitisticListPopulationTest
+    [javac] /home/zach/Downloads/simfix/runnable/patch/bugs/Math/35/src/test/java/org/apache/commons/math3/genetics/ElitisticListPopulationTest.java:33: error: cannot find symbol
+    [javac]         ElitisticListPopulation pop = new ElitisticListPopulation(100, 0.203);
+    [javac]                                           ^
+    [javac]   symbol:   class ElitisticListPopulation
+    [javac]   location: class ElitisticListPopulationTest
+    [javac] /home/zach/Downloads/simfix/runnable/patch/bugs/Math/35/src/test/java/org/apache/commons/math3/genetics/ElitisticListPopulationTest.java:47: error: cannot find symbol
+    [javac]         final ElitisticListPopulation pop = new ElitisticListPopulation(100, 0.203);
+    [javac]               ^
+    [javac]   symbol:   class ElitisticListPopulation
+    [javac]   location: class ElitisticListPopulationTest
+    [javac] /home/zach/Downloads/simfix/runnable/patch/bugs/Math/35/src/test/java/org/apache/commons/math3/genetics/ElitisticListPopulationTest.java:47: error: cannot find symbol
+    [javac]         final ElitisticListPopulation pop = new ElitisticListPopulation(100, 0.203);
+    [javac]                                                 ^
+    [javac]   symbol:   class ElitisticListPopulation
+    [javac]   location: class ElitisticListPopulationTest
+    [javac] /home/zach/Downloads/simfix/runnable/patch/bugs/Math/35/src/test/java/org/apache/commons/math3/genetics/ElitisticListPopulationTest.java:55: error: cannot find symbol
+    [javac]         final ElitisticListPopulation pop = new ElitisticListPopulation(100, 0.203);
+    [javac]               ^
+    [javac]   symbol:   class ElitisticListPopulation
+    [javac]   location: class ElitisticListPopulationTest
+    [javac] /home/zach/Downloads/simfix/runnable/patch/bugs/Math/35/src/test/java/org/apache/commons/math3/genetics/ElitisticListPopulationTest.java:55: error: cannot find symbol
+    [javac]         final ElitisticListPopulation pop = new ElitisticListPopulation(100, 0.203);
+    [javac]                                                 ^
+    [javac]   symbol:   class ElitisticListPopulation
+    [javac]   location: class ElitisticListPopulationTest
+    [javac] /home/zach/Downloads/simfix/runnable/patch/bugs/Math/35/src/test/java/org/apache/commons/math3/genetics/ElitisticListPopulationTest.java:62: error: cannot find symbol
+    [javac]         final ElitisticListPopulation pop = new ElitisticListPopulation(100, 0.203);
+    [javac]               ^
+    [javac]   symbol:   class ElitisticListPopulation
+    [javac]   location: class ElitisticListPopulationTest
+    [javac] /home/zach/Downloads/simfix/runnable/patch/bugs/Math/35/src/test/java/org/apache/commons/math3/genetics/ElitisticListPopulationTest.java:62: error: cannot find symbol
+    [javac]         final ElitisticListPopulation pop = new ElitisticListPopulation(100, 0.203);
+    [javac]                                                 ^
+    [javac]   symbol:   class ElitisticListPopulation
+    [javac]   location: class ElitisticListPopulationTest
+    [javac] /home/zach/Downloads/simfix/runnable/patch/bugs/Math/35/src/test/java/org/apache/commons/math3/genetics/ElitisticListPopulationTest.java:69: error: cannot find symbol
+    [javac]         new ElitisticListPopulation(100, rate);
+    [javac]             ^
+    [javac]   symbol:   class ElitisticListPopulation
+    [javac]   location: class ElitisticListPopulationTest
+    [javac] /home/zach/Downloads/simfix/runnable/patch/bugs/Math/35/src/test/java/org/apache/commons/math3/genetics/ElitisticListPopulationTest.java:75: error: cannot find symbol
+    [javac]         new ElitisticListPopulation(100, rate);
+    [javac]             ^
+    [javac]   symbol:   class ElitisticListPopulation
+    [javac]   location: class ElitisticListPopulationTest
+    [javac] /home/zach/Downloads/simfix/runnable/patch/bugs/Math/35/src/test/java/org/apache/commons/math3/genetics/ElitisticListPopulationTest.java:82: error: cannot find symbol
+    [javac]         new ElitisticListPopulation(chromosomes, 100, rate);
+    [javac]             ^
+    [javac]   symbol:   class ElitisticListPopulation
+    [javac]   location: class ElitisticListPopulationTest
+    [javac] /home/zach/Downloads/simfix/runnable/patch/bugs/Math/35/src/test/java/org/apache/commons/math3/genetics/ElitisticListPopulationTest.java:89: error: cannot find symbol
+    [javac]         new ElitisticListPopulation(chromosomes, 100, rate);
+    [javac]             ^
+    [javac]   symbol:   class ElitisticListPopulation
+    [javac]   location: class ElitisticListPopulationTest
+    [javac] /home/zach/Downloads/simfix/runnable/patch/bugs/Math/35/src/test/java/org/apache/commons/math3/genetics/FitnessCachingTest.java:80: error: cannot find symbol
+    [javac]         return new ElitisticListPopulation(popList, popList.size(), ELITISM_RATE);
+    [javac]                    ^
+    [javac]   symbol:   class ElitisticListPopulation
+    [javac]   location: class FitnessCachingTest
+    [javac] /home/zach/Downloads/simfix/runnable/patch/bugs/Math/35/src/test/java/org/apache/commons/math3/genetics/GeneticAlgorithmTestBinary.java:90: error: cannot find symbol
+    [javac]         return new ElitisticListPopulation(popList, popList.size(), ELITISM_RATE);
+    [javac]                    ^
+    [javac]   symbol:   class ElitisticListPopulation
+    [javac]   location: class GeneticAlgorithmTestBinary
+    [javac] /home/zach/Downloads/simfix/runnable/patch/bugs/Math/35/src/test/java/org/apache/commons/math3/genetics/GeneticAlgorithmTestPermutations.java:98: error: cannot find symbol
+    [javac]         return new ElitisticListPopulation(popList, popList.size(), ELITISM_RATE);
+    [javac]                    ^
+    [javac]   symbol:   class ElitisticListPopulation
+    [javac]   location: class GeneticAlgorithmTestPermutations
+    [javac] /home/zach/Downloads/simfix/runnable/patch/bugs/Math/35/src/test/java/org/apache/commons/math3/genetics/TournamentSelectionTest.java:29: error: cannot find symbol
+    [javac]         ElitisticListPopulation pop = new ElitisticListPopulation(100, 0.203);
+    [javac]         ^
+    [javac]   symbol:   class ElitisticListPopulation
+    [javac]   location: class TournamentSelectionTest
+    [javac] /home/zach/Downloads/simfix/runnable/patch/bugs/Math/35/src/test/java/org/apache/commons/math3/genetics/TournamentSelectionTest.java:29: error: cannot find symbol
+    [javac]         ElitisticListPopulation pop = new ElitisticListPopulation(100, 0.203);
+    [javac]                                           ^
+    [javac]   symbol:   class ElitisticListPopulation
+    [javac]   location: class TournamentSelectionTest
+    [javac] Note: Some input files use or override a deprecated API.
+    [javac] Note: Recompile with -Xlint:deprecation for details.
+    [javac] Note: /home/zach/Downloads/simfix/runnable/patch/bugs/Math/35/src/test/java/org/apache/commons/math3/PerfTestUtils.java uses unchecked or unsafe operations.
+    [javac] Note: Recompile with -Xlint:unchecked for details.
+    [javac] 20 errors
+
+BUILD FAILED
+/home/zach/Downloads/simfix/runnable/patch/bugs/Math/35/build.xml:180: Compile failed; see the compiler error output for details.
+
+Total time: 2 seconds
+Executed command:  cd /home/zach/Downloads/simfix/runnable/patch/bugs/Math/35 && ant -f /home/zach/Downloads/simfix/d4j/defects4j/framework/projects/defects4j.build.xml -Dd4j.home=/home/zach/Downloads/simfix/d4j/defects4j -Dbasedir=/home/zach/Downloads/simfix/runnable/patch/bugs/Math/35  compile.tests 2>&1
+Cannot compile tests! at /home/zach/Downloads/simfix/d4j/defects4j/framework/bin/d4j/d4j-compile line 83.
+Compilation failed in require at /home/zach/Downloads/simfix/d4j/defects4j/framework/bin/defects4j line 155.
+Running ant (compile.tests)................................................ FAIL
+Buildfile: /home/zach/Downloads/simfix/d4j/defects4j/framework/projects/defects4j.build.xml
+
+init:
+     [echo] -------- Commons MATH 3.0-SNAPSHOT --------
+
+compile:
+
+check-availability:
+     [echo] doing check-availability...
+
+download-dependencies:
+     [echo] doing download-dependencies...
+
+download-junit:
+
+compile.tests:
+    [javac] Compiling 358 source files to /home/zach/Downloads/simfix/runnable/patch/bugs/Math/35/target/test-classes
+    [javac] /home/zach/Downloads/simfix/runnable/patch/bugs/Math/35/src/test/java/org/apache/commons/math3/genetics/FitnessCachingTest.java:73: error: cannot find symbol
+    [javac]     private static ElitisticListPopulation randomPopulation() {
+    [javac]                    ^
+    [javac]   symbol:   class ElitisticListPopulation
+    [javac]   location: class FitnessCachingTest
+    [javac] /home/zach/Downloads/simfix/runnable/patch/bugs/Math/35/src/test/java/org/apache/commons/math3/genetics/GeneticAlgorithmTestBinary.java:83: error: cannot find symbol
+    [javac]     private static ElitisticListPopulation randomPopulation() {
+    [javac]                    ^
+    [javac]   symbol:   class ElitisticListPopulation
+    [javac]   location: class GeneticAlgorithmTestBinary
+    [javac] /home/zach/Downloads/simfix/runnable/patch/bugs/Math/35/src/test/java/org/apache/commons/math3/genetics/GeneticAlgorithmTestPermutations.java:92: error: cannot find symbol
+    [javac]     private static ElitisticListPopulation randomPopulation() {
+    [javac]                    ^
+    [javac]   symbol:   class ElitisticListPopulation
+    [javac]   location: class GeneticAlgorithmTestPermutations
+    [javac] /home/zach/Downloads/simfix/runnable/patch/bugs/Math/35/src/test/java/org/apache/commons/math3/genetics/ElitisticListPopulationTest.java:33: error: cannot find symbol
+    [javac]         ElitisticListPopulation pop = new ElitisticListPopulation(100, 0.203);
+    [javac]         ^
+    [javac]   symbol:   class ElitisticListPopulation
+    [javac]   location: class ElitisticListPopulationTest
+    [javac] /home/zach/Downloads/simfix/runnable/patch/bugs/Math/35/src/test/java/org/apache/commons/math3/genetics/ElitisticListPopulationTest.java:33: error: cannot find symbol
+    [javac]         ElitisticListPopulation pop = new ElitisticListPopulation(100, 0.203);
+    [javac]                                           ^
+    [javac]   symbol:   class ElitisticListPopulation
+    [javac]   location: class ElitisticListPopulationTest
+    [javac] /home/zach/Downloads/simfix/runnable/patch/bugs/Math/35/src/test/java/org/apache/commons/math3/genetics/ElitisticListPopulationTest.java:47: error: cannot find symbol
+    [javac]         final ElitisticListPopulation pop = new ElitisticListPopulation(100, 0.203);
+    [javac]               ^
+    [javac]   symbol:   class ElitisticListPopulation
+    [javac]   location: class ElitisticListPopulationTest
+    [javac] /home/zach/Downloads/simfix/runnable/patch/bugs/Math/35/src/test/java/org/apache/commons/math3/genetics/ElitisticListPopulationTest.java:47: error: cannot find symbol
+    [javac]         final ElitisticListPopulation pop = new ElitisticListPopulation(100, 0.203);
+    [javac]                                                 ^
+    [javac]   symbol:   class ElitisticListPopulation
+    [javac]   location: class ElitisticListPopulationTest
+    [javac] /home/zach/Downloads/simfix/runnable/patch/bugs/Math/35/src/test/java/org/apache/commons/math3/genetics/ElitisticListPopulationTest.java:55: error: cannot find symbol
+    [javac]         final ElitisticListPopulation pop = new ElitisticListPopulation(100, 0.203);
+    [javac]               ^
+    [javac]   symbol:   class ElitisticListPopulation
+    [javac]   location: class ElitisticListPopulationTest
+    [javac] /home/zach/Downloads/simfix/runnable/patch/bugs/Math/35/src/test/java/org/apache/commons/math3/genetics/ElitisticListPopulationTest.java:55: error: cannot find symbol
+    [javac]         final ElitisticListPopulation pop = new ElitisticListPopulation(100, 0.203);
+    [javac]                                                 ^
+    [javac]   symbol:   class ElitisticListPopulation
+    [javac]   location: class ElitisticListPopulationTest
+    [javac] /home/zach/Downloads/simfix/runnable/patch/bugs/Math/35/src/test/java/org/apache/commons/math3/genetics/ElitisticListPopulationTest.java:62: error: cannot find symbol
+    [javac]         final ElitisticListPopulation pop = new ElitisticListPopulation(100, 0.203);
+    [javac]               ^
+    [javac]   symbol:   class ElitisticListPopulation
+    [javac]   location: class ElitisticListPopulationTest
+    [javac] /home/zach/Downloads/simfix/runnable/patch/bugs/Math/35/src/test/java/org/apache/commons/math3/genetics/ElitisticListPopulationTest.java:62: error: cannot find symbol
+    [javac]         final ElitisticListPopulation pop = new ElitisticListPopulation(100, 0.203);
+    [javac]                                                 ^
+    [javac]   symbol:   class ElitisticListPopulation
+    [javac]   location: class ElitisticListPopulationTest
+    [javac] /home/zach/Downloads/simfix/runnable/patch/bugs/Math/35/src/test/java/org/apache/commons/math3/genetics/ElitisticListPopulationTest.java:69: error: cannot find symbol
+    [javac]         new ElitisticListPopulation(100, rate);
+    [javac]             ^
+    [javac]   symbol:   class ElitisticListPopulation
+    [javac]   location: class ElitisticListPopulationTest
+    [javac] /home/zach/Downloads/simfix/runnable/patch/bugs/Math/35/src/test/java/org/apache/commons/math3/genetics/ElitisticListPopulationTest.java:75: error: cannot find symbol
+    [javac]         new ElitisticListPopulation(100, rate);
+    [javac]             ^
+    [javac]   symbol:   class ElitisticListPopulation
+    [javac]   location: class ElitisticListPopulationTest
+    [javac] /home/zach/Downloads/simfix/runnable/patch/bugs/Math/35/src/test/java/org/apache/commons/math3/genetics/ElitisticListPopulationTest.java:82: error: cannot find symbol
+    [javac]         new ElitisticListPopulation(chromosomes, 100, rate);
+    [javac]             ^
+    [javac]   symbol:   class ElitisticListPopulation
+    [javac]   location: class ElitisticListPopulationTest
+    [javac] /home/zach/Downloads/simfix/runnable/patch/bugs/Math/35/src/test/java/org/apache/commons/math3/genetics/ElitisticListPopulationTest.java:89: error: cannot find symbol
+    [javac]         new ElitisticListPopulation(chromosomes, 100, rate);
+    [javac]             ^
+    [javac]   symbol:   class ElitisticListPopulation
+    [javac]   location: class ElitisticListPopulationTest
+    [javac] /home/zach/Downloads/simfix/runnable/patch/bugs/Math/35/src/test/java/org/apache/commons/math3/genetics/FitnessCachingTest.java:80: error: cannot find symbol
+    [javac]         return new ElitisticListPopulation(popList, popList.size(), ELITISM_RATE);
+    [javac]                    ^
+    [javac]   symbol:   class ElitisticListPopulation
+    [javac]   location: class FitnessCachingTest
+    [javac] /home/zach/Downloads/simfix/runnable/patch/bugs/Math/35/src/test/java/org/apache/commons/math3/genetics/GeneticAlgorithmTestBinary.java:90: error: cannot find symbol
+    [javac]         return new ElitisticListPopulation(popList, popList.size(), ELITISM_RATE);
+    [javac]                    ^
+    [javac]   symbol:   class ElitisticListPopulation
+    [javac]   location: class GeneticAlgorithmTestBinary
+    [javac] /home/zach/Downloads/simfix/runnable/patch/bugs/Math/35/src/test/java/org/apache/commons/math3/genetics/GeneticAlgorithmTestPermutations.java:98: error: cannot find symbol
+    [javac]         return new ElitisticListPopulation(popList, popList.size(), ELITISM_RATE);
+    [javac]                    ^
+    [javac]   symbol:   class ElitisticListPopulation
+    [javac]   location: class GeneticAlgorithmTestPermutations
+    [javac] /home/zach/Downloads/simfix/runnable/patch/bugs/Math/35/src/test/java/org/apache/commons/math3/genetics/TournamentSelectionTest.java:29: error: cannot find symbol
+    [javac]         ElitisticListPopulation pop = new ElitisticListPopulation(100, 0.203);
+    [javac]         ^
+    [javac]   symbol:   class ElitisticListPopulation
+    [javac]   location: class TournamentSelectionTest
+    [javac] /home/zach/Downloads/simfix/runnable/patch/bugs/Math/35/src/test/java/org/apache/commons/math3/genetics/TournamentSelectionTest.java:29: error: cannot find symbol
+    [javac]         ElitisticListPopulation pop = new ElitisticListPopulation(100, 0.203);
+    [javac]                                           ^
+    [javac]   symbol:   class ElitisticListPopulation
+    [javac]   location: class TournamentSelectionTest
+    [javac] Note: Some input files use or override a deprecated API.
+    [javac] Note: Recompile with -Xlint:deprecation for details.
+    [javac] Note: /home/zach/Downloads/simfix/runnable/patch/bugs/Math/35/src/test/java/org/apache/commons/math3/PerfTestUtils.java uses unchecked or unsafe operations.
+    [javac] Note: Recompile with -Xlint:unchecked for details.
+    [javac] 20 errors
+
+BUILD FAILED
+/home/zach/Downloads/simfix/runnable/patch/bugs/Math/35/build.xml:180: Compile failed; see the compiler error output for details.
+
+Total time: 2 seconds
+Executed command:  cd /home/zach/Downloads/simfix/runnable/patch/bugs/Math/35 && ant -f /home/zach/Downloads/simfix/d4j/defects4j/framework/projects/defects4j.build.xml -Dd4j.home=/home/zach/Downloads/simfix/d4j/defects4j -Dbasedir=/home/zach/Downloads/simfix/runnable/patch/bugs/Math/35  compile.tests 2>&1
+Cannot compile test suite! at /home/zach/Downloads/simfix/d4j/defects4j/framework/bin/d4j/d4j-test line 134.
+Compilation failed in require at /home/zach/Downloads/simfix/d4j/defects4j/framework/bin/defects4j line 155.
+###################
+
+
+
+./patch.sh: line 16: cd: bugs: No such file or directory
+mkdir: cannot create directory ‘Math’: File exists
+Check out 4ece1884 to /home/zach/Downloads/simfix/runnable/patch/bugs/Math/ OK
+Init local repository...................................................... OK
+Tag post-fix revision...................................................... OK
+Initialize fixed program version........................................... OK
+Apply patch................................................................ OK
+Initialize buggy program version........................................... OK
+Diff 4ece1884:f36be8e8..................................................... OK
+Apply patch................................................................ OK
+Tag pre-fix revision....................................................... OK
+Check out program version: Math-82b........................................ OK
+
+
+
+###################
+Running ant (compile)...................................................... OK
+Running ant (compile.tests)................................................ OK
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - org.apache.commons.math.optimization.linear.SimplexSolverTest::testMath288
+Successfully copied the patched file!
+Running ant (compile)...................................................... OK
+Running ant (compile.tests)................................................ OK
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 0
+###################
+
+
+
+./patch.sh: line 16: cd: bugs: No such file or directory
+mkdir: cannot create directory ‘Math’: File exists
+Check out 3ef79313 to /home/zach/Downloads/simfix/runnable/patch/bugs/Math/ OK
+Init local repository...................................................... OK
+Tag post-fix revision...................................................... OK
+Initialize fixed program version........................................... OK
+Apply patch................................................................ OK
+Initialize buggy program version........................................... OK
+Diff 3ef79313:e5c7e405..................................................... OK
+Apply patch................................................................ OK
+Tag pre-fix revision....................................................... OK
+Check out program version: Math-33b........................................ OK
+
+
+
+###################
+Running ant (compile)...................................................... OK
+Running ant (compile.tests)................................................ OK
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - org.apache.commons.math3.optimization.linear.SimplexSolverTest::testMath781
+Successfully copied the patched file!
+Running ant (compile)...................................................... OK
+Running ant (compile.tests)................................................ OK
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 0
+###################
+
+
+
+./patch.sh: line 16: cd: bugs: No such file or directory
+mkdir: cannot create directory ‘Math’: File exists
+Check out efa9de05 to /home/zach/Downloads/simfix/runnable/patch/bugs/Math/ OK
+Init local repository...................................................... OK
+Tag post-fix revision...................................................... OK
+Initialize fixed program version........................................... OK
+Apply patch................................................................ OK
+Initialize buggy program version........................................... OK
+Diff efa9de05:5a50073d..................................................... OK
+Apply patch................................................................ OK
+Tag pre-fix revision....................................................... OK
+Check out program version: Math-20b........................................ OK
+
+
+
+###################
+Running ant (compile)...................................................... OK
+Running ant (compile.tests)................................................ OK
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - org.apache.commons.math3.optimization.direct.CMAESOptimizerTest::testMath864
+Successfully copied the patched file!
+Running ant (compile)...................................................... OK
+Running ant (compile.tests)................................................ OK
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 0
+###################
+
+
+
+./patch.sh: line 16: cd: bugs: No such file or directory
+mkdir: cannot create directory ‘Math’: File exists
+Check out 196e6317 to /home/zach/Downloads/simfix/runnable/patch/bugs/Math/ OK
+Init local repository...................................................... OK
+Tag post-fix revision...................................................... OK
+Initialize fixed program version........................................... OK
+Apply patch................................................................ OK
+Initialize buggy program version........................................... OK
+Diff 196e6317:55046479..................................................... OK
+Apply patch................................................................ OK
+Tag pre-fix revision....................................................... OK
+Check out program version: Math-8b......................................... OK
+
+
+
+###################
+Running ant (compile)...................................................... OK
+Running ant (compile.tests)................................................ OK
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - org.apache.commons.math3.distribution.DiscreteRealDistributionTest::testIssue942
+Successfully copied the patched file!
+Running ant (compile)...................................................... OK
+Running ant (compile.tests)................................................ OK
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 0
+###################
+
+
+
+./patch.sh: line 16: cd: bugs: No such file or directory
+mkdir: cannot create directory ‘Math’: File exists
+Check out 3ced4f2a to /home/zach/Downloads/simfix/runnable/patch/bugs/Math/ OK
+Init local repository...................................................... OK
+Tag post-fix revision...................................................... OK
+Initialize fixed program version........................................... OK
+Apply patch................................................................ OK
+Initialize buggy program version........................................... OK
+Diff 3ced4f2a:7d903ca5..................................................... OK
+Apply patch................................................................ OK
+Tag pre-fix revision....................................................... OK
+Check out program version: Math-80b........................................ OK
+
+
+
+###################
+Running ant (compile)...................................................... OK
+Running ant (compile.tests)................................................ OK
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - org.apache.commons.math.linear.EigenDecompositionImplTest::testMathpbx02
+Successfully copied the patched file!
+Running ant (compile)...................................................... OK
+Running ant (compile.tests)................................................ OK
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 0
+###################
+
+
+
+./patch.sh: line 16: cd: bugs: No such file or directory
+mkdir: cannot create directory ‘Math’: File exists
+Check out e54a1c92 to /home/zach/Downloads/simfix/runnable/patch/bugs/Math/ OK
+Init local repository...................................................... OK
+Tag post-fix revision...................................................... OK
+Initialize fixed program version........................................... OK
+Apply patch................................................................ OK
+Initialize buggy program version........................................... OK
+Diff e54a1c92:f5bcba81..................................................... OK
+Apply patch................................................................ OK
+Tag pre-fix revision....................................................... OK
+Check out program version: Math-5b......................................... OK
+
+
+
+###################
+Running ant (compile)...................................................... OK
+Running ant (compile.tests)................................................ OK
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - org.apache.commons.math3.complex.ComplexTest::testReciprocalZero
+Successfully copied the patched file!
+Running ant (compile)...................................................... OK
+Running ant (compile.tests)................................................ OK
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 0
+###################
+
+
+
+./patch.sh: line 16: cd: bugs: No such file or directory
+mkdir: cannot create directory ‘Math’: File exists
+Check out 00fea9d8 to /home/zach/Downloads/simfix/runnable/patch/bugs/Math/ OK
+Init local repository...................................................... OK
+Tag post-fix revision...................................................... OK
+Initialize fixed program version........................................... OK
+Apply patch................................................................ OK
+Initialize buggy program version........................................... OK
+Diff 00fea9d8:d3892cb8..................................................... OK
+Apply patch................................................................ OK
+Tag pre-fix revision....................................................... OK
+Check out program version: Math-57b........................................ OK
+
+
+
+###################
+Running ant (compile)...................................................... OK
+Running ant (compile.tests)................................................ OK
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - org.apache.commons.math.stat.clustering.KMeansPlusPlusClustererTest::testSmallDistances
+Successfully copied the patched file!
+Running ant (compile)...................................................... OK
+Running ant (compile.tests)................................................ OK
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 0
+###################
+
+
+
+./patch.sh: line 16: cd: bugs: No such file or directory
+mkdir: cannot create directory ‘Math’: File exists
+Check out 523df0c1 to /home/zach/Downloads/simfix/runnable/patch/bugs/Math/ OK
+Init local repository...................................................... OK
+Tag post-fix revision...................................................... OK
+Initialize fixed program version........................................... OK
+Apply patch................................................................ OK
+Initialize buggy program version........................................... OK
+Diff 523df0c1:39e2ad8a..................................................... OK
+Apply patch................................................................ OK
+Tag pre-fix revision....................................................... OK
+Check out program version: Math-75b........................................ OK
+
+
+
+###################
+Running ant (compile)...................................................... OK
+Running ant (compile.tests)................................................ OK
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - org.apache.commons.math.stat.FrequencyTest::testPcts
+Successfully copied the patched file!
+Running ant (compile)...................................................... OK
+Running ant (compile.tests)................................................ OK
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 0
+###################
+
+
+
+./patch.sh: line 16: cd: bugs: No such file or directory
+mkdir: cannot create directory ‘Math’: File exists
+Check out 882556ea to /home/zach/Downloads/simfix/runnable/patch/bugs/Math/ OK
+Init local repository...................................................... OK
+Tag post-fix revision...................................................... OK
+Initialize fixed program version........................................... OK
+Apply patch................................................................ OK
+Initialize buggy program version........................................... OK
+Diff 882556ea:91e6ac58..................................................... OK
+Apply patch................................................................ OK
+Tag pre-fix revision....................................................... OK
+Check out program version: Math-41b........................................ OK
+
+
+
+###################
+Running ant (compile)...................................................... OK
+Running ant (compile.tests)................................................ OK
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - org.apache.commons.math.stat.descriptive.moment.VarianceTest::testEvaluateArraySegmentWeighted
+Successfully copied the patched file!
+Running ant (compile)...................................................... OK
+Running ant (compile.tests)................................................ OK
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 0
+###################
+
+
+
+./patch.sh: line 16: cd: bugs: No such file or directory
+mkdir: cannot create directory ‘Math’: File exists
+Check out aa09ac7c to /home/zach/Downloads/simfix/runnable/patch/bugs/Math/ OK
+Init local repository...................................................... OK
+Tag post-fix revision...................................................... OK
+Initialize fixed program version........................................... OK
+Apply patch................................................................ OK
+Initialize buggy program version........................................... OK
+Diff aa09ac7c:29c3b75e..................................................... OK
+Apply patch................................................................ OK
+Tag pre-fix revision....................................................... OK
+Check out program version: Math-72b........................................ OK
+
+
+
+###################
+Running ant (compile)...................................................... OK
+Running ant (compile.tests)................................................ OK
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - org.apache.commons.math.analysis.solvers.BrentSolverTest::testRootEndpoints
+Successfully copied the patched file!
+Running ant (compile)...................................................... OK
+Running ant (compile.tests)................................................ OK
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - org.apache.commons.math.analysis.solvers.BrentSolverTest::testRootEndpoints
+###################
+
+
+
+./patch.sh: line 16: cd: bugs: No such file or directory
+mkdir: cannot create directory ‘Math’: File exists
+Check out f41fcd85 to /home/zach/Downloads/simfix/runnable/patch/bugs/Math/ OK
+Init local repository...................................................... OK
+Tag post-fix revision...................................................... OK
+Initialize fixed program version........................................... OK
+Apply patch................................................................ OK
+Initialize buggy program version........................................... OK
+Diff f41fcd85:f184aeb7..................................................... OK
+Apply patch................................................................ OK
+Tag pre-fix revision....................................................... OK
+Check out program version: Math-70b........................................ OK
+
+
+
+###################
+Running ant (compile)...................................................... OK
+Running ant (compile.tests)................................................ OK
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - org.apache.commons.math.analysis.solvers.BisectionSolverTest::testMath369
+Successfully copied the patched file!
+Running ant (compile)...................................................... OK
+Running ant (compile.tests)................................................ OK
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 0
+###################
+
+
+
+./patch.sh: line 16: cd: bugs: No such file or directory
+mkdir: cannot create directory ‘Math’: File exists
+Check out 0da657a6 to /home/zach/Downloads/simfix/runnable/patch/bugs/Math/ OK
+Init local repository...................................................... OK
+Tag post-fix revision...................................................... OK
+Initialize fixed program version........................................... OK
+Apply patch................................................................ OK
+Initialize buggy program version........................................... OK
+Diff 0da657a6:1780da71..................................................... OK
+Apply patch................................................................ OK
+Tag pre-fix revision....................................................... OK
+Check out program version: Math-1b......................................... OK
+
+
+
+###################
+Running ant (compile)...................................................... OK
+Running ant (compile.tests)................................................ OK
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 2
+  - org.apache.commons.math3.fraction.BigFractionTest::testDigitLimitConstructor
+  - org.apache.commons.math3.fraction.FractionTest::testDigitLimitConstructor
+Successfully copied the patched file!
+Running ant (compile)...................................................... OK
+Running ant (compile.tests)................................................ OK
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - org.apache.commons.math3.fraction.FractionTest::testDigitLimitConstructor
+###################
+
+
+
+./patch.sh: line 16: cd: bugs: No such file or directory
+mkdir: cannot create directory ‘Math’: File exists
+Check out 9be86f67 to /home/zach/Downloads/simfix/runnable/patch/bugs/Math/ OK
+Init local repository...................................................... OK
+Tag post-fix revision...................................................... OK
+Initialize fixed program version........................................... OK
+Apply patch................................................................ OK
+Initialize buggy program version........................................... OK
+Diff 9be86f67:8de8a3b6..................................................... OK
+Apply patch................................................................ OK
+Tag pre-fix revision....................................................... OK
+Check out program version: Math-85b........................................ OK
+
+
+
+###################
+Running ant (compile)...................................................... OK
+Running ant (compile.tests)................................................ OK
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - org.apache.commons.math.distribution.NormalDistributionTest::testMath280
+Successfully copied the patched file!
+Running ant (compile)...................................................... OK
+Running ant (compile.tests)................................................ OK
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 0
+###################
+
+
+
+./patch.sh: line 16: cd: bugs: No such file or directory
+mkdir: cannot create directory ‘Math’: File exists
+Check out 6537e18a to /home/zach/Downloads/simfix/runnable/patch/bugs/Math/ OK
+Init local repository...................................................... OK
+Tag post-fix revision...................................................... OK
+Initialize fixed program version........................................... OK
+Apply patch................................................................ OK
+Initialize buggy program version........................................... OK
+Diff 6537e18a:fa959ca8..................................................... OK
+Apply patch................................................................ OK
+Tag pre-fix revision....................................................... OK
+Check out program version: Math-71b........................................ OK
+
+
+
+###################
+Running ant (compile)...................................................... OK
+Running ant (compile.tests)................................................ OK
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 2
+  - org.apache.commons.math.ode.nonstiff.ClassicalRungeKuttaIntegratorTest::testMissedEndEvent
+  - org.apache.commons.math.ode.nonstiff.DormandPrince853IntegratorTest::testMissedEndEvent
+Successfully copied the patched file!
+Running ant (compile)...................................................... OK
+Running ant (compile.tests)................................................ OK
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - org.apache.commons.math.ode.nonstiff.DormandPrince853IntegratorTest::testMissedEndEvent
+###################
+
+
+
+./patch.sh: line 16: cd: bugs: No such file or directory
+mkdir: cannot create directory ‘Math’: File exists
+mkdir: cannot create directory ‘71’: File exists
+Check out program version: Math-71b........................................ OK
+
+
+
+###################
+Running ant (compile)...................................................... FAIL
+Buildfile: /home/zach/Downloads/simfix/d4j/defects4j/framework/projects/defects4j.build.xml
+
+init:
+     [echo] -------- Commons MATH 2.1 --------
+    [mkdir] Created dir: /home/zach/Downloads/simfix/runnable/patch/bugs/Math/71/target
+    [mkdir] Created dir: /home/zach/Downloads/simfix/runnable/patch/bugs/Math/71/target/classes
+    [mkdir] Created dir: /home/zach/Downloads/simfix/runnable/patch/bugs/Math/71/target/test-classes
+
+compile:
+    [javac] /home/zach/Downloads/simfix/runnable/patch/bugs/Math/71/build.xml:154: warning: 'includeantruntime' was not set, defaulting to build.sysclasspath=last; set to false for repeatable builds
+    [javac] Compiling 407 source files to /home/zach/Downloads/simfix/runnable/patch/bugs/Math/71/target/classes
+    [javac] warning: [options] bootstrap class path not set in conjunction with -source 1.5
+    [javac] /home/zach/Downloads/simfix/runnable/patch/bugs/Math/71/src/main/java/org/apache/commons/math/ode/nonstiff/ClassicalRungeKuttaIntegrator.java:46: error: cannot find symbol
+    [javac] public class ClassicalRungeKuttaIntegrator extends RungeKuttaIntegrator {
+    [javac]                                                    ^
+    [javac]   symbol: class RungeKuttaIntegrator
+    [javac] /home/zach/Downloads/simfix/runnable/patch/bugs/Math/71/src/main/java/org/apache/commons/math/ode/nonstiff/EulerIntegrator.java:49: error: cannot find symbol
+    [javac] public class EulerIntegrator extends RungeKuttaIntegrator {
+    [javac]                                      ^
+    [javac]   symbol: class RungeKuttaIntegrator
+    [javac] /home/zach/Downloads/simfix/runnable/patch/bugs/Math/71/src/main/java/org/apache/commons/math/ode/nonstiff/GillIntegrator.java:45: error: cannot find symbol
+    [javac] public class GillIntegrator extends RungeKuttaIntegrator {
+    [javac]                                     ^
+    [javac]   symbol: class RungeKuttaIntegrator
+    [javac] /home/zach/Downloads/simfix/runnable/patch/bugs/Math/71/src/main/java/org/apache/commons/math/ode/nonstiff/MidpointIntegrator.java:43: error: cannot find symbol
+    [javac] public class MidpointIntegrator extends RungeKuttaIntegrator {
+    [javac]                                         ^
+    [javac]   symbol: class RungeKuttaIntegrator
+    [javac] /home/zach/Downloads/simfix/runnable/patch/bugs/Math/71/src/main/java/org/apache/commons/math/ode/nonstiff/ThreeEighthesIntegrator.java:45: error: cannot find symbol
+    [javac] public class ThreeEighthesIntegrator extends RungeKuttaIntegrator {
+    [javac]                                              ^
+    [javac]   symbol: class RungeKuttaIntegrator
+    [javac] Note: Some input files use or override a deprecated API.
+    [javac] Note: Recompile with -Xlint:deprecation for details.
+    [javac] Note: /home/zach/Downloads/simfix/runnable/patch/bugs/Math/71/src/main/java/org/apache/commons/math/stat/Frequency.java uses unchecked or unsafe operations.
+    [javac] Note: Recompile with -Xlint:unchecked for details.
+    [javac] 5 errors
+    [javac] 1 warning
+
+BUILD FAILED
+/home/zach/Downloads/simfix/runnable/patch/bugs/Math/71/build.xml:154: Compile failed; see the compiler error output for details.
+
+Total time: 2 seconds
+Executed command:  cd /home/zach/Downloads/simfix/runnable/patch/bugs/Math/71 && ant -f /home/zach/Downloads/simfix/d4j/defects4j/framework/projects/defects4j.build.xml -Dd4j.home=/home/zach/Downloads/simfix/d4j/defects4j -Dbasedir=/home/zach/Downloads/simfix/runnable/patch/bugs/Math/71  compile 2>&1
+Cannot compile sources! at /home/zach/Downloads/simfix/d4j/defects4j/framework/bin/d4j/d4j-compile line 82.
+Compilation failed in require at /home/zach/Downloads/simfix/d4j/defects4j/framework/bin/defects4j line 155.
+Running ant (compile.tests)................................................ FAIL
+Buildfile: /home/zach/Downloads/simfix/d4j/defects4j/framework/projects/defects4j.build.xml
+
+init:
+     [echo] -------- Commons MATH 2.1 --------
+
+compile:
+    [javac] /home/zach/Downloads/simfix/runnable/patch/bugs/Math/71/build.xml:154: warning: 'includeantruntime' was not set, defaulting to build.sysclasspath=last; set to false for repeatable builds
+    [javac] Compiling 407 source files to /home/zach/Downloads/simfix/runnable/patch/bugs/Math/71/target/classes
+    [javac] warning: [options] bootstrap class path not set in conjunction with -source 1.5
+    [javac] /home/zach/Downloads/simfix/runnable/patch/bugs/Math/71/src/main/java/org/apache/commons/math/ode/nonstiff/ClassicalRungeKuttaIntegrator.java:46: error: cannot find symbol
+    [javac] public class ClassicalRungeKuttaIntegrator extends RungeKuttaIntegrator {
+    [javac]                                                    ^
+    [javac]   symbol: class RungeKuttaIntegrator
+    [javac] /home/zach/Downloads/simfix/runnable/patch/bugs/Math/71/src/main/java/org/apache/commons/math/ode/nonstiff/EulerIntegrator.java:49: error: cannot find symbol
+    [javac] public class EulerIntegrator extends RungeKuttaIntegrator {
+    [javac]                                      ^
+    [javac]   symbol: class RungeKuttaIntegrator
+    [javac] /home/zach/Downloads/simfix/runnable/patch/bugs/Math/71/src/main/java/org/apache/commons/math/ode/nonstiff/GillIntegrator.java:45: error: cannot find symbol
+    [javac] public class GillIntegrator extends RungeKuttaIntegrator {
+    [javac]                                     ^
+    [javac]   symbol: class RungeKuttaIntegrator
+    [javac] /home/zach/Downloads/simfix/runnable/patch/bugs/Math/71/src/main/java/org/apache/commons/math/ode/nonstiff/MidpointIntegrator.java:43: error: cannot find symbol
+    [javac] public class MidpointIntegrator extends RungeKuttaIntegrator {
+    [javac]                                         ^
+    [javac]   symbol: class RungeKuttaIntegrator
+    [javac] /home/zach/Downloads/simfix/runnable/patch/bugs/Math/71/src/main/java/org/apache/commons/math/ode/nonstiff/ThreeEighthesIntegrator.java:45: error: cannot find symbol
+    [javac] public class ThreeEighthesIntegrator extends RungeKuttaIntegrator {
+    [javac]                                              ^
+    [javac]   symbol: class RungeKuttaIntegrator
+    [javac] Note: Some input files use or override a deprecated API.
+    [javac] Note: Recompile with -Xlint:deprecation for details.
+    [javac] Note: /home/zach/Downloads/simfix/runnable/patch/bugs/Math/71/src/main/java/org/apache/commons/math/stat/Frequency.java uses unchecked or unsafe operations.
+    [javac] Note: Recompile with -Xlint:unchecked for details.
+    [javac] 5 errors
+    [javac] 1 warning
+
+BUILD FAILED
+/home/zach/Downloads/simfix/runnable/patch/bugs/Math/71/build.xml:154: Compile failed; see the compiler error output for details.
+
+Total time: 2 seconds
+Executed command:  cd /home/zach/Downloads/simfix/runnable/patch/bugs/Math/71 && ant -f /home/zach/Downloads/simfix/d4j/defects4j/framework/projects/defects4j.build.xml -Dd4j.home=/home/zach/Downloads/simfix/d4j/defects4j -Dbasedir=/home/zach/Downloads/simfix/runnable/patch/bugs/Math/71  compile.tests 2>&1
+Cannot compile test suite! at /home/zach/Downloads/simfix/d4j/defects4j/framework/bin/d4j/d4j-test line 134.
+Compilation failed in require at /home/zach/Downloads/simfix/d4j/defects4j/framework/bin/defects4j line 155.
+Successfully copied the patched file!
+Running ant (compile)...................................................... FAIL
+Buildfile: /home/zach/Downloads/simfix/d4j/defects4j/framework/projects/defects4j.build.xml
+
+init:
+     [echo] -------- Commons MATH 2.1 --------
+
+compile:
+    [javac] /home/zach/Downloads/simfix/runnable/patch/bugs/Math/71/build.xml:154: warning: 'includeantruntime' was not set, defaulting to build.sysclasspath=last; set to false for repeatable builds
+    [javac] Compiling 407 source files to /home/zach/Downloads/simfix/runnable/patch/bugs/Math/71/target/classes
+    [javac] warning: [options] bootstrap class path not set in conjunction with -source 1.5
+    [javac] /home/zach/Downloads/simfix/runnable/patch/bugs/Math/71/src/main/java/org/apache/commons/math/ode/nonstiff/ClassicalRungeKuttaIntegrator.java:46: error: cannot find symbol
+    [javac] public class ClassicalRungeKuttaIntegrator extends RungeKuttaIntegrator {
+    [javac]                                                    ^
+    [javac]   symbol: class RungeKuttaIntegrator
+    [javac] /home/zach/Downloads/simfix/runnable/patch/bugs/Math/71/src/main/java/org/apache/commons/math/ode/nonstiff/EulerIntegrator.java:49: error: cannot find symbol
+    [javac] public class EulerIntegrator extends RungeKuttaIntegrator {
+    [javac]                                      ^
+    [javac]   symbol: class RungeKuttaIntegrator
+    [javac] /home/zach/Downloads/simfix/runnable/patch/bugs/Math/71/src/main/java/org/apache/commons/math/ode/nonstiff/GillIntegrator.java:45: error: cannot find symbol
+    [javac] public class GillIntegrator extends RungeKuttaIntegrator {
+    [javac]                                     ^
+    [javac]   symbol: class RungeKuttaIntegrator
+    [javac] /home/zach/Downloads/simfix/runnable/patch/bugs/Math/71/src/main/java/org/apache/commons/math/ode/nonstiff/MidpointIntegrator.java:43: error: cannot find symbol
+    [javac] public class MidpointIntegrator extends RungeKuttaIntegrator {
+    [javac]                                         ^
+    [javac]   symbol: class RungeKuttaIntegrator
+    [javac] /home/zach/Downloads/simfix/runnable/patch/bugs/Math/71/src/main/java/org/apache/commons/math/ode/nonstiff/ThreeEighthesIntegrator.java:45: error: cannot find symbol
+    [javac] public class ThreeEighthesIntegrator extends RungeKuttaIntegrator {
+    [javac]                                              ^
+    [javac]   symbol: class RungeKuttaIntegrator
+    [javac] Note: Some input files use or override a deprecated API.
+    [javac] Note: Recompile with -Xlint:deprecation for details.
+    [javac] Note: /home/zach/Downloads/simfix/runnable/patch/bugs/Math/71/src/main/java/org/apache/commons/math/stat/Frequency.java uses unchecked or unsafe operations.
+    [javac] Note: Recompile with -Xlint:unchecked for details.
+    [javac] 5 errors
+    [javac] 1 warning
+
+BUILD FAILED
+/home/zach/Downloads/simfix/runnable/patch/bugs/Math/71/build.xml:154: Compile failed; see the compiler error output for details.
+
+Total time: 2 seconds
+Executed command:  cd /home/zach/Downloads/simfix/runnable/patch/bugs/Math/71 && ant -f /home/zach/Downloads/simfix/d4j/defects4j/framework/projects/defects4j.build.xml -Dd4j.home=/home/zach/Downloads/simfix/d4j/defects4j -Dbasedir=/home/zach/Downloads/simfix/runnable/patch/bugs/Math/71  compile 2>&1
+Cannot compile sources! at /home/zach/Downloads/simfix/d4j/defects4j/framework/bin/d4j/d4j-compile line 82.
+Compilation failed in require at /home/zach/Downloads/simfix/d4j/defects4j/framework/bin/defects4j line 155.
+Running ant (compile.tests)................................................ FAIL
+Buildfile: /home/zach/Downloads/simfix/d4j/defects4j/framework/projects/defects4j.build.xml
+
+init:
+     [echo] -------- Commons MATH 2.1 --------
+
+compile:
+    [javac] /home/zach/Downloads/simfix/runnable/patch/bugs/Math/71/build.xml:154: warning: 'includeantruntime' was not set, defaulting to build.sysclasspath=last; set to false for repeatable builds
+    [javac] Compiling 407 source files to /home/zach/Downloads/simfix/runnable/patch/bugs/Math/71/target/classes
+    [javac] warning: [options] bootstrap class path not set in conjunction with -source 1.5
+    [javac] /home/zach/Downloads/simfix/runnable/patch/bugs/Math/71/src/main/java/org/apache/commons/math/ode/nonstiff/ClassicalRungeKuttaIntegrator.java:46: error: cannot find symbol
+    [javac] public class ClassicalRungeKuttaIntegrator extends RungeKuttaIntegrator {
+    [javac]                                                    ^
+    [javac]   symbol: class RungeKuttaIntegrator
+    [javac] /home/zach/Downloads/simfix/runnable/patch/bugs/Math/71/src/main/java/org/apache/commons/math/ode/nonstiff/EulerIntegrator.java:49: error: cannot find symbol
+    [javac] public class EulerIntegrator extends RungeKuttaIntegrator {
+    [javac]                                      ^
+    [javac]   symbol: class RungeKuttaIntegrator
+    [javac] /home/zach/Downloads/simfix/runnable/patch/bugs/Math/71/src/main/java/org/apache/commons/math/ode/nonstiff/GillIntegrator.java:45: error: cannot find symbol
+    [javac] public class GillIntegrator extends RungeKuttaIntegrator {
+    [javac]                                     ^
+    [javac]   symbol: class RungeKuttaIntegrator
+    [javac] /home/zach/Downloads/simfix/runnable/patch/bugs/Math/71/src/main/java/org/apache/commons/math/ode/nonstiff/MidpointIntegrator.java:43: error: cannot find symbol
+    [javac] public class MidpointIntegrator extends RungeKuttaIntegrator {
+    [javac]                                         ^
+    [javac]   symbol: class RungeKuttaIntegrator
+    [javac] /home/zach/Downloads/simfix/runnable/patch/bugs/Math/71/src/main/java/org/apache/commons/math/ode/nonstiff/ThreeEighthesIntegrator.java:45: error: cannot find symbol
+    [javac] public class ThreeEighthesIntegrator extends RungeKuttaIntegrator {
+    [javac]                                              ^
+    [javac]   symbol: class RungeKuttaIntegrator
+    [javac] Note: Some input files use or override a deprecated API.
+    [javac] Note: Recompile with -Xlint:deprecation for details.
+    [javac] Note: /home/zach/Downloads/simfix/runnable/patch/bugs/Math/71/src/main/java/org/apache/commons/math/stat/Frequency.java uses unchecked or unsafe operations.
+    [javac] Note: Recompile with -Xlint:unchecked for details.
+    [javac] 5 errors
+    [javac] 1 warning
+
+BUILD FAILED
+/home/zach/Downloads/simfix/runnable/patch/bugs/Math/71/build.xml:154: Compile failed; see the compiler error output for details.
+
+Total time: 2 seconds
+Executed command:  cd /home/zach/Downloads/simfix/runnable/patch/bugs/Math/71 && ant -f /home/zach/Downloads/simfix/d4j/defects4j/framework/projects/defects4j.build.xml -Dd4j.home=/home/zach/Downloads/simfix/d4j/defects4j -Dbasedir=/home/zach/Downloads/simfix/runnable/patch/bugs/Math/71  compile.tests 2>&1
+Cannot compile test suite! at /home/zach/Downloads/simfix/d4j/defects4j/framework/bin/d4j/d4j-test line 134.
+Compilation failed in require at /home/zach/Downloads/simfix/d4j/defects4j/framework/bin/defects4j line 155.
+###################
+
+
+
+./patch.sh: line 16: cd: bugs: No such file or directory
+mkdir: cannot create directory ‘Math’: File exists
+Check out 419a052c to /home/zach/Downloads/simfix/runnable/patch/bugs/Math/ OK
+Init local repository...................................................... OK
+Tag post-fix revision...................................................... OK
+Initialize fixed program version........................................... OK
+Apply patch................................................................ OK
+Initialize buggy program version........................................... OK
+Diff 419a052c:6c9d06a6..................................................... OK
+Apply patch................................................................ OK
+Tag pre-fix revision....................................................... OK
+Check out program version: Math-6b......................................... OK
+
+
+
+###################
+Running ant (compile)...................................................... OK
+Running ant (compile.tests)................................................ OK
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 28
+  - org.apache.commons.math3.optim.nonlinear.scalar.gradient.NonLinearConjugateGradientOptimizerTest::testTrivial
+  - org.apache.commons.math3.optim.nonlinear.scalar.noderiv.CMAESOptimizerTest::testConstrainedRosen
+  - org.apache.commons.math3.optim.nonlinear.scalar.noderiv.CMAESOptimizerTest::testElliRotated
+  - org.apache.commons.math3.optim.nonlinear.scalar.noderiv.CMAESOptimizerTest::testEllipse
+  - org.apache.commons.math3.optim.nonlinear.scalar.noderiv.CMAESOptimizerTest::testTwoAxes
+  - org.apache.commons.math3.optim.nonlinear.scalar.noderiv.CMAESOptimizerTest::testCigar
+  - org.apache.commons.math3.optim.nonlinear.scalar.noderiv.CMAESOptimizerTest::testRosen
+  - org.apache.commons.math3.optim.nonlinear.scalar.noderiv.CMAESOptimizerTest::testRastrigin
+  - org.apache.commons.math3.optim.nonlinear.scalar.noderiv.CMAESOptimizerTest::testDiagonalRosen
+  - org.apache.commons.math3.optim.nonlinear.scalar.noderiv.CMAESOptimizerTest::testSsDiffPow
+  - org.apache.commons.math3.optim.nonlinear.scalar.noderiv.CMAESOptimizerTest::testMaximize
+  - org.apache.commons.math3.optim.nonlinear.scalar.noderiv.CMAESOptimizerTest::testAckley
+  - org.apache.commons.math3.optim.nonlinear.scalar.noderiv.CMAESOptimizerTest::testCigTab
+  - org.apache.commons.math3.optim.nonlinear.scalar.noderiv.CMAESOptimizerTest::testDiffPow
+  - org.apache.commons.math3.optim.nonlinear.scalar.noderiv.CMAESOptimizerTest::testSphere
+  - org.apache.commons.math3.optim.nonlinear.scalar.noderiv.CMAESOptimizerTest::testTablet
+  - org.apache.commons.math3.optim.nonlinear.scalar.noderiv.CMAESOptimizerTest::testCigarWithBoundaries
+  - org.apache.commons.math3.optim.nonlinear.scalar.noderiv.PowellOptimizerTest::testSumSinc
+  - org.apache.commons.math3.optim.nonlinear.scalar.noderiv.SimplexOptimizerMultiDirectionalTest::testMaximize1
+  - org.apache.commons.math3.optim.nonlinear.scalar.noderiv.SimplexOptimizerMultiDirectionalTest::testMaximize2
+  - org.apache.commons.math3.optim.nonlinear.scalar.noderiv.SimplexOptimizerMultiDirectionalTest::testMinimize1
+  - org.apache.commons.math3.optim.nonlinear.scalar.noderiv.SimplexOptimizerMultiDirectionalTest::testMinimize2
+  - org.apache.commons.math3.optim.nonlinear.scalar.noderiv.SimplexOptimizerNelderMeadTest::testMaximize1
+  - org.apache.commons.math3.optim.nonlinear.scalar.noderiv.SimplexOptimizerNelderMeadTest::testMaximize2
+  - org.apache.commons.math3.optim.nonlinear.scalar.noderiv.SimplexOptimizerNelderMeadTest::testMinimize1
+  - org.apache.commons.math3.optim.nonlinear.scalar.noderiv.SimplexOptimizerNelderMeadTest::testMinimize2
+  - org.apache.commons.math3.optim.nonlinear.vector.jacobian.GaussNewtonOptimizerTest::testGetIterations
+  - org.apache.commons.math3.optim.nonlinear.vector.jacobian.LevenbergMarquardtOptimizerTest::testGetIterations
+Successfully copied the patched file!
+Running ant (compile)...................................................... OK
+Running ant (compile.tests)................................................ OK
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 0
+###################
+
+
+
+./patch.sh: line 16: cd: bugs: No such file or directory
+mkdir: cannot create directory ‘Math’: File exists
+Check out 24a6a269 to /home/zach/Downloads/simfix/runnable/patch/bugs/Math/ OK
+Init local repository...................................................... OK
+Tag post-fix revision...................................................... OK
+Initialize fixed program version........................................... OK
+Apply patch................................................................ OK
+Initialize buggy program version........................................... OK
+Diff 24a6a269:1b48dbab..................................................... OK
+Apply patch................................................................ OK
+Tag pre-fix revision....................................................... OK
+Check out program version: Math-88b........................................ OK
+
+
+
+###################
+Running ant (compile)...................................................... OK
+Running ant (compile.tests)................................................ OK
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - org.apache.commons.math.optimization.linear.SimplexSolverTest::testMath272
+Successfully copied the patched file!
+Running ant (compile)...................................................... OK
+Running ant (compile.tests)................................................ OK
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 0
+###################
+
+
+
+./patch.sh: line 16: cd: bugs: No such file or directory
+mkdir: cannot create directory ‘Math’: File exists
+Check out 39cf5e69 to /home/zach/Downloads/simfix/runnable/patch/bugs/Math/ OK
+Init local repository...................................................... OK
+Tag post-fix revision...................................................... OK
+Initialize fixed program version........................................... OK
+Apply patch................................................................ OK
+Initialize buggy program version........................................... OK
+Diff 39cf5e69:ef028845..................................................... OK
+Apply patch................................................................ OK
+Tag pre-fix revision....................................................... OK
+Check out program version: Math-50b........................................ OK
+
+
+
+###################
+Running ant (compile)...................................................... OK
+Running ant (compile.tests)................................................ OK
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - org.apache.commons.math.analysis.solvers.RegulaFalsiSolverTest::testIssue631
+Successfully copied the patched file!
+Running ant (compile)...................................................... OK
+Running ant (compile.tests)................................................ OK
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 0
+###################
+
+
+
+./patch.sh: line 16: cd: bugs: No such file or directory
+mkdir: cannot create directory ‘Math’: File exists
+Check out d3fc5af3 to /home/zach/Downloads/simfix/runnable/patch/bugs/Math/ OK
+Init local repository...................................................... OK
+Tag post-fix revision...................................................... OK
+Initialize fixed program version........................................... OK
+Apply patch................................................................ OK
+Initialize buggy program version........................................... OK
+Diff d3fc5af3:a55c951a..................................................... OK
+Apply patch................................................................ OK
+Tag pre-fix revision....................................................... OK
+Check out program version: Math-28b........................................ OK
+
+
+
+###################
+Running ant (compile)...................................................... OK
+Running ant (compile.tests)................................................ OK
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - org.apache.commons.math3.optimization.linear.SimplexSolverTest::testMath828Cycle
+Successfully copied the patched file!
+Running ant (compile)...................................................... OK
+Running ant (compile.tests)................................................ OK
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 0
+###################
+
+
+
+./patch.sh: line 16: cd: bugs: No such file or directory
+mkdir: cannot create directory ‘Math’: File exists
+Check out a0f3e043 to /home/zach/Downloads/simfix/runnable/patch/bugs/Math/ OK
+Init local repository...................................................... OK
+Tag post-fix revision...................................................... OK
+Initialize fixed program version........................................... OK
+Apply patch................................................................ OK
+Initialize buggy program version........................................... OK
+Diff a0f3e043:26cf6d54..................................................... OK
+Apply patch................................................................ OK
+Tag pre-fix revision....................................................... OK
+Check out program version: Math-98b........................................ OK
+
+
+
+###################
+Running ant (compile)...................................................... OK
+Running ant (compile.tests)................................................ OK
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 2
+  - org.apache.commons.math.linear.BigMatrixImplTest::testMath209
+  - org.apache.commons.math.linear.RealMatrixImplTest::testMath209
+Successfully copied the patched file!
+Running ant (compile)...................................................... OK
+Running ant (compile.tests)................................................ OK
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - org.apache.commons.math.linear.BigMatrixImplTest::testMath209
+###################
+
+
+
+./patch.sh: line 16: cd: bugs: No such file or directory
+mkdir: cannot create directory ‘Math’: File exists
+mkdir: cannot create directory ‘98’: File exists
+Check out program version: Math-98b........................................ OK
+
+
+
+###################
+Running ant (compile)...................................................... FAIL
+Buildfile: /home/zach/Downloads/simfix/d4j/defects4j/framework/projects/defects4j.build.xml
+
+init:
+    [mkdir] Created dir: /home/zach/Downloads/simfix/runnable/patch/bugs/Math/98/target/lib
+
+get-deps:
+
+compile:
+    [mkdir] Created dir: /home/zach/Downloads/simfix/runnable/patch/bugs/Math/98/target/classes
+    [javac] /home/zach/Downloads/simfix/runnable/patch/bugs/Math/98/build.xml:46: warning: 'includeantruntime' was not set, defaulting to build.sysclasspath=last; set to false for repeatable builds
+    [javac] Compiling 230 source files to /home/zach/Downloads/simfix/runnable/patch/bugs/Math/98/target/classes
+    [javac] /home/zach/Downloads/simfix/runnable/patch/bugs/Math/98/src/java/org/apache/commons/math/estimation/AbstractEstimator.java:23: error: cannot find symbol
+    [javac] import org.apache.commons.math.linear.RealMatrixImpl;
+    [javac]                                      ^
+    [javac]   symbol:   class RealMatrixImpl
+    [javac]   location: package org.apache.commons.math.linear
+    [javac] /home/zach/Downloads/simfix/runnable/patch/bugs/Math/98/src/java/org/apache/commons/math/estimation/GaussNewtonEstimator.java:24: error: cannot find symbol
+    [javac] import org.apache.commons.math.linear.RealMatrixImpl;
+    [javac]                                      ^
+    [javac]   symbol:   class RealMatrixImpl
+    [javac]   location: package org.apache.commons.math.linear
+    [javac] /home/zach/Downloads/simfix/runnable/patch/bugs/Math/98/src/java/org/apache/commons/math/random/CorrelatedRandomVectorGenerator.java:22: error: cannot find symbol
+    [javac] import org.apache.commons.math.linear.RealMatrixImpl;
+    [javac]                                      ^
+    [javac]   symbol:   class RealMatrixImpl
+    [javac]   location: package org.apache.commons.math.linear
+    [javac] /home/zach/Downloads/simfix/runnable/patch/bugs/Math/98/src/java/org/apache/commons/math/random/CorrelatedRandomVectorGenerator.java:289: error: cannot find symbol
+    [javac]     private RealMatrixImpl root;
+    [javac]             ^
+    [javac]   symbol:   class RealMatrixImpl
+    [javac]   location: class CorrelatedRandomVectorGenerator
+    [javac] /home/zach/Downloads/simfix/runnable/patch/bugs/Math/98/src/java/org/apache/commons/math/stat/descriptive/moment/VectorialCovariance.java:24: error: cannot find symbol
+    [javac] import org.apache.commons.math.linear.RealMatrixImpl;
+    [javac]                                      ^
+    [javac]   symbol:   class RealMatrixImpl
+    [javac]   location: package org.apache.commons.math.linear
+    [javac] /home/zach/Downloads/simfix/runnable/patch/bugs/Math/98/src/java/org/apache/commons/math/stat/regression/AbstractMultipleLinearRegression.java:20: error: cannot find symbol
+    [javac] import org.apache.commons.math.linear.RealMatrixImpl;
+    [javac]                                      ^
+    [javac]   symbol:   class RealMatrixImpl
+    [javac]   location: package org.apache.commons.math.linear
+    [javac] /home/zach/Downloads/simfix/runnable/patch/bugs/Math/98/src/java/org/apache/commons/math/stat/regression/GLSMultipleLinearRegression.java:20: error: cannot find symbol
+    [javac] import org.apache.commons.math.linear.RealMatrixImpl;
+    [javac]                                      ^
+    [javac]   symbol:   class RealMatrixImpl
+    [javac]   location: package org.apache.commons.math.linear
+    [javac] /home/zach/Downloads/simfix/runnable/patch/bugs/Math/98/src/java/org/apache/commons/math/estimation/AbstractEstimator.java:182: error: cannot find symbol
+    [javac]             return ((RealMatrixImpl) new RealMatrixImpl(jTj, false).inverse()).getDataRef();
+    [javac]                      ^
+    [javac]   symbol:   class RealMatrixImpl
+    [javac]   location: class AbstractEstimator
+    [javac] /home/zach/Downloads/simfix/runnable/patch/bugs/Math/98/src/java/org/apache/commons/math/estimation/AbstractEstimator.java:182: error: cannot find symbol
+    [javac]             return ((RealMatrixImpl) new RealMatrixImpl(jTj, false).inverse()).getDataRef();
+    [javac]                                          ^
+    [javac]   symbol:   class RealMatrixImpl
+    [javac]   location: class AbstractEstimator
+    [javac] /home/zach/Downloads/simfix/runnable/patch/bugs/Math/98/src/java/org/apache/commons/math/estimation/GaussNewtonEstimator.java:109: error: cannot find symbol
+    [javac]         RealMatrixImpl bDecrement = new RealMatrixImpl(parameters.length, 1);
+    [javac]         ^
+    [javac]   symbol:   class RealMatrixImpl
+    [javac]   location: class GaussNewtonEstimator
+    [javac] /home/zach/Downloads/simfix/runnable/patch/bugs/Math/98/src/java/org/apache/commons/math/estimation/GaussNewtonEstimator.java:109: error: cannot find symbol
+    [javac]         RealMatrixImpl bDecrement = new RealMatrixImpl(parameters.length, 1);
+    [javac]                                         ^
+    [javac]   symbol:   class RealMatrixImpl
+    [javac]   location: class GaussNewtonEstimator
+    [javac] /home/zach/Downloads/simfix/runnable/patch/bugs/Math/98/src/java/org/apache/commons/math/estimation/GaussNewtonEstimator.java:111: error: cannot find symbol
+    [javac]         RealMatrixImpl wGradGradT = new RealMatrixImpl(parameters.length, parameters.length);
+    [javac]         ^
+    [javac]   symbol:   class RealMatrixImpl
+    [javac]   location: class GaussNewtonEstimator
+    [javac] /home/zach/Downloads/simfix/runnable/patch/bugs/Math/98/src/java/org/apache/commons/math/estimation/GaussNewtonEstimator.java:111: error: cannot find symbol
+    [javac]         RealMatrixImpl wGradGradT = new RealMatrixImpl(parameters.length, parameters.length);
+    [javac]                                         ^
+    [javac]   symbol:   class RealMatrixImpl
+    [javac]   location: class GaussNewtonEstimator
+    [javac] /home/zach/Downloads/simfix/runnable/patch/bugs/Math/98/src/java/org/apache/commons/math/estimation/GaussNewtonEstimator.java:120: error: cannot find symbol
+    [javac]             RealMatrix b = new RealMatrixImpl(parameters.length, 1);
+    [javac]                                ^
+    [javac]   symbol:   class RealMatrixImpl
+    [javac]   location: class GaussNewtonEstimator
+    [javac] /home/zach/Downloads/simfix/runnable/patch/bugs/Math/98/src/java/org/apache/commons/math/estimation/GaussNewtonEstimator.java:121: error: cannot find symbol
+    [javac]             RealMatrix a = new RealMatrixImpl(parameters.length, parameters.length);
+    [javac]                                ^
+    [javac]   symbol:   class RealMatrixImpl
+    [javac]   location: class GaussNewtonEstimator
+    [javac] /home/zach/Downloads/simfix/runnable/patch/bugs/Math/98/src/java/org/apache/commons/math/linear/MatrixUtils.java:49: error: cannot find symbol
+    [javac]         return new RealMatrixImpl(data);
+    [javac]                    ^
+    [javac]   symbol:   class RealMatrixImpl
+    [javac]   location: class MatrixUtils
+    [javac] /home/zach/Downloads/simfix/runnable/patch/bugs/Math/98/src/java/org/apache/commons/math/linear/MatrixUtils.java:69: error: cannot find symbol
+    [javac]         return new RealMatrixImpl(data, copyArray);
+    [javac]                    ^
+    [javac]   symbol:   class RealMatrixImpl
+    [javac]   location: class MatrixUtils
+    [javac] /home/zach/Downloads/simfix/runnable/patch/bugs/Math/98/src/java/org/apache/commons/math/linear/MatrixUtils.java:85: error: cannot find symbol
+    [javac]         return new RealMatrixImpl(d, false);
+    [javac]                    ^
+    [javac]   symbol:   class RealMatrixImpl
+    [javac]   location: class MatrixUtils
+    [javac] /home/zach/Downloads/simfix/runnable/patch/bugs/Math/98/src/java/org/apache/commons/math/linear/MatrixUtils.java:163: error: cannot find symbol
+    [javac]         return new RealMatrixImpl(data, false);
+    [javac]                    ^
+    [javac]   symbol:   class RealMatrixImpl
+    [javac]   location: class MatrixUtils
+    [javac] /home/zach/Downloads/simfix/runnable/patch/bugs/Math/98/src/java/org/apache/commons/math/linear/MatrixUtils.java:233: error: cannot find symbol
+    [javac]         return new RealMatrixImpl(data, false);
+    [javac]                    ^
+    [javac]   symbol:   class RealMatrixImpl
+    [javac]   location: class MatrixUtils
+    [javac] /home/zach/Downloads/simfix/runnable/patch/bugs/Math/98/src/java/org/apache/commons/math/linear/QRDecompositionImpl.java:140: error: cannot find symbol
+    [javac]         RealMatrixImpl ret = new RealMatrixImpl(m,n);
+    [javac]         ^
+    [javac]   symbol:   class RealMatrixImpl
+    [javac]   location: class QRDecompositionImpl
+    [javac] /home/zach/Downloads/simfix/runnable/patch/bugs/Math/98/src/java/org/apache/commons/math/linear/QRDecompositionImpl.java:140: error: cannot find symbol
+    [javac]         RealMatrixImpl ret = new RealMatrixImpl(m,n);
+    [javac]                                  ^
+    [javac]   symbol:   class RealMatrixImpl
+    [javac]   location: class QRDecompositionImpl
+    [javac] /home/zach/Downloads/simfix/runnable/patch/bugs/Math/98/src/java/org/apache/commons/math/linear/QRDecompositionImpl.java:161: error: cannot find symbol
+    [javac]         RealMatrixImpl ret = new RealMatrixImpl(m,m);
+    [javac]         ^
+    [javac]   symbol:   class RealMatrixImpl
+    [javac]   location: class QRDecompositionImpl
+    [javac] /home/zach/Downloads/simfix/runnable/patch/bugs/Math/98/src/java/org/apache/commons/math/linear/QRDecompositionImpl.java:161: error: cannot find symbol
+    [javac]         RealMatrixImpl ret = new RealMatrixImpl(m,m);
+    [javac]                                  ^
+    [javac]   symbol:   class RealMatrixImpl
+    [javac]   location: class QRDecompositionImpl
+    [javac] /home/zach/Downloads/simfix/runnable/patch/bugs/Math/98/src/java/org/apache/commons/math/random/CorrelatedRandomVectorGenerator.java:254: error: cannot find symbol
+    [javac]         root = new RealMatrixImpl(order, rank);
+    [javac]                    ^
+    [javac]   symbol:   class RealMatrixImpl
+    [javac]   location: class CorrelatedRandomVectorGenerator
+    [javac] /home/zach/Downloads/simfix/runnable/patch/bugs/Math/98/src/java/org/apache/commons/math/stat/descriptive/moment/VectorialCovariance.java:86: error: cannot find symbol
+    [javac]         RealMatrixImpl result = new RealMatrixImpl(dimension, dimension);
+    [javac]         ^
+    [javac]   symbol:   class RealMatrixImpl
+    [javac]   location: class VectorialCovariance
+    [javac] /home/zach/Downloads/simfix/runnable/patch/bugs/Math/98/src/java/org/apache/commons/math/stat/descriptive/moment/VectorialCovariance.java:86: error: cannot find symbol
+    [javac]         RealMatrixImpl result = new RealMatrixImpl(dimension, dimension);
+    [javac]                                     ^
+    [javac]   symbol:   class RealMatrixImpl
+    [javac]   location: class VectorialCovariance
+    [javac] /home/zach/Downloads/simfix/runnable/patch/bugs/Math/98/src/java/org/apache/commons/math/stat/regression/AbstractMultipleLinearRegression.java:42: error: cannot find symbol
+    [javac]         this.Y = new RealMatrixImpl(y);
+    [javac]                      ^
+    [javac]   symbol:   class RealMatrixImpl
+    [javac]   location: class AbstractMultipleLinearRegression
+    [javac] /home/zach/Downloads/simfix/runnable/patch/bugs/Math/98/src/java/org/apache/commons/math/stat/regression/AbstractMultipleLinearRegression.java:51: error: cannot find symbol
+    [javac]         this.X = new RealMatrixImpl(x);
+    [javac]                      ^
+    [javac]   symbol:   class RealMatrixImpl
+    [javac]   location: class AbstractMultipleLinearRegression
+    [javac] /home/zach/Downloads/simfix/runnable/patch/bugs/Math/98/src/java/org/apache/commons/math/stat/regression/GLSMultipleLinearRegression.java:64: error: cannot find symbol
+    [javac]         this.Omega = new RealMatrixImpl(omega);
+    [javac]                          ^
+    [javac]   symbol:   class RealMatrixImpl
+    [javac]   location: class GLSMultipleLinearRegression
+    [javac] Note: /home/zach/Downloads/simfix/runnable/patch/bugs/Math/98/src/java/org/apache/commons/math/stat/Frequency.java uses unchecked or unsafe operations.
+    [javac] Note: Recompile with -Xlint:unchecked for details.
+    [javac] 30 errors
+
+BUILD FAILED
+/home/zach/Downloads/simfix/runnable/patch/bugs/Math/98/build.xml:46: Compile failed; see the compiler error output for details.
+
+Total time: 1 second
+Executed command:  cd /home/zach/Downloads/simfix/runnable/patch/bugs/Math/98 && ant -f /home/zach/Downloads/simfix/d4j/defects4j/framework/projects/defects4j.build.xml -Dd4j.home=/home/zach/Downloads/simfix/d4j/defects4j -Dbasedir=/home/zach/Downloads/simfix/runnable/patch/bugs/Math/98  compile 2>&1
+Cannot compile sources! at /home/zach/Downloads/simfix/d4j/defects4j/framework/bin/d4j/d4j-compile line 82.
+Compilation failed in require at /home/zach/Downloads/simfix/d4j/defects4j/framework/bin/defects4j line 155.
+Running ant (compile.tests)................................................ FAIL
+Buildfile: /home/zach/Downloads/simfix/d4j/defects4j/framework/projects/defects4j.build.xml
+
+init:
+
+junit-present:
+
+get-deps:
+
+compile:
+    [javac] /home/zach/Downloads/simfix/runnable/patch/bugs/Math/98/build.xml:46: warning: 'includeantruntime' was not set, defaulting to build.sysclasspath=last; set to false for repeatable builds
+    [javac] Compiling 230 source files to /home/zach/Downloads/simfix/runnable/patch/bugs/Math/98/target/classes
+    [javac] /home/zach/Downloads/simfix/runnable/patch/bugs/Math/98/src/java/org/apache/commons/math/estimation/AbstractEstimator.java:23: error: cannot find symbol
+    [javac] import org.apache.commons.math.linear.RealMatrixImpl;
+    [javac]                                      ^
+    [javac]   symbol:   class RealMatrixImpl
+    [javac]   location: package org.apache.commons.math.linear
+    [javac] /home/zach/Downloads/simfix/runnable/patch/bugs/Math/98/src/java/org/apache/commons/math/estimation/GaussNewtonEstimator.java:24: error: cannot find symbol
+    [javac] import org.apache.commons.math.linear.RealMatrixImpl;
+    [javac]                                      ^
+    [javac]   symbol:   class RealMatrixImpl
+    [javac]   location: package org.apache.commons.math.linear
+    [javac] /home/zach/Downloads/simfix/runnable/patch/bugs/Math/98/src/java/org/apache/commons/math/random/CorrelatedRandomVectorGenerator.java:22: error: cannot find symbol
+    [javac] import org.apache.commons.math.linear.RealMatrixImpl;
+    [javac]                                      ^
+    [javac]   symbol:   class RealMatrixImpl
+    [javac]   location: package org.apache.commons.math.linear
+    [javac] /home/zach/Downloads/simfix/runnable/patch/bugs/Math/98/src/java/org/apache/commons/math/random/CorrelatedRandomVectorGenerator.java:289: error: cannot find symbol
+    [javac]     private RealMatrixImpl root;
+    [javac]             ^
+    [javac]   symbol:   class RealMatrixImpl
+    [javac]   location: class CorrelatedRandomVectorGenerator
+    [javac] /home/zach/Downloads/simfix/runnable/patch/bugs/Math/98/src/java/org/apache/commons/math/stat/descriptive/moment/VectorialCovariance.java:24: error: cannot find symbol
+    [javac] import org.apache.commons.math.linear.RealMatrixImpl;
+    [javac]                                      ^
+    [javac]   symbol:   class RealMatrixImpl
+    [javac]   location: package org.apache.commons.math.linear
+    [javac] /home/zach/Downloads/simfix/runnable/patch/bugs/Math/98/src/java/org/apache/commons/math/stat/regression/AbstractMultipleLinearRegression.java:20: error: cannot find symbol
+    [javac] import org.apache.commons.math.linear.RealMatrixImpl;
+    [javac]                                      ^
+    [javac]   symbol:   class RealMatrixImpl
+    [javac]   location: package org.apache.commons.math.linear
+    [javac] /home/zach/Downloads/simfix/runnable/patch/bugs/Math/98/src/java/org/apache/commons/math/stat/regression/GLSMultipleLinearRegression.java:20: error: cannot find symbol
+    [javac] import org.apache.commons.math.linear.RealMatrixImpl;
+    [javac]                                      ^
+    [javac]   symbol:   class RealMatrixImpl
+    [javac]   location: package org.apache.commons.math.linear
+    [javac] /home/zach/Downloads/simfix/runnable/patch/bugs/Math/98/src/java/org/apache/commons/math/estimation/AbstractEstimator.java:182: error: cannot find symbol
+    [javac]             return ((RealMatrixImpl) new RealMatrixImpl(jTj, false).inverse()).getDataRef();
+    [javac]                      ^
+    [javac]   symbol:   class RealMatrixImpl
+    [javac]   location: class AbstractEstimator
+    [javac] /home/zach/Downloads/simfix/runnable/patch/bugs/Math/98/src/java/org/apache/commons/math/estimation/AbstractEstimator.java:182: error: cannot find symbol
+    [javac]             return ((RealMatrixImpl) new RealMatrixImpl(jTj, false).inverse()).getDataRef();
+    [javac]                                          ^
+    [javac]   symbol:   class RealMatrixImpl
+    [javac]   location: class AbstractEstimator
+    [javac] /home/zach/Downloads/simfix/runnable/patch/bugs/Math/98/src/java/org/apache/commons/math/estimation/GaussNewtonEstimator.java:109: error: cannot find symbol
+    [javac]         RealMatrixImpl bDecrement = new RealMatrixImpl(parameters.length, 1);
+    [javac]         ^
+    [javac]   symbol:   class RealMatrixImpl
+    [javac]   location: class GaussNewtonEstimator
+    [javac] /home/zach/Downloads/simfix/runnable/patch/bugs/Math/98/src/java/org/apache/commons/math/estimation/GaussNewtonEstimator.java:109: error: cannot find symbol
+    [javac]         RealMatrixImpl bDecrement = new RealMatrixImpl(parameters.length, 1);
+    [javac]                                         ^
+    [javac]   symbol:   class RealMatrixImpl
+    [javac]   location: class GaussNewtonEstimator
+    [javac] /home/zach/Downloads/simfix/runnable/patch/bugs/Math/98/src/java/org/apache/commons/math/estimation/GaussNewtonEstimator.java:111: error: cannot find symbol
+    [javac]         RealMatrixImpl wGradGradT = new RealMatrixImpl(parameters.length, parameters.length);
+    [javac]         ^
+    [javac]   symbol:   class RealMatrixImpl
+    [javac]   location: class GaussNewtonEstimator
+    [javac] /home/zach/Downloads/simfix/runnable/patch/bugs/Math/98/src/java/org/apache/commons/math/estimation/GaussNewtonEstimator.java:111: error: cannot find symbol
+    [javac]         RealMatrixImpl wGradGradT = new RealMatrixImpl(parameters.length, parameters.length);
+    [javac]                                         ^
+    [javac]   symbol:   class RealMatrixImpl
+    [javac]   location: class GaussNewtonEstimator
+    [javac] /home/zach/Downloads/simfix/runnable/patch/bugs/Math/98/src/java/org/apache/commons/math/estimation/GaussNewtonEstimator.java:120: error: cannot find symbol
+    [javac]             RealMatrix b = new RealMatrixImpl(parameters.length, 1);
+    [javac]                                ^
+    [javac]   symbol:   class RealMatrixImpl
+    [javac]   location: class GaussNewtonEstimator
+    [javac] /home/zach/Downloads/simfix/runnable/patch/bugs/Math/98/src/java/org/apache/commons/math/estimation/GaussNewtonEstimator.java:121: error: cannot find symbol
+    [javac]             RealMatrix a = new RealMatrixImpl(parameters.length, parameters.length);
+    [javac]                                ^
+    [javac]   symbol:   class RealMatrixImpl
+    [javac]   location: class GaussNewtonEstimator
+    [javac] /home/zach/Downloads/simfix/runnable/patch/bugs/Math/98/src/java/org/apache/commons/math/linear/MatrixUtils.java:49: error: cannot find symbol
+    [javac]         return new RealMatrixImpl(data);
+    [javac]                    ^
+    [javac]   symbol:   class RealMatrixImpl
+    [javac]   location: class MatrixUtils
+    [javac] /home/zach/Downloads/simfix/runnable/patch/bugs/Math/98/src/java/org/apache/commons/math/linear/MatrixUtils.java:69: error: cannot find symbol
+    [javac]         return new RealMatrixImpl(data, copyArray);
+    [javac]                    ^
+    [javac]   symbol:   class RealMatrixImpl
+    [javac]   location: class MatrixUtils
+    [javac] /home/zach/Downloads/simfix/runnable/patch/bugs/Math/98/src/java/org/apache/commons/math/linear/MatrixUtils.java:85: error: cannot find symbol
+    [javac]         return new RealMatrixImpl(d, false);
+    [javac]                    ^
+    [javac]   symbol:   class RealMatrixImpl
+    [javac]   location: class MatrixUtils
+    [javac] /home/zach/Downloads/simfix/runnable/patch/bugs/Math/98/src/java/org/apache/commons/math/linear/MatrixUtils.java:163: error: cannot find symbol
+    [javac]         return new RealMatrixImpl(data, false);
+    [javac]                    ^
+    [javac]   symbol:   class RealMatrixImpl
+    [javac]   location: class MatrixUtils
+    [javac] /home/zach/Downloads/simfix/runnable/patch/bugs/Math/98/src/java/org/apache/commons/math/linear/MatrixUtils.java:233: error: cannot find symbol
+    [javac]         return new RealMatrixImpl(data, false);
+    [javac]                    ^
+    [javac]   symbol:   class RealMatrixImpl
+    [javac]   location: class MatrixUtils
+    [javac] /home/zach/Downloads/simfix/runnable/patch/bugs/Math/98/src/java/org/apache/commons/math/linear/QRDecompositionImpl.java:140: error: cannot find symbol
+    [javac]         RealMatrixImpl ret = new RealMatrixImpl(m,n);
+    [javac]         ^
+    [javac]   symbol:   class RealMatrixImpl
+    [javac]   location: class QRDecompositionImpl
+    [javac] /home/zach/Downloads/simfix/runnable/patch/bugs/Math/98/src/java/org/apache/commons/math/linear/QRDecompositionImpl.java:140: error: cannot find symbol
+    [javac]         RealMatrixImpl ret = new RealMatrixImpl(m,n);
+    [javac]                                  ^
+    [javac]   symbol:   class RealMatrixImpl
+    [javac]   location: class QRDecompositionImpl
+    [javac] /home/zach/Downloads/simfix/runnable/patch/bugs/Math/98/src/java/org/apache/commons/math/linear/QRDecompositionImpl.java:161: error: cannot find symbol
+    [javac]         RealMatrixImpl ret = new RealMatrixImpl(m,m);
+    [javac]         ^
+    [javac]   symbol:   class RealMatrixImpl
+    [javac]   location: class QRDecompositionImpl
+    [javac] /home/zach/Downloads/simfix/runnable/patch/bugs/Math/98/src/java/org/apache/commons/math/linear/QRDecompositionImpl.java:161: error: cannot find symbol
+    [javac]         RealMatrixImpl ret = new RealMatrixImpl(m,m);
+    [javac]                                  ^
+    [javac]   symbol:   class RealMatrixImpl
+    [javac]   location: class QRDecompositionImpl
+    [javac] /home/zach/Downloads/simfix/runnable/patch/bugs/Math/98/src/java/org/apache/commons/math/random/CorrelatedRandomVectorGenerator.java:254: error: cannot find symbol
+    [javac]         root = new RealMatrixImpl(order, rank);
+    [javac]                    ^
+    [javac]   symbol:   class RealMatrixImpl
+    [javac]   location: class CorrelatedRandomVectorGenerator
+    [javac] /home/zach/Downloads/simfix/runnable/patch/bugs/Math/98/src/java/org/apache/commons/math/stat/descriptive/moment/VectorialCovariance.java:86: error: cannot find symbol
+    [javac]         RealMatrixImpl result = new RealMatrixImpl(dimension, dimension);
+    [javac]         ^
+    [javac]   symbol:   class RealMatrixImpl
+    [javac]   location: class VectorialCovariance
+    [javac] /home/zach/Downloads/simfix/runnable/patch/bugs/Math/98/src/java/org/apache/commons/math/stat/descriptive/moment/VectorialCovariance.java:86: error: cannot find symbol
+    [javac]         RealMatrixImpl result = new RealMatrixImpl(dimension, dimension);
+    [javac]                                     ^
+    [javac]   symbol:   class RealMatrixImpl
+    [javac]   location: class VectorialCovariance
+    [javac] /home/zach/Downloads/simfix/runnable/patch/bugs/Math/98/src/java/org/apache/commons/math/stat/regression/AbstractMultipleLinearRegression.java:42: error: cannot find symbol
+    [javac]         this.Y = new RealMatrixImpl(y);
+    [javac]                      ^
+    [javac]   symbol:   class RealMatrixImpl
+    [javac]   location: class AbstractMultipleLinearRegression
+    [javac] /home/zach/Downloads/simfix/runnable/patch/bugs/Math/98/src/java/org/apache/commons/math/stat/regression/AbstractMultipleLinearRegression.java:51: error: cannot find symbol
+    [javac]         this.X = new RealMatrixImpl(x);
+    [javac]                      ^
+    [javac]   symbol:   class RealMatrixImpl
+    [javac]   location: class AbstractMultipleLinearRegression
+    [javac] /home/zach/Downloads/simfix/runnable/patch/bugs/Math/98/src/java/org/apache/commons/math/stat/regression/GLSMultipleLinearRegression.java:64: error: cannot find symbol
+    [javac]         this.Omega = new RealMatrixImpl(omega);
+    [javac]                          ^
+    [javac]   symbol:   class RealMatrixImpl
+    [javac]   location: class GLSMultipleLinearRegression
+    [javac] Note: /home/zach/Downloads/simfix/runnable/patch/bugs/Math/98/src/java/org/apache/commons/math/stat/Frequency.java uses unchecked or unsafe operations.
+    [javac] Note: Recompile with -Xlint:unchecked for details.
+    [javac] 30 errors
+
+BUILD FAILED
+/home/zach/Downloads/simfix/runnable/patch/bugs/Math/98/build.xml:46: Compile failed; see the compiler error output for details.
+
+Total time: 1 second
+Executed command:  cd /home/zach/Downloads/simfix/runnable/patch/bugs/Math/98 && ant -f /home/zach/Downloads/simfix/d4j/defects4j/framework/projects/defects4j.build.xml -Dd4j.home=/home/zach/Downloads/simfix/d4j/defects4j -Dbasedir=/home/zach/Downloads/simfix/runnable/patch/bugs/Math/98  compile.tests 2>&1
+Cannot compile test suite! at /home/zach/Downloads/simfix/d4j/defects4j/framework/bin/d4j/d4j-test line 134.
+Compilation failed in require at /home/zach/Downloads/simfix/d4j/defects4j/framework/bin/defects4j line 155.
+Successfully copied the patched file!
+Running ant (compile)...................................................... FAIL
+Buildfile: /home/zach/Downloads/simfix/d4j/defects4j/framework/projects/defects4j.build.xml
+
+init:
+
+get-deps:
+
+compile:
+    [javac] /home/zach/Downloads/simfix/runnable/patch/bugs/Math/98/build.xml:46: warning: 'includeantruntime' was not set, defaulting to build.sysclasspath=last; set to false for repeatable builds
+    [javac] Compiling 230 source files to /home/zach/Downloads/simfix/runnable/patch/bugs/Math/98/target/classes
+    [javac] /home/zach/Downloads/simfix/runnable/patch/bugs/Math/98/src/java/org/apache/commons/math/estimation/AbstractEstimator.java:23: error: cannot find symbol
+    [javac] import org.apache.commons.math.linear.RealMatrixImpl;
+    [javac]                                      ^
+    [javac]   symbol:   class RealMatrixImpl
+    [javac]   location: package org.apache.commons.math.linear
+    [javac] /home/zach/Downloads/simfix/runnable/patch/bugs/Math/98/src/java/org/apache/commons/math/estimation/GaussNewtonEstimator.java:24: error: cannot find symbol
+    [javac] import org.apache.commons.math.linear.RealMatrixImpl;
+    [javac]                                      ^
+    [javac]   symbol:   class RealMatrixImpl
+    [javac]   location: package org.apache.commons.math.linear
+    [javac] /home/zach/Downloads/simfix/runnable/patch/bugs/Math/98/src/java/org/apache/commons/math/random/CorrelatedRandomVectorGenerator.java:22: error: cannot find symbol
+    [javac] import org.apache.commons.math.linear.RealMatrixImpl;
+    [javac]                                      ^
+    [javac]   symbol:   class RealMatrixImpl
+    [javac]   location: package org.apache.commons.math.linear
+    [javac] /home/zach/Downloads/simfix/runnable/patch/bugs/Math/98/src/java/org/apache/commons/math/random/CorrelatedRandomVectorGenerator.java:289: error: cannot find symbol
+    [javac]     private RealMatrixImpl root;
+    [javac]             ^
+    [javac]   symbol:   class RealMatrixImpl
+    [javac]   location: class CorrelatedRandomVectorGenerator
+    [javac] /home/zach/Downloads/simfix/runnable/patch/bugs/Math/98/src/java/org/apache/commons/math/stat/descriptive/moment/VectorialCovariance.java:24: error: cannot find symbol
+    [javac] import org.apache.commons.math.linear.RealMatrixImpl;
+    [javac]                                      ^
+    [javac]   symbol:   class RealMatrixImpl
+    [javac]   location: package org.apache.commons.math.linear
+    [javac] /home/zach/Downloads/simfix/runnable/patch/bugs/Math/98/src/java/org/apache/commons/math/stat/regression/AbstractMultipleLinearRegression.java:20: error: cannot find symbol
+    [javac] import org.apache.commons.math.linear.RealMatrixImpl;
+    [javac]                                      ^
+    [javac]   symbol:   class RealMatrixImpl
+    [javac]   location: package org.apache.commons.math.linear
+    [javac] /home/zach/Downloads/simfix/runnable/patch/bugs/Math/98/src/java/org/apache/commons/math/stat/regression/GLSMultipleLinearRegression.java:20: error: cannot find symbol
+    [javac] import org.apache.commons.math.linear.RealMatrixImpl;
+    [javac]                                      ^
+    [javac]   symbol:   class RealMatrixImpl
+    [javac]   location: package org.apache.commons.math.linear
+    [javac] /home/zach/Downloads/simfix/runnable/patch/bugs/Math/98/src/java/org/apache/commons/math/estimation/AbstractEstimator.java:182: error: cannot find symbol
+    [javac]             return ((RealMatrixImpl) new RealMatrixImpl(jTj, false).inverse()).getDataRef();
+    [javac]                      ^
+    [javac]   symbol:   class RealMatrixImpl
+    [javac]   location: class AbstractEstimator
+    [javac] /home/zach/Downloads/simfix/runnable/patch/bugs/Math/98/src/java/org/apache/commons/math/estimation/AbstractEstimator.java:182: error: cannot find symbol
+    [javac]             return ((RealMatrixImpl) new RealMatrixImpl(jTj, false).inverse()).getDataRef();
+    [javac]                                          ^
+    [javac]   symbol:   class RealMatrixImpl
+    [javac]   location: class AbstractEstimator
+    [javac] /home/zach/Downloads/simfix/runnable/patch/bugs/Math/98/src/java/org/apache/commons/math/estimation/GaussNewtonEstimator.java:109: error: cannot find symbol
+    [javac]         RealMatrixImpl bDecrement = new RealMatrixImpl(parameters.length, 1);
+    [javac]         ^
+    [javac]   symbol:   class RealMatrixImpl
+    [javac]   location: class GaussNewtonEstimator
+    [javac] /home/zach/Downloads/simfix/runnable/patch/bugs/Math/98/src/java/org/apache/commons/math/estimation/GaussNewtonEstimator.java:109: error: cannot find symbol
+    [javac]         RealMatrixImpl bDecrement = new RealMatrixImpl(parameters.length, 1);
+    [javac]                                         ^
+    [javac]   symbol:   class RealMatrixImpl
+    [javac]   location: class GaussNewtonEstimator
+    [javac] /home/zach/Downloads/simfix/runnable/patch/bugs/Math/98/src/java/org/apache/commons/math/estimation/GaussNewtonEstimator.java:111: error: cannot find symbol
+    [javac]         RealMatrixImpl wGradGradT = new RealMatrixImpl(parameters.length, parameters.length);
+    [javac]         ^
+    [javac]   symbol:   class RealMatrixImpl
+    [javac]   location: class GaussNewtonEstimator
+    [javac] /home/zach/Downloads/simfix/runnable/patch/bugs/Math/98/src/java/org/apache/commons/math/estimation/GaussNewtonEstimator.java:111: error: cannot find symbol
+    [javac]         RealMatrixImpl wGradGradT = new RealMatrixImpl(parameters.length, parameters.length);
+    [javac]                                         ^
+    [javac]   symbol:   class RealMatrixImpl
+    [javac]   location: class GaussNewtonEstimator
+    [javac] /home/zach/Downloads/simfix/runnable/patch/bugs/Math/98/src/java/org/apache/commons/math/estimation/GaussNewtonEstimator.java:120: error: cannot find symbol
+    [javac]             RealMatrix b = new RealMatrixImpl(parameters.length, 1);
+    [javac]                                ^
+    [javac]   symbol:   class RealMatrixImpl
+    [javac]   location: class GaussNewtonEstimator
+    [javac] /home/zach/Downloads/simfix/runnable/patch/bugs/Math/98/src/java/org/apache/commons/math/estimation/GaussNewtonEstimator.java:121: error: cannot find symbol
+    [javac]             RealMatrix a = new RealMatrixImpl(parameters.length, parameters.length);
+    [javac]                                ^
+    [javac]   symbol:   class RealMatrixImpl
+    [javac]   location: class GaussNewtonEstimator
+    [javac] /home/zach/Downloads/simfix/runnable/patch/bugs/Math/98/src/java/org/apache/commons/math/linear/MatrixUtils.java:49: error: cannot find symbol
+    [javac]         return new RealMatrixImpl(data);
+    [javac]                    ^
+    [javac]   symbol:   class RealMatrixImpl
+    [javac]   location: class MatrixUtils
+    [javac] /home/zach/Downloads/simfix/runnable/patch/bugs/Math/98/src/java/org/apache/commons/math/linear/MatrixUtils.java:69: error: cannot find symbol
+    [javac]         return new RealMatrixImpl(data, copyArray);
+    [javac]                    ^
+    [javac]   symbol:   class RealMatrixImpl
+    [javac]   location: class MatrixUtils
+    [javac] /home/zach/Downloads/simfix/runnable/patch/bugs/Math/98/src/java/org/apache/commons/math/linear/MatrixUtils.java:85: error: cannot find symbol
+    [javac]         return new RealMatrixImpl(d, false);
+    [javac]                    ^
+    [javac]   symbol:   class RealMatrixImpl
+    [javac]   location: class MatrixUtils
+    [javac] /home/zach/Downloads/simfix/runnable/patch/bugs/Math/98/src/java/org/apache/commons/math/linear/MatrixUtils.java:163: error: cannot find symbol
+    [javac]         return new RealMatrixImpl(data, false);
+    [javac]                    ^
+    [javac]   symbol:   class RealMatrixImpl
+    [javac]   location: class MatrixUtils
+    [javac] /home/zach/Downloads/simfix/runnable/patch/bugs/Math/98/src/java/org/apache/commons/math/linear/MatrixUtils.java:233: error: cannot find symbol
+    [javac]         return new RealMatrixImpl(data, false);
+    [javac]                    ^
+    [javac]   symbol:   class RealMatrixImpl
+    [javac]   location: class MatrixUtils
+    [javac] /home/zach/Downloads/simfix/runnable/patch/bugs/Math/98/src/java/org/apache/commons/math/linear/QRDecompositionImpl.java:140: error: cannot find symbol
+    [javac]         RealMatrixImpl ret = new RealMatrixImpl(m,n);
+    [javac]         ^
+    [javac]   symbol:   class RealMatrixImpl
+    [javac]   location: class QRDecompositionImpl
+    [javac] /home/zach/Downloads/simfix/runnable/patch/bugs/Math/98/src/java/org/apache/commons/math/linear/QRDecompositionImpl.java:140: error: cannot find symbol
+    [javac]         RealMatrixImpl ret = new RealMatrixImpl(m,n);
+    [javac]                                  ^
+    [javac]   symbol:   class RealMatrixImpl
+    [javac]   location: class QRDecompositionImpl
+    [javac] /home/zach/Downloads/simfix/runnable/patch/bugs/Math/98/src/java/org/apache/commons/math/linear/QRDecompositionImpl.java:161: error: cannot find symbol
+    [javac]         RealMatrixImpl ret = new RealMatrixImpl(m,m);
+    [javac]         ^
+    [javac]   symbol:   class RealMatrixImpl
+    [javac]   location: class QRDecompositionImpl
+    [javac] /home/zach/Downloads/simfix/runnable/patch/bugs/Math/98/src/java/org/apache/commons/math/linear/QRDecompositionImpl.java:161: error: cannot find symbol
+    [javac]         RealMatrixImpl ret = new RealMatrixImpl(m,m);
+    [javac]                                  ^
+    [javac]   symbol:   class RealMatrixImpl
+    [javac]   location: class QRDecompositionImpl
+    [javac] /home/zach/Downloads/simfix/runnable/patch/bugs/Math/98/src/java/org/apache/commons/math/random/CorrelatedRandomVectorGenerator.java:254: error: cannot find symbol
+    [javac]         root = new RealMatrixImpl(order, rank);
+    [javac]                    ^
+    [javac]   symbol:   class RealMatrixImpl
+    [javac]   location: class CorrelatedRandomVectorGenerator
+    [javac] /home/zach/Downloads/simfix/runnable/patch/bugs/Math/98/src/java/org/apache/commons/math/stat/descriptive/moment/VectorialCovariance.java:86: error: cannot find symbol
+    [javac]         RealMatrixImpl result = new RealMatrixImpl(dimension, dimension);
+    [javac]         ^
+    [javac]   symbol:   class RealMatrixImpl
+    [javac]   location: class VectorialCovariance
+    [javac] /home/zach/Downloads/simfix/runnable/patch/bugs/Math/98/src/java/org/apache/commons/math/stat/descriptive/moment/VectorialCovariance.java:86: error: cannot find symbol
+    [javac]         RealMatrixImpl result = new RealMatrixImpl(dimension, dimension);
+    [javac]                                     ^
+    [javac]   symbol:   class RealMatrixImpl
+    [javac]   location: class VectorialCovariance
+    [javac] /home/zach/Downloads/simfix/runnable/patch/bugs/Math/98/src/java/org/apache/commons/math/stat/regression/AbstractMultipleLinearRegression.java:42: error: cannot find symbol
+    [javac]         this.Y = new RealMatrixImpl(y);
+    [javac]                      ^
+    [javac]   symbol:   class RealMatrixImpl
+    [javac]   location: class AbstractMultipleLinearRegression
+    [javac] /home/zach/Downloads/simfix/runnable/patch/bugs/Math/98/src/java/org/apache/commons/math/stat/regression/AbstractMultipleLinearRegression.java:51: error: cannot find symbol
+    [javac]         this.X = new RealMatrixImpl(x);
+    [javac]                      ^
+    [javac]   symbol:   class RealMatrixImpl
+    [javac]   location: class AbstractMultipleLinearRegression
+    [javac] /home/zach/Downloads/simfix/runnable/patch/bugs/Math/98/src/java/org/apache/commons/math/stat/regression/GLSMultipleLinearRegression.java:64: error: cannot find symbol
+    [javac]         this.Omega = new RealMatrixImpl(omega);
+    [javac]                          ^
+    [javac]   symbol:   class RealMatrixImpl
+    [javac]   location: class GLSMultipleLinearRegression
+    [javac] Note: /home/zach/Downloads/simfix/runnable/patch/bugs/Math/98/src/java/org/apache/commons/math/stat/Frequency.java uses unchecked or unsafe operations.
+    [javac] Note: Recompile with -Xlint:unchecked for details.
+    [javac] 30 errors
+
+BUILD FAILED
+/home/zach/Downloads/simfix/runnable/patch/bugs/Math/98/build.xml:46: Compile failed; see the compiler error output for details.
+
+Total time: 1 second
+Executed command:  cd /home/zach/Downloads/simfix/runnable/patch/bugs/Math/98 && ant -f /home/zach/Downloads/simfix/d4j/defects4j/framework/projects/defects4j.build.xml -Dd4j.home=/home/zach/Downloads/simfix/d4j/defects4j -Dbasedir=/home/zach/Downloads/simfix/runnable/patch/bugs/Math/98  compile 2>&1
+Cannot compile sources! at /home/zach/Downloads/simfix/d4j/defects4j/framework/bin/d4j/d4j-compile line 82.
+Compilation failed in require at /home/zach/Downloads/simfix/d4j/defects4j/framework/bin/defects4j line 155.
+Running ant (compile.tests)................................................ FAIL
+Buildfile: /home/zach/Downloads/simfix/d4j/defects4j/framework/projects/defects4j.build.xml
+
+init:
+
+junit-present:
+
+get-deps:
+
+compile:
+    [javac] /home/zach/Downloads/simfix/runnable/patch/bugs/Math/98/build.xml:46: warning: 'includeantruntime' was not set, defaulting to build.sysclasspath=last; set to false for repeatable builds
+    [javac] Compiling 230 source files to /home/zach/Downloads/simfix/runnable/patch/bugs/Math/98/target/classes
+    [javac] /home/zach/Downloads/simfix/runnable/patch/bugs/Math/98/src/java/org/apache/commons/math/estimation/AbstractEstimator.java:23: error: cannot find symbol
+    [javac] import org.apache.commons.math.linear.RealMatrixImpl;
+    [javac]                                      ^
+    [javac]   symbol:   class RealMatrixImpl
+    [javac]   location: package org.apache.commons.math.linear
+    [javac] /home/zach/Downloads/simfix/runnable/patch/bugs/Math/98/src/java/org/apache/commons/math/estimation/GaussNewtonEstimator.java:24: error: cannot find symbol
+    [javac] import org.apache.commons.math.linear.RealMatrixImpl;
+    [javac]                                      ^
+    [javac]   symbol:   class RealMatrixImpl
+    [javac]   location: package org.apache.commons.math.linear
+    [javac] /home/zach/Downloads/simfix/runnable/patch/bugs/Math/98/src/java/org/apache/commons/math/random/CorrelatedRandomVectorGenerator.java:22: error: cannot find symbol
+    [javac] import org.apache.commons.math.linear.RealMatrixImpl;
+    [javac]                                      ^
+    [javac]   symbol:   class RealMatrixImpl
+    [javac]   location: package org.apache.commons.math.linear
+    [javac] /home/zach/Downloads/simfix/runnable/patch/bugs/Math/98/src/java/org/apache/commons/math/random/CorrelatedRandomVectorGenerator.java:289: error: cannot find symbol
+    [javac]     private RealMatrixImpl root;
+    [javac]             ^
+    [javac]   symbol:   class RealMatrixImpl
+    [javac]   location: class CorrelatedRandomVectorGenerator
+    [javac] /home/zach/Downloads/simfix/runnable/patch/bugs/Math/98/src/java/org/apache/commons/math/stat/descriptive/moment/VectorialCovariance.java:24: error: cannot find symbol
+    [javac] import org.apache.commons.math.linear.RealMatrixImpl;
+    [javac]                                      ^
+    [javac]   symbol:   class RealMatrixImpl
+    [javac]   location: package org.apache.commons.math.linear
+    [javac] /home/zach/Downloads/simfix/runnable/patch/bugs/Math/98/src/java/org/apache/commons/math/stat/regression/AbstractMultipleLinearRegression.java:20: error: cannot find symbol
+    [javac] import org.apache.commons.math.linear.RealMatrixImpl;
+    [javac]                                      ^
+    [javac]   symbol:   class RealMatrixImpl
+    [javac]   location: package org.apache.commons.math.linear
+    [javac] /home/zach/Downloads/simfix/runnable/patch/bugs/Math/98/src/java/org/apache/commons/math/stat/regression/GLSMultipleLinearRegression.java:20: error: cannot find symbol
+    [javac] import org.apache.commons.math.linear.RealMatrixImpl;
+    [javac]                                      ^
+    [javac]   symbol:   class RealMatrixImpl
+    [javac]   location: package org.apache.commons.math.linear
+    [javac] /home/zach/Downloads/simfix/runnable/patch/bugs/Math/98/src/java/org/apache/commons/math/estimation/AbstractEstimator.java:182: error: cannot find symbol
+    [javac]             return ((RealMatrixImpl) new RealMatrixImpl(jTj, false).inverse()).getDataRef();
+    [javac]                      ^
+    [javac]   symbol:   class RealMatrixImpl
+    [javac]   location: class AbstractEstimator
+    [javac] /home/zach/Downloads/simfix/runnable/patch/bugs/Math/98/src/java/org/apache/commons/math/estimation/AbstractEstimator.java:182: error: cannot find symbol
+    [javac]             return ((RealMatrixImpl) new RealMatrixImpl(jTj, false).inverse()).getDataRef();
+    [javac]                                          ^
+    [javac]   symbol:   class RealMatrixImpl
+    [javac]   location: class AbstractEstimator
+    [javac] /home/zach/Downloads/simfix/runnable/patch/bugs/Math/98/src/java/org/apache/commons/math/estimation/GaussNewtonEstimator.java:109: error: cannot find symbol
+    [javac]         RealMatrixImpl bDecrement = new RealMatrixImpl(parameters.length, 1);
+    [javac]         ^
+    [javac]   symbol:   class RealMatrixImpl
+    [javac]   location: class GaussNewtonEstimator
+    [javac] /home/zach/Downloads/simfix/runnable/patch/bugs/Math/98/src/java/org/apache/commons/math/estimation/GaussNewtonEstimator.java:109: error: cannot find symbol
+    [javac]         RealMatrixImpl bDecrement = new RealMatrixImpl(parameters.length, 1);
+    [javac]                                         ^
+    [javac]   symbol:   class RealMatrixImpl
+    [javac]   location: class GaussNewtonEstimator
+    [javac] /home/zach/Downloads/simfix/runnable/patch/bugs/Math/98/src/java/org/apache/commons/math/estimation/GaussNewtonEstimator.java:111: error: cannot find symbol
+    [javac]         RealMatrixImpl wGradGradT = new RealMatrixImpl(parameters.length, parameters.length);
+    [javac]         ^
+    [javac]   symbol:   class RealMatrixImpl
+    [javac]   location: class GaussNewtonEstimator
+    [javac] /home/zach/Downloads/simfix/runnable/patch/bugs/Math/98/src/java/org/apache/commons/math/estimation/GaussNewtonEstimator.java:111: error: cannot find symbol
+    [javac]         RealMatrixImpl wGradGradT = new RealMatrixImpl(parameters.length, parameters.length);
+    [javac]                                         ^
+    [javac]   symbol:   class RealMatrixImpl
+    [javac]   location: class GaussNewtonEstimator
+    [javac] /home/zach/Downloads/simfix/runnable/patch/bugs/Math/98/src/java/org/apache/commons/math/estimation/GaussNewtonEstimator.java:120: error: cannot find symbol
+    [javac]             RealMatrix b = new RealMatrixImpl(parameters.length, 1);
+    [javac]                                ^
+    [javac]   symbol:   class RealMatrixImpl
+    [javac]   location: class GaussNewtonEstimator
+    [javac] /home/zach/Downloads/simfix/runnable/patch/bugs/Math/98/src/java/org/apache/commons/math/estimation/GaussNewtonEstimator.java:121: error: cannot find symbol
+    [javac]             RealMatrix a = new RealMatrixImpl(parameters.length, parameters.length);
+    [javac]                                ^
+    [javac]   symbol:   class RealMatrixImpl
+    [javac]   location: class GaussNewtonEstimator
+    [javac] /home/zach/Downloads/simfix/runnable/patch/bugs/Math/98/src/java/org/apache/commons/math/linear/MatrixUtils.java:49: error: cannot find symbol
+    [javac]         return new RealMatrixImpl(data);
+    [javac]                    ^
+    [javac]   symbol:   class RealMatrixImpl
+    [javac]   location: class MatrixUtils
+    [javac] /home/zach/Downloads/simfix/runnable/patch/bugs/Math/98/src/java/org/apache/commons/math/linear/MatrixUtils.java:69: error: cannot find symbol
+    [javac]         return new RealMatrixImpl(data, copyArray);
+    [javac]                    ^
+    [javac]   symbol:   class RealMatrixImpl
+    [javac]   location: class MatrixUtils
+    [javac] /home/zach/Downloads/simfix/runnable/patch/bugs/Math/98/src/java/org/apache/commons/math/linear/MatrixUtils.java:85: error: cannot find symbol
+    [javac]         return new RealMatrixImpl(d, false);
+    [javac]                    ^
+    [javac]   symbol:   class RealMatrixImpl
+    [javac]   location: class MatrixUtils
+    [javac] /home/zach/Downloads/simfix/runnable/patch/bugs/Math/98/src/java/org/apache/commons/math/linear/MatrixUtils.java:163: error: cannot find symbol
+    [javac]         return new RealMatrixImpl(data, false);
+    [javac]                    ^
+    [javac]   symbol:   class RealMatrixImpl
+    [javac]   location: class MatrixUtils
+    [javac] /home/zach/Downloads/simfix/runnable/patch/bugs/Math/98/src/java/org/apache/commons/math/linear/MatrixUtils.java:233: error: cannot find symbol
+    [javac]         return new RealMatrixImpl(data, false);
+    [javac]                    ^
+    [javac]   symbol:   class RealMatrixImpl
+    [javac]   location: class MatrixUtils
+    [javac] /home/zach/Downloads/simfix/runnable/patch/bugs/Math/98/src/java/org/apache/commons/math/linear/QRDecompositionImpl.java:140: error: cannot find symbol
+    [javac]         RealMatrixImpl ret = new RealMatrixImpl(m,n);
+    [javac]         ^
+    [javac]   symbol:   class RealMatrixImpl
+    [javac]   location: class QRDecompositionImpl
+    [javac] /home/zach/Downloads/simfix/runnable/patch/bugs/Math/98/src/java/org/apache/commons/math/linear/QRDecompositionImpl.java:140: error: cannot find symbol
+    [javac]         RealMatrixImpl ret = new RealMatrixImpl(m,n);
+    [javac]                                  ^
+    [javac]   symbol:   class RealMatrixImpl
+    [javac]   location: class QRDecompositionImpl
+    [javac] /home/zach/Downloads/simfix/runnable/patch/bugs/Math/98/src/java/org/apache/commons/math/linear/QRDecompositionImpl.java:161: error: cannot find symbol
+    [javac]         RealMatrixImpl ret = new RealMatrixImpl(m,m);
+    [javac]         ^
+    [javac]   symbol:   class RealMatrixImpl
+    [javac]   location: class QRDecompositionImpl
+    [javac] /home/zach/Downloads/simfix/runnable/patch/bugs/Math/98/src/java/org/apache/commons/math/linear/QRDecompositionImpl.java:161: error: cannot find symbol
+    [javac]         RealMatrixImpl ret = new RealMatrixImpl(m,m);
+    [javac]                                  ^
+    [javac]   symbol:   class RealMatrixImpl
+    [javac]   location: class QRDecompositionImpl
+    [javac] /home/zach/Downloads/simfix/runnable/patch/bugs/Math/98/src/java/org/apache/commons/math/random/CorrelatedRandomVectorGenerator.java:254: error: cannot find symbol
+    [javac]         root = new RealMatrixImpl(order, rank);
+    [javac]                    ^
+    [javac]   symbol:   class RealMatrixImpl
+    [javac]   location: class CorrelatedRandomVectorGenerator
+    [javac] /home/zach/Downloads/simfix/runnable/patch/bugs/Math/98/src/java/org/apache/commons/math/stat/descriptive/moment/VectorialCovariance.java:86: error: cannot find symbol
+    [javac]         RealMatrixImpl result = new RealMatrixImpl(dimension, dimension);
+    [javac]         ^
+    [javac]   symbol:   class RealMatrixImpl
+    [javac]   location: class VectorialCovariance
+    [javac] /home/zach/Downloads/simfix/runnable/patch/bugs/Math/98/src/java/org/apache/commons/math/stat/descriptive/moment/VectorialCovariance.java:86: error: cannot find symbol
+    [javac]         RealMatrixImpl result = new RealMatrixImpl(dimension, dimension);
+    [javac]                                     ^
+    [javac]   symbol:   class RealMatrixImpl
+    [javac]   location: class VectorialCovariance
+    [javac] /home/zach/Downloads/simfix/runnable/patch/bugs/Math/98/src/java/org/apache/commons/math/stat/regression/AbstractMultipleLinearRegression.java:42: error: cannot find symbol
+    [javac]         this.Y = new RealMatrixImpl(y);
+    [javac]                      ^
+    [javac]   symbol:   class RealMatrixImpl
+    [javac]   location: class AbstractMultipleLinearRegression
+    [javac] /home/zach/Downloads/simfix/runnable/patch/bugs/Math/98/src/java/org/apache/commons/math/stat/regression/AbstractMultipleLinearRegression.java:51: error: cannot find symbol
+    [javac]         this.X = new RealMatrixImpl(x);
+    [javac]                      ^
+    [javac]   symbol:   class RealMatrixImpl
+    [javac]   location: class AbstractMultipleLinearRegression
+    [javac] /home/zach/Downloads/simfix/runnable/patch/bugs/Math/98/src/java/org/apache/commons/math/stat/regression/GLSMultipleLinearRegression.java:64: error: cannot find symbol
+    [javac]         this.Omega = new RealMatrixImpl(omega);
+    [javac]                          ^
+    [javac]   symbol:   class RealMatrixImpl
+    [javac]   location: class GLSMultipleLinearRegression
+    [javac] Note: /home/zach/Downloads/simfix/runnable/patch/bugs/Math/98/src/java/org/apache/commons/math/stat/Frequency.java uses unchecked or unsafe operations.
+    [javac] Note: Recompile with -Xlint:unchecked for details.
+    [javac] 30 errors
+
+BUILD FAILED
+/home/zach/Downloads/simfix/runnable/patch/bugs/Math/98/build.xml:46: Compile failed; see the compiler error output for details.
+
+Total time: 1 second
+Executed command:  cd /home/zach/Downloads/simfix/runnable/patch/bugs/Math/98 && ant -f /home/zach/Downloads/simfix/d4j/defects4j/framework/projects/defects4j.build.xml -Dd4j.home=/home/zach/Downloads/simfix/d4j/defects4j -Dbasedir=/home/zach/Downloads/simfix/runnable/patch/bugs/Math/98  compile.tests 2>&1
+Cannot compile test suite! at /home/zach/Downloads/simfix/d4j/defects4j/framework/bin/d4j/d4j-test line 134.
+Compilation failed in require at /home/zach/Downloads/simfix/d4j/defects4j/framework/bin/defects4j line 155.
+###################
+
+
+
+./patch.sh: line 16: cd: bugs: No such file or directory
+mkdir: cannot create directory ‘Math’: File exists
+Check out 7d903ca5 to /home/zach/Downloads/simfix/runnable/patch/bugs/Math/ OK
+Init local repository...................................................... OK
+Tag post-fix revision...................................................... OK
+Initialize fixed program version........................................... OK
+Apply patch................................................................ OK
+Initialize buggy program version........................................... OK
+Diff 7d903ca5:6e3ea685..................................................... OK
+Apply patch................................................................ OK
+Tag pre-fix revision....................................................... OK
+Check out program version: Math-81b........................................ OK
+
+
+
+###################
+Running ant (compile)...................................................... OK
+Running ant (compile.tests)................................................ OK
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - org.apache.commons.math.linear.EigenDecompositionImplTest::testMath308
+Successfully copied the patched file!
+Running ant (compile)...................................................... OK
+Running ant (compile.tests)................................................ OK
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 0
+###################
+
+
+
+]0;zach@zach-VirtualBox: ~/Downloads/simfix/runnable/patch[01;32mzach@zach-VirtualBox[00m:[01;34m~/Downloads/simfix/runnable/patch[00m$  exit
+exit
+
+Script done on Sun 08 Dec 2019 12:42:06 AM EST

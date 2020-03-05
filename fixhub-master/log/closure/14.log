@@ -1,0 +1,50 @@
+=================================================
+Project : closure_14	start : 19/11/24 15:14
+Current failed test : com.google.javascript.jscomp.CheckMissingReturnTest::testIssue779 | 19/11/24 15:14
+Sun Nov 24 15:19:23 EST 2019 com.google.javascript.jscomp.ControlFlowAnalysis,579
+Sun Nov 24 15:52:32 EST 2019 Sun Nov 24 15:52:32 EST 2019 : com.google.javascript.jscomp.type.ChainableReverseAbstractInterpreter,250=>Find no block
+Sun Nov 24 15:52:32 EST 2019 com.google.javascript.jscomp.ControlFlowAnalysis,767
+
+----------------------------------------
+----------------------------------------
+Pass Single Test : [=>0,0]
+for(Node finallyNode : cfa.finallyMap.get(parent)){
+cfa.createEdge(fromNode,Branch.ON_EX,finallyNode);
+}
+
+Time : 19/11/24 15:53
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Similar code block : 1.6182856494444295 : [/home/zach/Downloads/simfix/d4j/projects/closure/closure_14_buggy/src/com/google/javascript/jscomp/ControlFlowAnalysis.java=>0,0]
+if(lastJump==cfgNode){
+createEdge(cfgNode,Branch.ON_EX,catchBlock);
+return ;
+}else {
+finallyMap.put(lastJump,catchBlock);
+}
+
+Time : 19/11/24 15:54
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Original source code : [/home/zach/Downloads/simfix/d4j/projects/closure/closure_14_buggy/src/com/google/javascript/jscomp/ControlFlowAnalysis.java=>766,768]
+for(Node finallyNode : cfa.finallyMap.get(parent)){
+cfa.createEdge(fromNode,Branch.UNCOND,finallyNode);
+}
+
+Time : 19/11/24 15:54
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Find a patch : [/home/zach/Downloads/simfix/d4j/projects/closure/closure_14_buggy/src/com/google/javascript/jscomp/ControlFlowAnalysis.java=>766,768]
+for(Node finallyNode : cfa.finallyMap.get(parent)){
+cfa.createEdge(fromNode,Branch.ON_EX,finallyNode);
+}
+
+Time : 19/11/24 15:54
+----------------------------------------
+Success time : 19/11/24 15:54

@@ -1,0 +1,148 @@
+=================================================
+Project : chart_7	start : 19/11/24 14:36
+=================================================
+Project : chart_7	start : 19/11/25 05:09
+Current failed test : org.jfree.data.time.junit.TimePeriodValuesTests::testGetMaxMiddleIndex | 19/11/25 05:09
+Mon Nov 25 05:09:31 EST 2019 org.jfree.data.time.TimePeriodValues,552
+Mon Nov 25 05:09:33 EST 2019 org.jfree.data.time.TimePeriodValues,267
+Mon Nov 25 05:10:27 EST 2019 org.jfree.data.time.TimePeriodValues,292
+Mon Nov 25 05:11:00 EST 2019 org.jfree.data.time.TimePeriodValues,317
+Mon Nov 25 05:11:54 EST 2019 Mon Nov 25 05:11:54 EST 2019 : org.jfree.data.time.SimpleTimePeriod,76=>Find no block
+Mon Nov 25 05:11:54 EST 2019 org.jfree.data.time.SimpleTimePeriod,77
+Mon Nov 25 05:12:22 EST 2019 org.jfree.data.time.SimpleTimePeriod,80
+Mon Nov 25 05:12:52 EST 2019 org.jfree.data.time.SimpleTimePeriod,81
+Mon Nov 25 05:12:52 EST 2019 Mon Nov 25 05:12:52 EST 2019 : org.jfree.data.time.SimpleTimePeriod,82=>Find no block
+Mon Nov 25 05:12:52 EST 2019 org.jfree.data.time.SimpleTimePeriod,100
+Mon Nov 25 05:12:54 EST 2019 org.jfree.data.time.SimpleTimePeriod,120
+Mon Nov 25 05:12:56 EST 2019 org.jfree.data.time.TimePeriodValues,363
+Mon Nov 25 05:14:24 EST 2019 org.jfree.data.time.TimePeriodValues,364
+Mon Nov 25 05:14:24 EST 2019 Mon Nov 25 05:14:24 EST 2019 : org.jfree.data.time.TimePeriodValues,365=>Find no block
+Mon Nov 25 05:14:24 EST 2019 org.jfree.data.time.TimePeriodValues,375
+Mon Nov 25 05:14:24 EST 2019 org.jfree.data.time.TimePeriodValues,376
+Mon Nov 25 05:14:24 EST 2019 Mon Nov 25 05:14:24 EST 2019 : org.jfree.data.time.TimePeriodValues,377=>Find no block
+Mon Nov 25 05:14:24 EST 2019 Mon Nov 25 05:14:24 EST 2019 : org.jfree.data.time.Year,96=>Find no block
+Mon Nov 25 05:14:24 EST 2019 org.jfree.data.time.Year,97
+Mon Nov 25 05:21:01 EST 2019 org.jfree.data.time.Year,103
+Mon Nov 25 05:27:05 EST 2019 org.jfree.data.time.Year,104
+Mon Nov 25 05:27:05 EST 2019 Mon Nov 25 05:27:05 EST 2019 : org.jfree.data.time.Year,105=>Find no block
+Mon Nov 25 05:27:05 EST 2019 org.jfree.data.time.Year,150
+Mon Nov 25 05:27:21 EST 2019 org.jfree.data.time.Year,164
+Mon Nov 25 05:27:23 EST 2019 org.jfree.data.time.Year,176
+Mon Nov 25 05:27:40 EST 2019 org.jfree.data.time.Year,177
+Mon Nov 25 05:27:40 EST 2019 Mon Nov 25 05:27:40 EST 2019 : org.jfree.data.time.Year,178=>Find no block
+Mon Nov 25 05:27:40 EST 2019 org.jfree.data.time.Year,233
+Mon Nov 25 05:30:27 EST 2019 org.jfree.data.time.Year,234
+Mon Nov 25 05:30:27 EST 2019 org.jfree.data.time.Year,237
+Mon Nov 25 05:30:27 EST 2019 org.jfree.data.time.Year,252
+Mon Nov 25 05:33:13 EST 2019 org.jfree.data.time.Year,253
+Mon Nov 25 05:33:13 EST 2019 org.jfree.data.time.Year,256
+Mon Nov 25 05:33:13 EST 2019 org.jfree.data.time.TimePeriodValue,88
+Mon Nov 25 05:33:22 EST 2019 Mon Nov 25 05:33:22 EST 2019 : org.jfree.data.time.TimePeriodValue,89=>Find no block
+Mon Nov 25 05:33:22 EST 2019 Mon Nov 25 05:33:22 EST 2019 : org.jfree.data.time.RegularTimePeriod,70=>Find no block
+Mon Nov 25 05:33:22 EST 2019 org.jfree.data.time.RegularTimePeriod,182
+Mon Nov 25 05:33:24 EST 2019 org.jfree.data.time.RegularTimePeriod,194
+Mon Nov 25 05:33:26 EST 2019 org.jfree.data.general.SeriesChangeEvent,61
+Mon Nov 25 05:33:27 EST 2019 Mon Nov 25 05:33:27 EST 2019 : org.jfree.data.general.SeriesChangeEvent,62=>Find no block
+Mon Nov 25 05:33:27 EST 2019 org.jfree.data.general.Series,313
+Mon Nov 25 05:34:45 EST 2019 org.jfree.data.general.Series,314
+Mon Nov 25 05:34:45 EST 2019 Mon Nov 25 05:34:45 EST 2019 : org.jfree.data.general.Series,316=>Find no block
+Mon Nov 25 05:34:45 EST 2019 org.jfree.data.general.Series,326
+Mon Nov 25 05:39:51 EST 2019 org.jfree.data.general.Series,327
+Mon Nov 25 05:39:51 EST 2019 Mon Nov 25 05:39:51 EST 2019 : org.jfree.data.general.Series,334=>Find no block
+Mon Nov 25 05:39:51 EST 2019 org.jfree.data.time.TimePeriodValues,205
+Mon Nov 25 05:40:12 EST 2019 org.jfree.data.time.TimePeriodValues,243
+Mon Nov 25 05:40:28 EST 2019 org.jfree.data.time.TimePeriodValues,246
+Mon Nov 25 05:44:37 EST 2019 org.jfree.data.time.TimePeriodValues,247
+Mon Nov 25 05:44:37 EST 2019 org.jfree.data.time.TimePeriodValues,248
+Mon Nov 25 05:44:37 EST 2019 Mon Nov 25 05:44:37 EST 2019 : org.jfree.data.time.TimePeriodValues,249=>Find no block
+Mon Nov 25 05:44:38 EST 2019 org.jfree.data.time.TimePeriodValues,259
+Mon Nov 25 05:45:22 EST 2019 org.jfree.data.time.TimePeriodValues,260
+Mon Nov 25 05:45:22 EST 2019 org.jfree.data.time.TimePeriodValues,261
+Mon Nov 25 05:47:39 EST 2019 org.jfree.data.time.TimePeriodValues,263
+Mon Nov 25 05:47:39 EST 2019 org.jfree.data.time.TimePeriodValues,264
+Mon Nov 25 05:47:39 EST 2019 org.jfree.data.time.TimePeriodValues,266
+Mon Nov 25 05:47:39 EST 2019 Mon Nov 25 05:47:39 EST 2019 : org.jfree.data.time.TimePeriodValues,269=>Find no block
+Mon Nov 25 05:47:39 EST 2019 org.jfree.data.time.TimePeriodValues,271
+Mon Nov 25 05:47:39 EST 2019 org.jfree.data.time.TimePeriodValues,274
+Mon Nov 25 05:48:56 EST 2019 org.jfree.data.time.TimePeriodValues,275
+Mon Nov 25 05:48:57 EST 2019 org.jfree.data.time.TimePeriodValues,277
+Mon Nov 25 05:48:57 EST 2019 org.jfree.data.time.TimePeriodValues,278
+Mon Nov 25 05:48:57 EST 2019 Mon Nov 25 05:48:57 EST 2019 : org.jfree.data.time.TimePeriodValues,280=>Find no block
+Mon Nov 25 05:48:57 EST 2019 org.jfree.data.time.TimePeriodValues,282
+Mon Nov 25 05:48:57 EST 2019 org.jfree.data.time.TimePeriodValues,285
+Mon Nov 25 05:49:53 EST 2019 org.jfree.data.time.TimePeriodValues,286
+Mon Nov 25 05:49:53 EST 2019 org.jfree.data.time.TimePeriodValues,288
+Mon Nov 25 05:49:53 EST 2019 org.jfree.data.time.TimePeriodValues,290
+Mon Nov 25 05:49:53 EST 2019 org.jfree.data.time.TimePeriodValues,291
+Mon Nov 25 05:49:53 EST 2019 Mon Nov 25 05:49:53 EST 2019 : org.jfree.data.time.TimePeriodValues,294=>Find no block
+Mon Nov 25 05:49:53 EST 2019 org.jfree.data.time.TimePeriodValues,296
+Mon Nov 25 05:49:53 EST 2019 org.jfree.data.time.TimePeriodValues,299
+
+----------------------------------------
+----------------------------------------
+Pass Single Test : [=>0,0]
+if(this.maxMiddleIndex>=0){
+long s=getDataItem(this.maxMiddleIndex).getPeriod().getStart().getTime();
+long e=getDataItem(this.maxMiddleIndex).getPeriod().getEnd().getTime();
+long maxMiddle=s+(e-s)/2;
+if(middle>maxMiddle){
+this.maxMiddleIndex=index;
+}
+}else {
+this.maxMiddleIndex=index;
+}
+
+Time : 19/11/25 05:50
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Similar code block : 3.416666666666667 : [/home/osboxes/simfix/d4j/projects/chart/chart_7_buggy/source/org/jfree/data/time/TimePeriodValues.java=>0,0]
+if(this.minMiddleIndex>=0){
+long s=getDataItem(this.minMiddleIndex).getPeriod().getStart().getTime();
+long e=getDataItem(this.minMiddleIndex).getPeriod().getEnd().getTime();
+long minMiddle=s+(e-s)/2;
+if(middle<minMiddle){
+this.minMiddleIndex=index;
+}
+}else {
+this.minMiddleIndex=index;
+}
+
+Time : 19/11/25 05:50
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Original source code : [/home/osboxes/simfix/d4j/projects/chart/chart_7_buggy/source/org/jfree/data/time/TimePeriodValues.java=>299,311]
+if(this.maxMiddleIndex>=0){
+long s=getDataItem(this.minMiddleIndex).getPeriod().getStart().getTime();
+long e=getDataItem(this.minMiddleIndex).getPeriod().getEnd().getTime();
+long maxMiddle=s+(e-s)/2;
+if(middle>maxMiddle){
+this.maxMiddleIndex=index;
+}
+}else {
+this.maxMiddleIndex=index;
+}
+
+Time : 19/11/25 05:50
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Find a patch : [/home/osboxes/simfix/d4j/projects/chart/chart_7_buggy/source/org/jfree/data/time/TimePeriodValues.java=>299,311]
+if(this.maxMiddleIndex>=0){
+long s=getDataItem(this.maxMiddleIndex).getPeriod().getStart().getTime();
+long e=getDataItem(this.maxMiddleIndex).getPeriod().getEnd().getTime();
+long maxMiddle=s+(e-s)/2;
+if(middle>maxMiddle){
+this.maxMiddleIndex=index;
+}
+}else {
+this.maxMiddleIndex=index;
+}
+
+Time : 19/11/25 05:50
+----------------------------------------
+Success time : 19/11/25 05:50

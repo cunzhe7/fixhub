@@ -1,0 +1,736 @@
+=================================================
+Project : math_41	start : 19/11/24 18:15
+Current failed test : org.apache.commons.math.stat.descriptive.moment.VarianceTest::testEvaluateArraySegmentWeighted | 19/11/24 18:15
+Sun Nov 24 18:16:12 EST 2019 org.apache.commons.math.stat.descriptive.moment.Variance,370
+Sun Nov 24 18:17:01 EST 2019 org.apache.commons.math.stat.descriptive.summary.Sum,159
+
+----------------------------------------
+----------------------------------------
+Pass Single Test : [=>0,0]
+double sum=Double.NaN;
+if(test(values,weights,begin,length,true)){
+sum=0.0;
+for(int i=begin;i<begin+length;i++){
+sum+=values[i]*weights[i];
+}
+}
+return (value-value)/n/2.0*sum;
+
+Time : 19/11/24 18:20
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Pass Single Test : [=>0,0]
+double sum=n;
+if(test(values,weights,begin,length,true)){
+sum=0.0;
+for(int i=begin;i<begin+length;i++){
+sum+=values[i]*weights[i];
+}
+}
+return (value-value)/n/2.0*sum;
+
+Time : 19/11/24 18:21
+----------------------------------------
+Sun Nov 24 18:22:27 EST 2019 org.apache.commons.math.stat.descriptive.summary.Sum,160
+Sun Nov 24 18:22:27 EST 2019 org.apache.commons.math.stat.descriptive.summary.Sum,161
+Sun Nov 24 18:22:27 EST 2019 org.apache.commons.math.stat.descriptive.summary.Sum,162
+Sun Nov 24 18:22:28 EST 2019 org.apache.commons.math.stat.descriptive.summary.Sum,163
+Sun Nov 24 18:22:28 EST 2019 org.apache.commons.math.stat.descriptive.summary.Sum,166
+Sun Nov 24 18:22:28 EST 2019 org.apache.commons.math.stat.descriptive.AbstractUnivariateStatistic,222
+Sun Nov 24 18:22:39 EST 2019 org.apache.commons.math.stat.descriptive.AbstractUnivariateStatistic,258
+Sun Nov 24 18:22:44 EST 2019 org.apache.commons.math.stat.descriptive.AbstractUnivariateStatistic,262
+Sun Nov 24 18:24:14 EST 2019 org.apache.commons.math.stat.descriptive.AbstractUnivariateStatistic,266
+Sun Nov 24 18:25:41 EST 2019 org.apache.commons.math.stat.descriptive.AbstractUnivariateStatistic,267
+Sun Nov 24 18:37:48 EST 2019 org.apache.commons.math.stat.descriptive.AbstractUnivariateStatistic,268
+Sun Nov 24 18:37:48 EST 2019 org.apache.commons.math.stat.descriptive.AbstractUnivariateStatistic,271
+Sun Nov 24 18:37:49 EST 2019 org.apache.commons.math.stat.descriptive.AbstractUnivariateStatistic,274
+Sun Nov 24 18:37:49 EST 2019 org.apache.commons.math.stat.descriptive.AbstractUnivariateStatistic,277
+Sun Nov 24 18:37:49 EST 2019 org.apache.commons.math.stat.descriptive.AbstractUnivariateStatistic,278
+Sun Nov 24 18:37:49 EST 2019 org.apache.commons.math.stat.descriptive.AbstractUnivariateStatistic,282
+Sun Nov 24 18:37:50 EST 2019 org.apache.commons.math.stat.descriptive.AbstractUnivariateStatistic,286
+Sun Nov 24 18:38:10 EST 2019 org.apache.commons.math.stat.descriptive.moment.Variance,316
+
+----------------------------------------
+----------------------------------------
+Pass Single Test : [=>0,0]
+if(length>1){
+Mean mean=new Mean();
+double m=mean.evaluate(values,weights,begin,length);
+var=evaluate(values,m,begin,length);
+}
+
+Time : 19/11/24 18:38
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Pass Single Test : [=>0,0]
+if(length>1){
+Mean mean=new Mean();
+double m=mean.evaluate(values,begin,length);
+var=evaluate(values,m,begin,length);
+}
+
+Time : 19/11/24 18:38
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Pass Single Test : [=>0,0]
+if(length>values.length){
+Mean mean=new Mean();
+double m=mean.evaluate(values,weights,begin,length);
+var=evaluate(values,weights,m,begin,length);
+}
+
+Time : 19/11/24 18:39
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Pass Single Test : [=>0,0]
+if(begin+length>values.length){
+Mean mean=new Mean();
+double m=mean.evaluate(values,weights,begin,length);
+var=evaluate(values,weights,m,begin,length);
+}
+
+Time : 19/11/24 18:39
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Pass Single Test : [=>0,0]
+if(begin>values.length){
+Mean mean=new Mean();
+double m=mean.evaluate(values,weights,begin,length);
+var=evaluate(values,weights,m,begin,length);
+}
+
+Time : 19/11/24 18:40
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Pass Single Test : [=>0,0]
+values[begin]=var;
+if(length>1){
+Mean mean=new Mean();
+double m=mean.evaluate(values,weights,begin,length);
+var=evaluate(values,weights,m,begin,length);
+}
+
+Time : 19/11/24 18:40
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Pass Single Test : [=>0,0]
+if(length==1){
+var=0.0;
+}else if(length>1){
+Mean mean=new Mean();
+double m=mean.evaluate(values,weights,begin,length);
+var=evaluate(values,m,begin,length);
+}
+
+Time : 19/11/24 18:41
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Pass Single Test : [=>0,0]
+if(length==1){
+var=0.0;
+}else if(length>1){
+Mean mean=new Mean();
+double m=mean.evaluate(values,begin,length);
+var=evaluate(values,m,begin,length);
+}
+
+Time : 19/11/24 18:41
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Pass Single Test : [=>0,0]
+if(length!=1){
+var=0.0;
+}else if(length>1){
+Mean mean=new Mean();
+double m=mean.evaluate(values,weights,begin,length);
+var=evaluate(values,weights,m,begin,length);
+}
+
+Time : 19/11/24 18:42
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Pass Single Test : [=>0,0]
+if(weights.length!=1){
+var=0.0;
+}else if(length>1){
+Mean mean=new Mean();
+double m=mean.evaluate(values,weights,begin,length);
+var=evaluate(values,weights,m,begin,length);
+}
+
+Time : 19/11/24 18:43
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Pass Single Test : [=>0,0]
+if(weights.length==values.length){
+var=0.0;
+}else if(length>1){
+Mean mean=new Mean();
+double m=mean.evaluate(values,weights,begin,length);
+var=evaluate(values,weights,m,begin,length);
+}
+
+Time : 19/11/24 18:43
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Pass Single Test : [=>0,0]
+if(test(values,weights,begin,length)){
+clear();
+if(length==1){
+var=0.0;
+}else if(length>1){
+Mean mean=new Mean();
+double m=mean.evaluate(values,weights,begin,length);
+var=evaluate(values,m,begin,length);
+}
+}
+
+Time : 19/11/24 18:44
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Pass Single Test : [=>0,0]
+if(test(values,begin,length)){
+clear();
+if(length==1){
+var=0.0;
+}else if(length>1){
+Mean mean=new Mean();
+double m=mean.evaluate(values,weights,begin,length);
+var=evaluate(values,m,begin,length);
+}
+}
+
+Time : 19/11/24 18:45
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Pass Single Test : [=>0,0]
+if(test(values,weights,begin,length)){
+clear();
+if(length==1){
+var=0.0;
+}else if(length>1){
+Mean mean=new Mean();
+double m=mean.evaluate(values,begin,length);
+var=evaluate(values,m,begin,length);
+}
+}
+
+Time : 19/11/24 18:45
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Pass Single Test : [=>0,0]
+if(test(values,begin,length)){
+clear();
+if(length==1){
+var=0.0;
+}else if(length>1){
+Mean mean=new Mean();
+double m=mean.evaluate(values,begin,length);
+var=evaluate(values,m,begin,length);
+}
+}
+
+Time : 19/11/24 18:45
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Pass Single Test : [=>0,0]
+double var=Double.NaN;
+if(test(values,weights,begin,length)){
+clear();
+if(length==1){
+var=0.0;
+}else if(length>1){
+Mean mean=new Mean();
+double m=mean.evaluate(values,weights,begin,length);
+var=evaluate(values,m,begin,length);
+}
+}
+
+Time : 19/11/24 18:46
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Pass Single Test : [=>0,0]
+double var=Double.NaN;
+if(test(values,begin,length)){
+clear();
+if(length==1){
+var=0.0;
+}else if(length>1){
+Mean mean=new Mean();
+double m=mean.evaluate(values,weights,begin,length);
+var=evaluate(values,m,begin,length);
+}
+}
+
+Time : 19/11/24 18:47
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Pass Single Test : [=>0,0]
+double var=Double.NaN;
+if(test(values,weights,begin,length)){
+clear();
+if(length==1){
+var=0.0;
+}else if(length>1){
+Mean mean=new Mean();
+double m=mean.evaluate(values,begin,length);
+var=evaluate(values,m,begin,length);
+}
+}
+
+Time : 19/11/24 18:47
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Pass Single Test : [=>0,0]
+double var=Double.NaN;
+if(test(values,begin,length)){
+clear();
+if(length==1){
+var=0.0;
+}else if(length>1){
+Mean mean=new Mean();
+double m=mean.evaluate(values,begin,length);
+var=evaluate(values,m,begin,length);
+}
+}
+
+Time : 19/11/24 18:48
+----------------------------------------
+Sun Nov 24 18:49:50 EST 2019 org.apache.commons.math.stat.descriptive.moment.Variance,318
+Sun Nov 24 18:49:50 EST 2019 org.apache.commons.math.stat.descriptive.moment.Variance,319
+Sun Nov 24 18:49:50 EST 2019 org.apache.commons.math.stat.descriptive.moment.Variance,320
+Sun Nov 24 18:49:50 EST 2019 org.apache.commons.math.stat.descriptive.moment.Variance,322
+Sun Nov 24 18:49:50 EST 2019 org.apache.commons.math.stat.descriptive.moment.Variance,323
+Sun Nov 24 18:49:50 EST 2019 org.apache.commons.math.stat.descriptive.moment.Variance,324
+Sun Nov 24 18:49:50 EST 2019 org.apache.commons.math.stat.descriptive.moment.Variance,325
+Sun Nov 24 18:49:50 EST 2019 org.apache.commons.math.stat.descriptive.moment.Variance,328
+
+----------------------------------------
+----------------------------------------
+Pass Single Test : [=>0,0]
+if(test(values,weights,begin,length)){
+clear();
+if(length==1){
+var=0.0;
+}else if(length>1){
+Mean mean=new Mean();
+double m=mean.evaluate(values,weights,begin,length);
+var=evaluate(values,m,begin,length);
+}
+}
+return var;
+
+Time : 19/11/24 18:50
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Pass Single Test : [=>0,0]
+if(test(values,begin,length)){
+clear();
+if(length==1){
+var=0.0;
+}else if(length>1){
+Mean mean=new Mean();
+double m=mean.evaluate(values,weights,begin,length);
+var=evaluate(values,m,begin,length);
+}
+}
+return var;
+
+Time : 19/11/24 18:50
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Pass Single Test : [=>0,0]
+if(test(values,weights,begin,length)){
+clear();
+if(length==1){
+var=0.0;
+}else if(length>1){
+Mean mean=new Mean();
+double m=mean.evaluate(values,begin,length);
+var=evaluate(values,m,begin,length);
+}
+}
+return var;
+
+Time : 19/11/24 18:51
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Pass Single Test : [=>0,0]
+if(test(values,begin,length)){
+clear();
+if(length==1){
+var=0.0;
+}else if(length>1){
+Mean mean=new Mean();
+double m=mean.evaluate(values,begin,length);
+var=evaluate(values,m,begin,length);
+}
+}
+return var;
+
+Time : 19/11/24 18:51
+----------------------------------------
+Sun Nov 24 18:52:24 EST 2019 org.apache.commons.math.stat.descriptive.moment.Variance,504
+
+----------------------------------------
+----------------------------------------
+Pass Single Test : [=>0,0]
+accum=dev/accum2;
+for(int i=begin;i<begin+length;i++){
+dev=values[i]-mean;
+accum+=weights[i]*(dev*dev);
+accum2+=weights[i]*dev;
+}
+
+Time : 19/11/24 18:55
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Pass Single Test : [=>0,0]
+dev=mean-var;
+accum=dev/accum2;
+for(int i=begin;i<begin+length;i++){
+dev=values[i]-mean;
+accum+=weights[i]*(dev*dev);
+accum2+=weights[i]*dev;
+}
+
+Time : 19/11/24 18:55
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Pass Single Test : [=>0,0]
+accum=dev/accum2;
+var+=accum;
+for(int i=begin;i<begin+length;i++){
+dev=values[i]-mean;
+accum+=weights[i]*(dev*dev);
+accum2+=weights[i]*dev;
+}
+
+Time : 19/11/24 18:56
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Pass Single Test : [=>0,0]
+dev=mean-var;
+accum=dev/accum2;
+var+=accum;
+for(int i=begin;i<begin+length;i++){
+dev=values[i]-mean;
+accum+=weights[i]*(dev*dev);
+accum2+=weights[i]*dev;
+}
+
+Time : 19/11/24 18:56
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Pass Single Test : [=>0,0]
+accum2=var*dev;
+for(int i=begin;i<begin+length;i++){
+dev=values[i]-mean;
+accum+=weights[i]*(dev*dev);
+accum2+=weights[i]*dev;
+}
+
+Time : 19/11/24 18:57
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Pass Single Test : [=>0,0]
+accum=var*dev-mean;
+for(int i=begin;i<begin+length;i++){
+dev=values[i]-mean;
+accum+=weights[i]*(dev*dev);
+accum2+=weights[i]*dev;
+}
+
+Time : 19/11/24 18:58
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Pass Single Test : [=>0,0]
+dev=(weights[begin]-accum)*var+2.0*var;
+accum2=var*dev;
+for(int i=begin;i<begin+length;i++){
+dev=values[i]-mean;
+accum+=weights[i]*(dev*dev);
+accum2+=weights[i]*dev;
+}
+
+Time : 19/11/24 18:58
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Pass Single Test : [=>0,0]
+dev=(weights[begin]-accum)*var+2.0*var;
+accum=var*dev-mean;
+for(int i=begin;i<begin+length;i++){
+dev=values[i]-mean;
+accum+=weights[i]*(dev*dev);
+accum2+=weights[i]*dev;
+}
+
+Time : 19/11/24 18:58
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Pass Single Test : [=>0,0]
+accum2=var*dev;
+weights[begin+1]=accum+accum2;
+for(int i=begin;i<begin+length;i++){
+dev=values[i]-mean;
+accum+=weights[i]*(dev*dev);
+accum2+=weights[i]*dev;
+}
+
+Time : 19/11/24 18:59
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Pass Single Test : [=>0,0]
+accum2=var*dev;
+accum=var*dev-mean;
+for(int i=begin;i<begin+length;i++){
+dev=values[i]-mean;
+accum+=weights[i]*(dev*dev);
+accum2+=weights[i]*dev;
+}
+
+Time : 19/11/24 18:59
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Pass Single Test : [=>0,0]
+weights[begin+1]=accum+accum2;
+accum=var*dev-mean;
+for(int i=begin;i<begin+length;i++){
+dev=values[i]-mean;
+accum+=weights[i]*(dev*dev);
+accum2+=weights[i]*dev;
+}
+
+Time : 19/11/24 19:00
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Pass Single Test : [=>0,0]
+dev=(weights[begin]-accum)*var+2.0*var;
+accum2=var*dev;
+weights[begin+1]=accum+accum2;
+for(int i=begin;i<begin+length;i++){
+dev=values[i]-mean;
+accum+=weights[i]*(dev*dev);
+accum2+=weights[i]*dev;
+}
+
+Time : 19/11/24 19:00
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Pass Single Test : [=>0,0]
+dev=(weights[begin]-accum)*var+2.0*var;
+accum2=var*dev;
+accum=var*dev-mean;
+for(int i=begin;i<begin+length;i++){
+dev=values[i]-mean;
+accum+=weights[i]*(dev*dev);
+accum2+=weights[i]*dev;
+}
+
+Time : 19/11/24 19:00
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Pass Single Test : [=>0,0]
+dev=(weights[begin]-accum)*var+2.0*var;
+weights[begin+1]=accum+accum2;
+accum=var*dev-mean;
+for(int i=begin;i<begin+length;i++){
+dev=values[i]-mean;
+accum+=weights[i]*(dev*dev);
+accum2+=weights[i]*dev;
+}
+
+Time : 19/11/24 19:01
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Pass Single Test : [=>0,0]
+accum2=var*dev;
+weights[begin+1]=accum+accum2;
+accum=var*dev-mean;
+for(int i=begin;i<begin+length;i++){
+dev=values[i]-mean;
+accum+=weights[i]*(dev*dev);
+accum2+=weights[i]*dev;
+}
+
+Time : 19/11/24 19:01
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Pass Single Test : [=>0,0]
+dev=(weights[begin]-accum)*var+2.0*var;
+accum2=var*dev;
+weights[begin+1]=accum+accum2;
+accum=var*dev-mean;
+for(int i=begin;i<begin+length;i++){
+dev=values[i]-mean;
+accum+=weights[i]*(dev*dev);
+accum2+=weights[i]*dev;
+}
+
+Time : 19/11/24 19:02
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Pass Single Test : [=>0,0]
+accum2=var;
+for(int i=begin;i<begin+length;i++){
+dev=values[i]-mean;
+accum+=weights[i]*(dev*dev);
+accum2+=weights[i]*dev;
+}
+
+Time : 19/11/24 19:03
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Pass Single Test : [=>0,0]
+accum=var;
+for(int i=begin;i<begin+length;i++){
+dev=values[i]-mean;
+accum+=weights[i]*(dev*dev);
+accum2+=weights[i]*dev;
+}
+
+Time : 19/11/24 19:03
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Pass Single Test : [=>0,0]
+accum2=mean;
+accum=var;
+for(int i=begin;i<begin+length;i++){
+dev=values[i]-mean;
+accum+=weights[i]*(dev*dev);
+accum2+=weights[i]*dev;
+}
+
+Time : 19/11/24 19:04
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Pass Single Test : [=>0,0]
+for(int i=begin;i<begin;i++){
+sumWts+=weights[i];
+}
+
+Time : 19/11/24 19:04
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Pass Single Test : [=>0,0]
+for(int i=begin;i<begin+length;i++){
+sumWts+=weights[i];
+}
+
+Time : 19/11/24 19:05
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Similar code block : 1.6071504429856334 : [/home/zach/Downloads/simfix/d4j/projects/math/math_41_buggy/src/main/java/org/apache/commons/math/stat/descriptive/moment/Variance.java=>0,0]
+for(int i=begin;i<begin+length;i++){
+sumLog+=FastMath.log(values[i]);
+}
+
+Time : 19/11/24 19:05
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Original source code : [/home/zach/Downloads/simfix/d4j/projects/math/math_41_buggy/src/main/java/org/apache/commons/math/stat/descriptive/moment/Variance.java=>520,522]
+for(int i=0;i<weights.length;i++){
+sumWts+=weights[i];
+}
+
+Time : 19/11/24 19:05
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Find a patch : [/home/zach/Downloads/simfix/d4j/projects/math/math_41_buggy/src/main/java/org/apache/commons/math/stat/descriptive/moment/Variance.java=>520,522]
+for(int i=begin;i<begin+length;i++){
+sumWts+=weights[i];
+}
+
+Time : 19/11/24 19:05
+----------------------------------------
+Success time : 19/11/24 19:05

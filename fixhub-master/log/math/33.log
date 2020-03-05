@@ -1,0 +1,53 @@
+=================================================
+Project : math_33	start : 19/11/24 18:10
+Current failed test : org.apache.commons.math3.optimization.linear.SimplexSolverTest::testMath781 | 19/11/24 18:10
+Sun Nov 24 18:10:38 EST 2019 org.apache.commons.math3.optimization.linear.Relationship,59
+Sun Nov 24 18:10:42 EST 2019 org.apache.commons.math3.optimization.linear.SimplexTableau,406
+Sun Nov 24 18:12:19 EST 2019 org.apache.commons.math3.optimization.linear.SimplexTableau,407
+Sun Nov 24 18:12:19 EST 2019 Sun Nov 24 18:12:19 EST 2019 : org.apache.commons.math3.optimization.linear.Relationship,57=>Find no block
+Sun Nov 24 18:12:19 EST 2019 org.apache.commons.math3.optimization.linear.SimplexTableau,261
+Sun Nov 24 18:12:20 EST 2019 org.apache.commons.math3.optimization.linear.SimplexTableau,339
+
+----------------------------------------
+----------------------------------------
+Pass Single Test : [=>0,0]
+if(Precision.compareTo(entry,0.0,epsilon)>0){
+columnsToDrop.add(i);
+}
+
+Time : 19/11/24 18:12
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Similar code block : 1.641374071802713 : [/home/zach/Downloads/simfix/d4j/projects/math/math_33_buggy/src/main/java/org/apache/commons/math3/optimization/linear/SimplexTableau.java=>0,0]
+for(int i=getNumObjectiveFunctions();i<getWidth()-1;i++){
+ final double entry=tableau.getEntry(0,i);
+if(Precision.compareTo(entry,0.0,epsilon)<0){
+return false;
+}
+}
+
+Time : 19/11/24 18:13
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Original source code : [/home/zach/Downloads/simfix/d4j/projects/math/math_33_buggy/src/main/java/org/apache/commons/math3/optimization/linear/SimplexTableau.java=>338,340]
+if(Precision.compareTo(entry,0.0,maxUlps)>0){
+columnsToDrop.add(i);
+}
+
+Time : 19/11/24 18:13
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Find a patch : [/home/zach/Downloads/simfix/d4j/projects/math/math_33_buggy/src/main/java/org/apache/commons/math3/optimization/linear/SimplexTableau.java=>338,340]
+if(Precision.compareTo(entry,0.0,epsilon)>0){
+columnsToDrop.add(i);
+}
+
+Time : 19/11/24 18:13
+----------------------------------------
+Success time : 19/11/24 18:13

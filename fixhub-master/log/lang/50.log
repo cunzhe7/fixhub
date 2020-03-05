@@ -1,0 +1,132 @@
+=================================================
+Project : lang_50	start : 19/11/25 08:08
+Current failed test : org.apache.commons.lang.time.FastDateFormatTest::test_changeDefault_Locale_DateTimeInstance | 19/11/25 08:09
+Mon Nov 25 08:09:23 EST 2019 org.apache.commons.lang.time.FastDateFormat,1717
+Mon Nov 25 08:10:02 EST 2019 org.apache.commons.lang.time.FastDateFormat,1721
+Mon Nov 25 08:10:03 EST 2019 org.apache.commons.lang.time.FastDateFormat,1725
+
+----------------------------------------
+----------------------------------------
+Pass Single Test : [=>0,0]
+if(this==obj){
+return true;
+}
+if(!(obj instanceof Pair)){
+return false;
+}
+Pair key=(Pair)obj;
+return mObj1==mObj2&&(mObj2==null?key.mObj2==null:mObj2.equals(key.mObj2));
+
+Time : 19/11/25 08:10
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Similar code block : 2.573364857506988 : [/home/osboxes/simfix/d4j/projects/lang/lang_50_buggy/src/java/org/apache/commons/lang/time/FastDateFormat.java=>0,0]
+if(obj instanceof MutableObject){
+Object other=((MutableObject)obj).value;
+return value==other||(value!=null&&value.equals(other));
+}
+
+Time : 19/11/25 08:10
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Original source code : [/home/osboxes/simfix/d4j/projects/lang/lang_50_buggy/src/java/org/apache/commons/lang/time/FastDateFormat.java=>1717,1731]
+if(this==obj){
+return true;
+}
+if(!(obj instanceof Pair)){
+return false;
+}
+Pair key=(Pair)obj;
+return (mObj1==null?key.mObj1==null:mObj1.equals(key.mObj1))&&(mObj2==null?key.mObj2==null:mObj2.equals(key.mObj2));
+
+Time : 19/11/25 08:10
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Find a patch : [/home/osboxes/simfix/d4j/projects/lang/lang_50_buggy/src/java/org/apache/commons/lang/time/FastDateFormat.java=>1717,1731]
+if(this==obj){
+return true;
+}
+if(!(obj instanceof Pair)){
+return false;
+}
+Pair key=(Pair)obj;
+return mObj1==mObj2&&(mObj2==null?key.mObj2==null:mObj2.equals(key.mObj2));
+
+Time : 19/11/25 08:10
+----------------------------------------
+Success time : 19/11/25 08:10
+Current failed test : org.apache.commons.lang.time.FastDateFormatTest::test_changeDefault_Locale_DateInstance | 19/11/25 08:10
+Mon Nov 25 08:11:12 EST 2019 org.apache.commons.lang.time.FastDateFormat,234
+Mon Nov 25 08:11:31 EST 2019 org.apache.commons.lang.time.FastDateFormat,293
+Mon Nov 25 08:11:44 EST 2019 org.apache.commons.lang.time.FastDateFormat,620
+Mon Nov 25 08:13:40 EST 2019 Mon Nov 25 08:13:40 EST 2019 : org.apache.commons.lang.time.FastDateFormat,1708=>Find no block
+Mon Nov 25 08:13:40 EST 2019 org.apache.commons.lang.time.FastDateFormat,1709
+Mon Nov 25 08:13:41 EST 2019 org.apache.commons.lang.time.FastDateFormat,1710
+Mon Nov 25 08:13:41 EST 2019 Mon Nov 25 08:13:41 EST 2019 : org.apache.commons.lang.time.FastDateFormat,1711=>Find no block
+Mon Nov 25 08:13:41 EST 2019 org.apache.commons.lang.time.FastDateFormat,1738
+Mon Nov 25 08:13:41 EST 2019 org.apache.commons.lang.time.FastDateFormat,249
+Mon Nov 25 08:14:09 EST 2019 org.apache.commons.lang.time.FastDateFormat,280
+Mon Nov 25 08:14:22 EST 2019 org.apache.commons.lang.time.FastDateFormat,281
+Mon Nov 25 08:14:34 EST 2019 org.apache.commons.lang.time.FastDateFormat,285
+Mon Nov 25 08:14:46 EST 2019 org.apache.commons.lang.time.FastDateFormat,286
+Mon Nov 25 08:14:46 EST 2019 org.apache.commons.lang.time.FastDateFormat,290
+Mon Nov 25 08:15:09 EST 2019 org.apache.commons.lang.time.FastDateFormat,291
+Mon Nov 25 08:15:33 EST 2019 org.apache.commons.lang.time.FastDateFormat,292
+Mon Nov 25 08:15:33 EST 2019 org.apache.commons.lang.time.FastDateFormat,296
+
+----------------------------------------
+----------------------------------------
+Pass Single Test : [=>0,0]
+if(locale!=null){
+key=new Pair(key,locale);
+}
+SimpleDateFormat formatter=(SimpleDateFormat)DateFormat.getDateInstance(style,locale);
+String pattern=formatter.toPattern();
+format=getInstance(pattern,timeZone,locale);
+
+Time : 19/11/25 08:16
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Similar code block : 1.3548004166402725 : [/home/osboxes/simfix/d4j/projects/lang/lang_50_buggy/src/java/org/apache/commons/lang/time/FastDateFormat.java=>0,0]
+if(timeZone!=null){
+key=new Pair(key,timeZone);
+}
+if(locale!=null){
+key=new Pair(key,locale);
+}
+FastDateFormat format=(FastDateFormat)cDateInstanceCache.get(key);
+
+Time : 19/11/25 08:16
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Original source code : [/home/osboxes/simfix/d4j/projects/lang/lang_50_buggy/src/java/org/apache/commons/lang/time/FastDateFormat.java=>296,298]
+SimpleDateFormat formatter=(SimpleDateFormat)DateFormat.getDateInstance(style,locale);
+String pattern=formatter.toPattern();
+format=getInstance(pattern,timeZone,locale);
+
+Time : 19/11/25 08:16
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Find a patch : [/home/osboxes/simfix/d4j/projects/lang/lang_50_buggy/src/java/org/apache/commons/lang/time/FastDateFormat.java=>296,298]
+if(locale!=null){
+key=new Pair(key,locale);
+}
+SimpleDateFormat formatter=(SimpleDateFormat)DateFormat.getDateInstance(style,locale);
+String pattern=formatter.toPattern();
+format=getInstance(pattern,timeZone,locale);
+
+Time : 19/11/25 08:16
+----------------------------------------
+Success time : 19/11/25 08:16

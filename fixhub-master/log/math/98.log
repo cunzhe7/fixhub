@@ -1,0 +1,148 @@
+=================================================
+Project : math_98	start : 19/11/24 19:38
+Current failed test : org.apache.commons.math.linear.BigMatrixImplTest::testMath209_purify_1 | 19/11/24 19:38
+Sun Nov 24 19:38:54 EST 2019 org.apache.commons.math.linear.BigMatrixImpl,986
+Sun Nov 24 19:41:35 EST 2019 org.apache.commons.math.linear.BigMatrixImpl,989
+Sun Nov 24 19:44:43 EST 2019 org.apache.commons.math.linear.BigMatrixImpl,990
+
+----------------------------------------
+----------------------------------------
+Pass Single Test : [=>0,0]
+ final int nRows=this.getRowDimension();
+ final int nCols=this.getColumnDimension();
+ final BigDecimal[] out=new BigDecimal[nRows];
+
+Time : 19/11/24 19:44
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Similar code block : 2.5634100936934288 : [/home/zach/Downloads/simfix/d4j/projects/math/math_98_buggy/src/java/org/apache/commons/math/linear/BigMatrixImpl.java=>0,0]
+ final int nRows=this.getRowDimension();
+ final int nCols=m.getColumnDimension();
+ final int nSum=this.getColumnDimension();
+ final double[][] outData=new double[nRows][nCols];
+
+Time : 19/11/24 19:44
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Original source code : [/home/zach/Downloads/simfix/d4j/projects/math/math_98_buggy/src/java/org/apache/commons/math/linear/BigMatrixImpl.java=>989,991]
+ final int nRows=this.getRowDimension();
+ final int nCols=this.getColumnDimension();
+ final BigDecimal[] out=new BigDecimal[v.length];
+
+Time : 19/11/24 19:44
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Find a patch : [/home/zach/Downloads/simfix/d4j/projects/math/math_98_buggy/src/java/org/apache/commons/math/linear/BigMatrixImpl.java=>989,991]
+ final int nRows=this.getRowDimension();
+ final int nCols=this.getColumnDimension();
+ final BigDecimal[] out=new BigDecimal[nRows];
+
+Time : 19/11/24 19:44
+----------------------------------------
+Success time : 19/11/24 19:44
+Current failed test : org.apache.commons.math.linear.BigMatrixImplTest::testMath209_purify_2 | 19/11/24 19:44
+Already fixed : org.apache.commons.math.linear.BigMatrixImplTest::testMath209_purify_2
+Current failed test : org.apache.commons.math.linear.BigMatrixImplTest::testMath209_purify_3 | 19/11/24 19:45
+Already fixed : org.apache.commons.math.linear.BigMatrixImplTest::testMath209_purify_3
+Current failed test : org.apache.commons.math.linear.BigMatrixImplTest::testMath209_purify_4 | 19/11/24 19:45
+Already fixed : org.apache.commons.math.linear.BigMatrixImplTest::testMath209_purify_4
+Current failed test : org.apache.commons.math.linear.RealMatrixImplTest::testMath209_purify_1 | 19/11/24 19:45
+Sun Nov 24 19:45:18 EST 2019 org.apache.commons.math.linear.RealMatrixImpl,774
+Sun Nov 24 19:49:52 EST 2019 org.apache.commons.math.linear.RealMatrixImpl,775
+Sun Nov 24 19:49:52 EST 2019 org.apache.commons.math.linear.RealMatrixImpl,776
+Sun Nov 24 19:54:34 EST 2019 org.apache.commons.math.linear.RealMatrixImpl,779
+
+----------------------------------------
+----------------------------------------
+Pass Single Test : [=>0,0]
+if(v.length!=nCols){
+throw new IllegalArgumentException("vector has wrong length");
+}
+ final double[] out=new double[nRows];
+for(int row=0;row<nRows;row++){
+ final double[] dataRow=data[row];
+double sum=0;
+for(int i=0;i<nCols;i++){
+sum+=dataRow[i]*v[i];
+}
+out[row]=sum;
+}
+
+Time : 19/11/24 20:08
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Similar code block : 1.9127172454189787 : [/home/zach/Downloads/simfix/d4j/projects/math/math_98_buggy/src/java/org/apache/commons/math/linear/RealMatrixImpl.java=>0,0]
+if(this.getColumnDimension()!=m.getRowDimension()){
+throw new IllegalArgumentException("Matrices are not multiplication compatible.");
+}
+ final int nRows=this.getRowDimension();
+ final int nCols=m.getColumnDimension();
+ final int nSum=this.getColumnDimension();
+ final double[][] outData=new double[nRows][nCols];
+for(int row=0;row<nRows;row++){
+ final double[] dataRow=data[row];
+ final double[] outDataRow=outData[row];
+for(int col=0;col<nCols;col++){
+double sum=0;
+for(int i=0;i<nSum;i++){
+sum+=dataRow[i]*m.data[i][col];
+}
+outDataRow[col]=sum;
+}
+}
+
+Time : 19/11/24 20:08
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Original source code : [/home/zach/Downloads/simfix/d4j/projects/math/math_98_buggy/src/java/org/apache/commons/math/linear/RealMatrixImpl.java=>776,787]
+if(v.length!=nCols){
+throw new IllegalArgumentException("vector has wrong length");
+}
+ final double[] out=new double[v.length];
+for(int row=0;row<nRows;row++){
+ final double[] dataRow=data[row];
+double sum=0;
+for(int i=0;i<nCols;i++){
+sum+=dataRow[i]*v[i];
+}
+out[row]=sum;
+}
+
+Time : 19/11/24 20:08
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Find a patch : [/home/zach/Downloads/simfix/d4j/projects/math/math_98_buggy/src/java/org/apache/commons/math/linear/RealMatrixImpl.java=>776,787]
+if(v.length!=nCols){
+throw new IllegalArgumentException("vector has wrong length");
+}
+ final double[] out=new double[nRows];
+for(int row=0;row<nRows;row++){
+ final double[] dataRow=data[row];
+double sum=0;
+for(int i=0;i<nCols;i++){
+sum+=dataRow[i]*v[i];
+}
+out[row]=sum;
+}
+
+Time : 19/11/24 20:08
+----------------------------------------
+Success time : 19/11/24 20:08
+Current failed test : org.apache.commons.math.linear.RealMatrixImplTest::testMath209_purify_2 | 19/11/24 20:08
+Already fixed : org.apache.commons.math.linear.RealMatrixImplTest::testMath209_purify_2
+Current failed test : org.apache.commons.math.linear.RealMatrixImplTest::testMath209_purify_3 | 19/11/24 20:08
+Already fixed : org.apache.commons.math.linear.RealMatrixImplTest::testMath209_purify_3
+Current failed test : org.apache.commons.math.linear.RealMatrixImplTest::testMath209_purify_4 | 19/11/24 20:08
+Already fixed : org.apache.commons.math.linear.RealMatrixImplTest::testMath209_purify_4
